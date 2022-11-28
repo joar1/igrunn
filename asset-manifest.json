@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/igrunn/static/css/main.8a6f1c35.css",
-    "main.js": "/igrunn/static/js/main.c85c0225.js",
+    "main.js": "/igrunn/static/js/main.3037c025.js",
     "static/media/manhole.jpg": "/igrunn/static/media/manhole.3be2df262034719f651c.jpg",
     "static/media/background.jpg": "/igrunn/static/media/background.d8923550398089a280d2.jpg",
     "static/media/relax.jpg": "/igrunn/static/media/relax.5348bf1bcdda88491328.jpg",
@@ -10,10 +10,10 @@
     "static/media/hole.jpg": "/igrunn/static/media/hole.28a76ee9958e231ec701.jpg",
     "index.html": "/igrunn/index.html",
     "main.8a6f1c35.css.map": "/igrunn/static/css/main.8a6f1c35.css.map",
-    "main.c85c0225.js.map": "/igrunn/static/js/main.c85c0225.js.map"
+    "main.3037c025.js.map": "/igrunn/static/js/main.3037c025.js.map"
   },
   "entrypoints": [
     "static/css/main.8a6f1c35.css",
-    "static/js/main.c85c0225.js"
+    "static/js/main.3037c025.js"
   ]
 }
