@@ -6,12 +6,13 @@ function Navbar() {
 		<>
 			<NavContainer>
 				<NavLogo>
-					<StyledLogo to='/'>igrunnen</StyledLogo>
+					<StyledLogo to='/'>igrunnen.no</StyledLogo>
 				</NavLogo>
 				<NavDiv>
-					<StyledLink to='/kontakt'>Kontakt</StyledLink>
+					<StyledA href='#BasicHeating'>Litt om grunnvarme</StyledA>
+					<StyledLink to='/available'>Passer dette min bolig?</StyledLink>
+					<StyledLink to='/services'>Tjenester</StyledLink>
 					<StyledLink to='/about'>Om</StyledLink>
-					<StyledLink to='/news'>Nyhetsbrev</StyledLink>
 				</NavDiv>
 			</NavContainer>
 		</>
@@ -29,6 +30,7 @@ const NavContainer = styled.div`
 	height: 4vh;
 	padding: 2em 0;
 	text-shadow: 3.2px 1.1px black;
+	background: black;
 `;
 
 const NavLogo = styled.div`
@@ -40,7 +42,7 @@ const StyledLogo = styled(Link)`
 	padding: 0.2em;
 	text-decoration: none;
 	font-size: 1.7em;
-	color: #afcfff;
+	color: orange;
 `;
 
 const NavDiv = styled.div`
@@ -51,6 +53,17 @@ const NavDiv = styled.div`
 `;
 
 const StyledLink = styled(Link)`
+	padding: 0.7em;
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #f1f1f1;
+	&:hover {
+		text-decoration: underline;
+		text-underline-offset: 0.6em;
+	}
+`;
+
+const StyledA = styled.a`
 	padding: 0.7em;
 	font-size: 1.3em;
 	text-decoration: none;

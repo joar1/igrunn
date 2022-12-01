@@ -26,7 +26,7 @@ function About() {
 				</AboutDiv>
 				<AboutDiv>
 					<h3>Våre samarbeidspartnere:</h3>
-					<p>VVS</p>
+					<p>VVS-firma</p>
 				</AboutDiv>
 			</AboutContainer>
 			<Footer />

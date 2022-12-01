@@ -6,7 +6,7 @@ export function CardLeft(props) {
 			<CardDiv>
 				<img src={props.img} alt='#' />
 				<TextDiv>
-					<h2>{props.number}</h2>
+					<h2>{props.title}</h2>
 					<h3>{props.description}</h3>
 					<p>{props.paragraph}</p>
 				</TextDiv>
@@ -20,11 +20,13 @@ export function CardRight(props) {
 		<CardContainer>
 			<CardDiv>
 				<TextDiv>
-					<h2>{props.number}</h2>
-					<h3>{props.description}</h3>
+					<h2>{props.title}</h2>
+					<h4>{props.description}</h4>
 					<p>{props.paragraph}</p>
 				</TextDiv>
-				<img src={props.img} alt='#' />
+				<ImageLink>
+					<img src={props.img} alt='#' />
+				</ImageLink>
 			</CardDiv>
 		</CardContainer>
 	);
@@ -55,17 +57,20 @@ const TextDiv = styled.div`
 	text-align: left;
 	word-wrap: normal;
 	margin: 0;
-	width: 10em;
 	padding: 2em;
 	h2 {
 		font-weight: bold;
+		font-size: 800;
 	}
-	h3 {
+	h4 {
 		margin-top: 0.4em;
 	}
 	p {
 		margin-top: 0.6em;
-		font-style: italic;
-		word-wrap: break-word;
 	}
+`;
+
+const ImageLink = styled.div`
+	display: flex;
+	flex-direction: column;
 `;

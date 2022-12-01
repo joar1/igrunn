@@ -6,12 +6,14 @@ import styled from 'styled-components';
 function Footer() {
 	return (
 		<FooterContainer>
-			<img src={Logo} alt='logo' />
-			<div>
+			<FooterImg>
+				<img src={Logo} alt='logo' />
+			</FooterImg>
+			<FooterDiv>
 				<h3>Kontakt</h3>
 				<h3>Om</h3>
 				<h3>Nyhtetsbrev</h3>
-			</div>
+			</FooterDiv>
 			{/* <SoMe>
 				<SoMeLinks href='#' target='_blank'>
 					<FaFacebook />
@@ -28,27 +30,28 @@ export default Footer;
 
 const FooterContainer = styled.div`
 	display: flex;
-	width: 100%;
-	padding: 1em;
-	font-size: 1em;
-	font-weight: bold;
+	align-items: center;
+	justify-content: center;
 	background: black;
-	width: 100%;
+`;
 
-	h2 {
-		text-align: center;
-		color: lightblue;
+const FooterImg = styled.div`
+	img {
+		height: 10em;
+		padding: 1em 2em;
 	}
+`;
+
+const FooterDiv = styled.div`
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	color: lightblue;
 
 	h3 {
-		text-align: center;
-		color: lightblue;
-		margin: 0.3em 0;
-	}
-
-	img {
-		background: none;
-		height: 10em;
+		margin-left: 0.5em;
 	}
 `;
 
