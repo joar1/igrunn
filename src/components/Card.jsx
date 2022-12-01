@@ -23,6 +23,7 @@ export function CardRight(props) {
 					<h2>{props.title}</h2>
 					<h4>{props.description}</h4>
 					<p>{props.paragraph}</p>
+					<p>{props.newParagraph}</p>
 				</TextDiv>
 				<ImageLink>
 					<img src={props.img} alt='#' />
