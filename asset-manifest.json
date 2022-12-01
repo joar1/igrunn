@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/igrunn/static/css/main.8a6f1c35.css",
-    "main.js": "/igrunn/static/js/main.67cef47e.js",
+    "main.js": "/igrunn/static/js/main.bc2e2a20.js",
     "static/media/manhole.jpg": "/igrunn/static/media/manhole.3be2df262034719f651c.jpg",
     "static/media/background.jpg": "/igrunn/static/media/background.d8923550398089a280d2.jpg",
     "static/media/relax.jpg": "/igrunn/static/media/relax.5348bf1bcdda88491328.jpg",
     "static/media/hole2.jpg": "/igrunn/static/media/hole2.881705eb8656fd81a728.jpg",
     "static/media/contact.jpg": "/igrunn/static/media/contact.4d36829d05e585be70e6.jpg",
     "static/media/hole.jpg": "/igrunn/static/media/hole.28a76ee9958e231ec701.jpg",
+    "static/media/igrunnen.jpg": "/igrunn/static/media/igrunnen.cd2b30e928ecee71dbb5.jpg",
     "index.html": "/igrunn/index.html",
     "main.8a6f1c35.css.map": "/igrunn/static/css/main.8a6f1c35.css.map",
-    "main.67cef47e.js.map": "/igrunn/static/js/main.67cef47e.js.map"
+    "main.bc2e2a20.js.map": "/igrunn/static/js/main.bc2e2a20.js.map"
   },
   "entrypoints": [
     "static/css/main.8a6f1c35.css",
-    "static/js/main.67cef47e.js"
+    "static/js/main.bc2e2a20.js"
   ]
 }
