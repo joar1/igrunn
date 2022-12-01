@@ -29,7 +29,7 @@ function Home() {
 			<Questions />
 
 			<CardLeft
-				id='BasicHeating'
+				id='Grunnvarme'
 				img={Bilde2}
 				title='Litt om grunnvarme'
 				description='Beskrivelse'

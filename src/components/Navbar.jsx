@@ -9,7 +9,7 @@ function Navbar() {
 					<StyledLogo to='/'>igrunnen.no</StyledLogo>
 				</NavLogo>
 				<NavDiv>
-					<StyledA href='#BasicHeating'>Litt om grunnvarme</StyledA>
+					<StyledA href='#Grunnvarme'>Litt om grunnvarme</StyledA>
 					<StyledLink to='/available'>Passer dette min bolig?</StyledLink>
 					<StyledLink to='/services'>Tjenester</StyledLink>
 					<StyledLink to='/about'>Om</StyledLink>
