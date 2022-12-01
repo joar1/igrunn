@@ -10,7 +10,7 @@ function Contact() {
 				<Navbar />
 				<BgImg>
 					<ContactDiv>
-						<p>Tlf: xxx xx xxx</p>
+						<p>Tlf: 90925800</p>
 						<p>e-mail: xxxxx@xxx.com</p>
 						<p>adresse: xxxxxxxx</p>
 					</ContactDiv>

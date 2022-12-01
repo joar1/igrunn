@@ -14,7 +14,10 @@ function Home() {
 			<HomeContainer>
 				<BgImg>
 					<Navbar />
-					<h1>iøynefallende overskrift</h1>
+					<h1>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+						asperiores.
+					</h1>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quod
 						velit magni saepe nihil soluta impedit laboriosam officiis ipsum
@@ -80,30 +83,35 @@ function Home() {
 				</BgImg>
 			</HomeContainer>
 			<HeaderH1>Slik fungerer det</HeaderH1>
-			<CardLeft
-				img={Hole}
+
+			<CardRight
+				img={ManholeCover}
 				number='1'
 				description='Beskrivelse'
 				paragraph='Paragraf'
 			/>
-			<CardRight
-				img={ManholeCover}
+
+			<CardLeft
+				img={Hole}
 				number='2'
 				description='Beskrivelse'
 				paragraph='Paragraf'
 			/>
-			<CardLeft
-				img={Relax}
+
+			<CardRight
+				img={Hole2}
 				number='3'
 				description='Beskrivelse'
 				paragraph='Paragraf'
 			/>
-			<CardRight
-				img={Hole2}
+
+			<CardLeft
+				img={Relax}
 				number='4'
 				description='Beskrivelse'
 				paragraph='Paragraf'
 			/>
+
 			<Footer />
 		</>
 	);
@@ -112,7 +120,6 @@ function Home() {
 export default Home;
 
 const HomeContainer = styled.div`
-	line-height: 1.4em;
 	text-shadow: 3.2px 1.1px black;
 	color: #d0c8c8;
 	img {
@@ -123,12 +130,13 @@ const HomeContainer = styled.div`
 	h1 {
 		margin-top: 0rem;
 		padding-top: 1em;
-		font-size: 5em;
+		font-size: 3em;
 		text-align: center;
 		font-weight: bold;
 		color: gold;
 	}
 	p {
+		line-height: 1.4em;
 		padding: 3em 10em;
 		font-size: 1.2em;
 		font-weight: 600;
@@ -146,7 +154,7 @@ const BgImg = styled.div`
 `;
 
 const HeaderH1 = styled.h1`
-	padding: 1em 0;
+	padding: 0.8em;
 	font-size: 3.5em;
 	text-align: center;
 `;

@@ -6,11 +6,12 @@ function Navbar() {
 		<>
 			<NavContainer>
 				<NavLogo>
-					<StyledLogo to='/'>iGrunn</StyledLogo>
+					<StyledLogo to='/'>igrunnen</StyledLogo>
 				</NavLogo>
 				<NavDiv>
-					<StyledLink to='/about'>Om iGrunn</StyledLink>
 					<StyledLink to='/kontakt'>Kontakt</StyledLink>
+					<StyledLink to='/about'>Om</StyledLink>
+					<StyledLink to='/news'>Nyhetsbrev</StyledLink>
 				</NavDiv>
 			</NavContainer>
 		</>

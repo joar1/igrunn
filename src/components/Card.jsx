@@ -30,15 +30,10 @@ export function CardRight(props) {
 	);
 }
 
-// export { CardRight, CardLeft };
-
 const CardContainer = styled.div`
-	display: flex;
-	flex-direction: column;
-	text-align: center;
 	color: black;
 	margin: 0 auto;
-	padding: 2em 0;
+	padding-bottom: 2em;
 `;
 
 const CardDiv = styled.div`
@@ -46,7 +41,7 @@ const CardDiv = styled.div`
 	align-items: center;
 	justify-content: space-evenly;
 	width: 80%;
-	margin: 1em auto;
+	margin: 0 auto;
 	img {
 		height: 350px;
 		width: 400px;
@@ -55,21 +50,22 @@ const CardDiv = styled.div`
 `;
 
 const TextDiv = styled.div`
-	align-items: center;
+	display: flex;
+	flex-direction: column;
 	text-align: left;
 	word-wrap: normal;
-	object-fit: contain;
 	margin: 0;
-	padding: 6em 2em;
+	width: 10em;
+	padding: 2em;
 	h2 {
 		font-weight: bold;
 	}
 	h3 {
 		margin-top: 0.4em;
-		width: 11em;
 	}
 	p {
 		margin-top: 0.6em;
 		font-style: italic;
+		word-wrap: break-word;
 	}
 `;
