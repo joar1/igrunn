@@ -42,19 +42,10 @@ function Home() {
 				newParagraph='Avtrykket et minimalt - brønnløkket er i grunnen det eneste du ser. Ingen klimautslipp annet enn ved boring av brønn, og her benytter vi oss av miljødiesel for å holde dette på sitt laveste. Levetiden på brønnen er 50-100 år, og levertid for varmepumpe er ca 20 år.'
 			/>
 
-			<CardLeft
-				img={Bilde4}
-				title='4'
-				description='Beskrivelse'
-				paragraph='Paragraf'
-			/>
-
-			<CardRight
-				img={Bilde5}
-				title='5'
-				description='Beskrivelse'
-				paragraph='Paragraf'
-			/>
+			<ImageContainer>
+				<img src={Bilde4} alt='#' />
+				<img src={Bilde5} alt='#' />
+			</ImageContainer>
 
 			<CardLeft
 				img={Bilde6}
@@ -82,4 +73,16 @@ const HeaderH1 = styled.h1`
 	font-size: 3.5em;
 	text-align: center;
 	color: orange;
+`;
+
+const ImageContainer = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 5em 15em;
+	img {
+		height: 350px;
+		width: 400px;
+		border-radius: 50px;
+	}
 `;
