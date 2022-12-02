@@ -98,13 +98,12 @@ const HeaderH1 = styled.h1`
 const ImageContainer = styled.div`
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
 	margin: 5em auto;
-	width: 80%;
+	width: 100%;
 	img {
-		margin-left: 3em;
 		height: 350px;
-		width: 400px;
+		width: 380px;
 		border-radius: 50px;
 	}
 `;
