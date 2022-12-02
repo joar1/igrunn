@@ -10,7 +10,7 @@ function Navbar() {
 				</NavLogo>
 				<NavDiv>
 					<StyledA href='#Grunnvarme'>Litt om grunnvarme</StyledA>
-					<StyledLink to='/available'>Passer dette min bolig?</StyledLink>
+					<StyledA href='#MinBolig'>Passer dette min bolig?</StyledA>
 					<StyledLink to='/services'>Tjenester</StyledLink>
 					<StyledLink to='/about'>Om</StyledLink>
 				</NavDiv>
