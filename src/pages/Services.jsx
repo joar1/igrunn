@@ -25,11 +25,12 @@ function Services() {
 export default Services;
 
 const ServiceContainer = styled.div`
-	border: solid 2px red;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 0 auto;
+	margin: 12em auto;
+	width: 80%;
 `;
 
 const StyledParagraph = styled.p`

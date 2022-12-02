@@ -64,7 +64,7 @@ const AboutDiv = styled.div`
 	p {
 		width: 60%;
 		margin: 0 auto;
-		font-size: 16px;
+		font-size: 1.3rem;
 	}
 
 	ul {
@@ -74,6 +74,7 @@ const AboutDiv = styled.div`
 
 	li {
 		list-style: none;
+		font-size: 1.3rem;
 		margin-bottom: 1em;
 	}
 `;
