@@ -88,6 +88,7 @@ const TextDivLeft = styled.div`
 		margin-top: 0.4em;
 	}
 	p {
+		text-align: right;
 		margin-left: auto;
 		margin-top: 0.6em;
 		width: 80%;
