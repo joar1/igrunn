@@ -59,7 +59,7 @@ const TextDiv = styled.div`
 	flex-direction: column;
 	text-align: left;
 	word-wrap: normal;
-	padding: 2em;
+	padding: 0 2em;
 	h2 {
 		font-weight: bold;
 		font-size: 800;
