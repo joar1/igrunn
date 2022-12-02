@@ -47,6 +47,7 @@ const CardDiv = styled.div`
 	justify-content: space-evenly;
 	width: 80%;
 	margin: 0 auto;
+
 	img {
 		height: 350px;
 		width: 400px;
@@ -87,7 +88,7 @@ const TextDivLeft = styled.div`
 		margin-top: 0.4em;
 	}
 	p {
-		margin-left: 11em;
+		margin-left: auto;
 		margin-top: 0.6em;
 		width: 80%;
 	}
