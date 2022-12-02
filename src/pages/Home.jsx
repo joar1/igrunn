@@ -100,7 +100,7 @@ const ImageContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 	margin: 5em auto;
-	width: 60%;
+	width: 80%;
 	img {
 		margin-left: 3em;
 		height: 350px;
