@@ -18,9 +18,9 @@ function Home() {
 	return (
 		<>
 			<Navbar />
+			<HeaderIgrunn>Energien henter du fra Igrunnen</HeaderIgrunn>
 			<CardRight
 				img={Bilde1NoBg}
-				title='Energien henter du fra Igrunnen'
 				description='Betydelig redusert strømregning og økt komfort på samme tid, er det mulig? Ved bruk av grunnvarme fra energibrønn og varmepumpe kan du redusere strømforbruk med opptil 50 % samtidig som du øker komforten innomhus. Endelig får du brønnboring og VVS på samme sted, hvor vi i tillegg har vurdert lokale grunnforhold sett i sammenheng med antatt energiforbruk, slik at grunnvarmeanlegget blir optimalisert for nettopp deres bolig.'
 				paragraph='
 				Slik fungerer det:
@@ -47,19 +47,22 @@ function Home() {
 				<img src={Bilde5} alt='#' />
 			</ImageContainer>
 
-			<CardLeft
-				img={Bilde6}
-				title='6'
-				description='Beskrivelse'
-				paragraph='Paragraf'
-			/>
-
-			<CardRight
-				img={Bilde7}
-				title='7'
-				description='Beskrivelse'
-				paragraph='Paragraf'
-			/>
+			<HeaderH1>Passer dette min bolig?</HeaderH1>
+			<StyledParagraph>
+				For å benytte seg av grunnvarme gir det mest mening om du har vannbåren
+				varme installert- som gir stabil og behagelig innetemperatur i hele
+				rommet. Vannbåren varme er følgelig lettere å implementere under
+				planleggingen av nybygg - dersom du ikke er så heldig at du allerede har
+				dette i ditt eksisterende bygg. Men, det er fullt mulig å installere
+				vannbåren varme under renovering (om du er litt nevenyttig), og klarer
+				du ikke dette selv kan vi hjelpe deg med prosessen. Se her hvordan det
+				kan gjøres, enten ved utskiftning av gulv, eller ved å installere fra
+				undersiden om du kommer til fra for eksempel kjeller.
+			</StyledParagraph>
+			<ImageContainer>
+				<img src={Bilde6} alt='#' />
+				<img src={Bilde7} alt='#' />
+			</ImageContainer>
 
 			<Footer />
 		</>
@@ -67,6 +70,13 @@ function Home() {
 }
 
 export default Home;
+
+const HeaderIgrunn = styled.h1`
+	padding: 2em 0 1em 0;
+	font-size: 4em;
+	text-align: center;
+	color: orange;
+`;
 
 const HeaderH1 = styled.h1`
 	padding: 0.8em;
@@ -79,10 +89,18 @@ const ImageContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	margin: 5em 15em;
+	margin: 5em auto;
 	img {
 		height: 350px;
 		width: 400px;
 		border-radius: 50px;
 	}
+`;
+
+const StyledParagraph = styled.p`
+	width: 60%;
+	text-align: center;
+	word-wrap: normal;
+	margin: 0 auto;
+	margin-bottom: 2em;
 `;
