@@ -38,6 +38,7 @@ const QuestionContainer = styled.div`
 	h2 {
 		text-align: center;
 		text-decoration: underline;
+		margin-bottom: 2em;
 	}
 
 	p {

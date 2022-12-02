@@ -62,6 +62,18 @@ function Home() {
 				<img src={Bilde6} alt='#' />
 				<img src={Bilde7} alt='#' />
 			</ImageContainer>
+			<StyledParagraph>
+				Mange velger også å installere en viftekonvektor. Disse kommer nå i
+				slanke og elegante varianter, og fungerer som en tilsvarende innedel til
+				en luft-luft varmepumpe, med både varme- og kjølefunksjon. En fordel her
+				er også at kjøling/overskuddsvarme fra sommerhalvåret «lader» brønnen
+				til vinteren, og det er dette som kalles frikjøling.
+			</StyledParagraph>
+			<StyledParagraph>
+				Den samme varmepumpa leverer også tappevann, slik at din gamle elkjel
+				kan fases ut. Varmtvannet du bruker til dusj og oppvask er altså
+				oppvarmet med den samme kostnadsbesparende teknologien.
+			</StyledParagraph>
 
 			<Footer />
 		</>
@@ -89,6 +101,7 @@ const ImageContainer = styled.div`
 	align-items: center;
 	justify-content: space-evenly;
 	margin: 5em auto;
+	width: 60%;
 	img {
 		height: 350px;
 		width: 400px;

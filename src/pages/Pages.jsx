@@ -13,6 +13,7 @@ function Pages() {
 				<Route path='/kontakt' element={<Contact />} />
 				<Route path='/about' element={<About />} />
 				<Route path='/news' element={<News />} />
+				<Route path='/services' element={<Services />} />
 			</Routes>
 		</>
 	);

@@ -25,7 +25,7 @@ function About() {
 					</ul>
 				</AboutDiv>
 				<AboutDiv>
-					<h3>Våre samarbeidspartnere:</h3>
+					<h4>Våre samarbeidspartnere:</h4>
 					<p>VVS-firma</p>
 				</AboutDiv>
 			</AboutContainer>
@@ -38,23 +38,42 @@ export default About;
 
 const AboutContainer = styled.div`
 	height: 100vh;
-	line-height: 1.6em;
+	line-height: 1.3em;
 `;
 
 const AboutDiv = styled.div`
-	width: 70%;
+	width: 40%;
 	justify-content: center;
 	margin: 2em auto;
 
 	h1 {
 		margin: 1em 0;
+		text-align: center;
 	}
+
 	h3 {
 		margin: 0.6em 0;
 		text-decoration: underline;
 	}
+
+	h4 {
+		margin: 0.6em 0;
+		text-decoration: underline;
+	}
+
+	p {
+		width: 60%;
+		margin: 0 auto;
+		font-size: 16px;
+	}
+
 	ul {
 		width: 60%;
-		margin: auto;
+		margin: 0 auto;
+	}
+
+	li {
+		list-style: none;
+		margin-bottom: 1em;
 	}
 `;
