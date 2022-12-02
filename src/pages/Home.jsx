@@ -98,10 +98,11 @@ const HeaderH1 = styled.h1`
 const ImageContainer = styled.div`
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 	margin: 5em auto;
 	width: 60%;
 	img {
+		margin-left: 3em;
 		height: 350px;
 		width: 400px;
 		border-radius: 50px;
