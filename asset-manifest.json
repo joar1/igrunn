@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/igrunn/static/css/main.8a6f1c35.css",
-    "main.js": "/igrunn/static/js/main.0d48a5dc.js",
+    "main.css": "/igrunn/static/css/main.1ecfd257.css",
+    "main.js": "/igrunn/static/js/main.d9f89e9b.js",
     "static/media/bilde3.JPG": "/igrunn/static/media/bilde3.cc47ea2f7ee0086b7f27.JPG",
     "static/media/contact.jpg": "/igrunn/static/media/contact.4d36829d05e585be70e6.jpg",
     "static/media/bilde7.PNG": "/igrunn/static/media/bilde7.75fe0ff612cb78626b23.PNG",
@@ -13,11 +13,11 @@
     "static/media/igrunnen.jpg": "/igrunn/static/media/igrunnen.cd2b30e928ecee71dbb5.jpg",
     "static/media/bilde1.jpg": "/igrunn/static/media/bilde1.ca3b251c0322a4382142.jpg",
     "index.html": "/igrunn/index.html",
-    "main.8a6f1c35.css.map": "/igrunn/static/css/main.8a6f1c35.css.map",
-    "main.0d48a5dc.js.map": "/igrunn/static/js/main.0d48a5dc.js.map"
+    "main.1ecfd257.css.map": "/igrunn/static/css/main.1ecfd257.css.map",
+    "main.d9f89e9b.js.map": "/igrunn/static/js/main.d9f89e9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a6f1c35.css",
-    "static/js/main.0d48a5dc.js"
+    "static/css/main.1ecfd257.css",
+    "static/js/main.d9f89e9b.js"
   ]
 }
