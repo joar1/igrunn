@@ -21,9 +21,8 @@ function Home() {
 			<CardRight
 				img={Bilde1NoBg}
 				paragraph='Betydelig redusert strømregning og økt komfort på samme tid, er det mulig? Ved bruk av grunnvarme fra energibrønn og varmepumpe kan du redusere strømforbruk med opptil 50 % samtidig som du øker komforten innomhus. Endelig får du brønnboring og VVS på samme sted, hvor vi i tillegg har vurdert lokale grunnforhold sett i sammenheng med antatt energiforbruk, slik at grunnvarmeanlegget blir optimalisert for nettopp deres bolig.'
-				paragraphTwo='
-				Slik fungerer det:
-				Skriv inn adresse og svar på noen korte spørsmål. Vi vil i løpet av kort tid komme tilbake til deg med foreslått størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud på komplett grunnvarmeanlegg. Har dere allerede bestilt innvending VVS kan vi også levere energibrønnen alene. Dersom det er vannbrønn dere ønsker, klikk her (link til vannbrønn i Tjenester-meny)'
+				paragraphTwo="Slik fungerer det:
+				Skriv inn adresse og svar på noen korte spørsmål. Vi vil i løpet av kort tid komme tilbake til deg med foreslått størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud på komplett grunnvarmeanlegg. Har dere allerede bestilt innvending VVS kan vi også levere energibrønnen alene. Dersom det er vannbrønn dere ønsker, klikk her (link til vannbrønn i Tjenester-meny)'"
 			/>
 			<Questions />
 
