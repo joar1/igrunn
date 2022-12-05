@@ -38,6 +38,7 @@ const QuestionContainer = styled.div`
 	h2 {
 		text-align: center;
 		text-decoration: underline;
+		text-underline-offset: 0.3em;
 		margin-bottom: 2em;
 	}
 
