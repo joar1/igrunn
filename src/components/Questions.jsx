@@ -32,9 +32,8 @@ export default Questions;
 
 const QuestionContainer = styled.div`
 	color: black;
-	width: 80%;
+	width: 76%;
 	margin: 2em auto;
-	padding: 0 2em;
 
 	h2 {
 		text-align: center;
