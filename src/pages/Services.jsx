@@ -31,6 +31,7 @@ const ServiceContainer = styled.div`
 	justify-content: center;
 	margin: 12em auto;
 	width: 80%;
+	background: #fffdfa;
 `;
 
 const StyledParagraph = styled.p`

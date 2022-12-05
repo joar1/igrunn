@@ -91,7 +91,6 @@ const TextDiv = styled.div`
 const TextDivLeft = styled.div`
 	display: flex;
 	flex-direction: column;
-	text-align: left;
 	word-wrap: normal;
 	padding: 2em;
 	h2 {
@@ -102,7 +101,7 @@ const TextDivLeft = styled.div`
 		margin-top: 0.4em;
 	}
 	p {
-		text-align: right;
+		text-align: left;
 		margin-left: auto;
 		margin-top: 0.8em;
 		width: 80%;

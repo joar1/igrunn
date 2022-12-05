@@ -1,5 +1,5 @@
-import { FaFacebook } from 'react-icons/fa';
-import { ImInstagram } from 'react-icons/im';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import Logo from '../images/igrunnen.jpg';
 import styled from 'styled-components';
 
@@ -10,18 +10,18 @@ function Footer() {
 				<img src={Logo} alt='logo' />
 			</FooterImg>
 			<FooterDiv>
-				<h3>Kontakt</h3>
-				<h3>Om</h3>
-				<h3>Nyhtetsbrev</h3>
+				<p>Kontakt</p>
+				<p>Om</p>
+				<p>Nyhtetsbrev</p>
 			</FooterDiv>
-			{/* <SoMe>
+			<SoMe>
 				<SoMeLinks href='#' target='_blank'>
-					<FaFacebook />
+					<FaFacebookSquare />
 				</SoMeLinks>
 				<SoMeLinks href='#' target='_blank'>
-					<ImInstagram />
+					<FaLinkedin />
 				</SoMeLinks>
-			</SoMe> */}
+			</SoMe>
 		</FooterContainer>
 	);
 }
@@ -31,26 +31,24 @@ export default Footer;
 const FooterContainer = styled.div`
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	background: black;
 `;
 
 const FooterImg = styled.div`
 	img {
 		height: 10em;
-		padding: 1em 2em;
+		padding: 1em 0;
 	}
 `;
 
 const FooterDiv = styled.div`
 	display: flex;
-	text-align: center;
 	align-items: center;
 	justify-content: center;
-	margin: 0 auto;
 	color: orange;
 
-	h3 {
+	p {
 		margin-left: 0.5em;
 	}
 `;
@@ -64,6 +62,6 @@ const SoMe = styled.div`
 const SoMeLinks = styled.a`
 	margin: 0 0.3em;
 	text-decoration: none;
-	color: lightblue;
+	color: orange;
 	font-size: 1.6em;
 `;

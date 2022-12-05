@@ -39,6 +39,7 @@ export default About;
 const AboutContainer = styled.div`
 	height: 100vh;
 	line-height: 1.3em;
+	background: #fffdfa;
 `;
 
 const AboutDiv = styled.div`
