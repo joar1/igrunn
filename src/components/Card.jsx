@@ -115,6 +115,7 @@ const ImageLink = styled.div`
 	justify-content: center;
 
 	a {
+		font-weight: bold;
 		margin-top: 1em;
 		color: blue;
 		text-underline-offset: 0.3em;
