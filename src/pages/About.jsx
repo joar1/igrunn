@@ -15,7 +15,7 @@ function About() {
 							Master i geologi fra UiT, 2007. Han har jobbet ca. 13 år med
 							boring av brønner i nordsjøen, for så å ta videreutdanning i
 							Sveits (Deep geothermal systems). Jobbet ca. 3 år hos Asplan Viak
-							AS, som rådgiver grunnvarme, før han startet i grunnen.no.
+							AS, som rådgiver grunnvarme, før han startet igrunnen.no.
 						</li>
 						<li>«Brønnborer»</li>
 						<li>

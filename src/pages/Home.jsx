@@ -18,7 +18,9 @@ function Home() {
 		<>
 			<HomeContainer>
 				<Navbar />
+
 				<HeaderIgrunn>Energien henter du fra Igrunnen</HeaderIgrunn>
+
 				<IntroH2>
 					Betydelig redusert strømregning og økt komfort på samme tid, er det
 					mulig? Ved bruk av grunnvarme fra energibrønn og varmepumpe kan du
@@ -26,12 +28,13 @@ function Home() {
 					innomhus. Endelig får du brønnboring og VVS på samme sted, hvor vi i
 					tillegg har vurdert lokale grunnforhold sett i sammenheng med antatt
 					energiforbruk, slik at grunnvarmeanlegget blir optimalisert for
-					nettopp deres bolig.'
+					nettopp deres bolig.
 				</IntroH2>
+
 				<CardRight
 					img={Bilde1NoBg}
-					paragraph="Slik fungerer det:
-				Skriv inn adresse og svar på noen korte spørsmål. Vi vil i løpet av kort tid komme tilbake til deg med foreslått størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud på komplett grunnvarmeanlegg. Har dere allerede bestilt innvending VVS kan vi også levere energibrønnen alene. Dersom det er vannbrønn dere ønsker, klikk her (link til vannbrønn i Tjenester-meny)'"
+					paragraph='Slik fungerer det:
+				Skriv inn adresse og svar på noen korte spørsmål. Vi vil i løpet av kort tid komme tilbake til deg med foreslått størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud på komplett grunnvarmeanlegg. Har dere allerede bestilt innvending VVS kan vi også levere energibrønnen alene. Dersom det er vannbrønn dere ønsker, klikk her (link til vannbrønn i Tjenester-meny)'
 				/>
 				<Questions />
 
@@ -99,7 +102,7 @@ const HomeContainer = styled.div`
 `;
 
 const HeaderIgrunn = styled.h1`
-	padding: 2em 0 1em 0;
+	padding: 1.2em 0 1em 0;
 	font-size: 4em;
 	text-align: center;
 	color: orange;

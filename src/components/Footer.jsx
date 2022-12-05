@@ -1,5 +1,6 @@
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import Logo from '../images/igrunnen.jpg';
 import styled from 'styled-components';
 
@@ -11,7 +12,7 @@ function Footer() {
 			</FooterImg>
 			<FooterDiv>
 				<p>Kontakt</p>
-				<p>Om Oss</p>
+				<StyledLink to='/about'>Om Oss</StyledLink>
 				<p>Følg oss</p>
 			</FooterDiv>
 
@@ -54,12 +55,6 @@ const FooterImg = styled.div`
 	}
 `;
 
-// const FooterCenter = styled.div`
-// 	display: flex;
-// 	flex-direction: column;
-// 	justify-content: center;
-// `;
-
 const FooterDiv = styled.div`
 	display: flex;
 	flex-direction: column;
@@ -82,4 +77,15 @@ const SoMeLinks = styled.a`
 	text-decoration: none;
 	color: orange;
 	font-size: 1.6em;
+`;
+
+const StyledLink = styled(Link)`
+	padding: 0.7em;
+	font-size: 1.3em;
+	text-decoration: none;
+	color: orange;
+	&:hover {
+		text-decoration: underline;
+		text-underline-offset: 0.6em;
+	}
 `;
