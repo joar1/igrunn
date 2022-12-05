@@ -29,6 +29,8 @@ function Home() {
 			<HeaderH1 id='Grunnvarme'>Litt om grunnvarme</HeaderH1>
 			<CardLeft
 				img={Bilde2}
+				link='https://renewableenergyhub.co.uk/main/heat-pumps-information/ground-source-heat-pumps/'
+				linkName='Grunnvarmepumpe'
 				paragraph='Grunnvarme er i all hovedsak oppspart solenergi. Temperaturen i grunnen er stabil året rundt, og holder ofte 1 til 2 grader høyere temperatur enn årsmiddeltemperatur (gjennomsnittlig utetemperatur gjennom et helt år) på stedet. Dette gjelder også når utetemperatur er på sitt kaldeste, og oppvarmingsbehovet for ditt bygg er størst.'
 				paragraphTwo='Teknologien er velkjent og ferdig utprøvd gjennom flere tiår. Energibrønnen er utstyrt med en kolloktorslange fylt med miljøvennlig kjølevæske. Denne væsken sirkulerer fra borehullet, opp til en varmepumpe som løfter temperaturen ytterligere til gulvvarme og radiatortemperatur, for så å returnere til brønnen for å bli oppvarmet nytt.'
 			/>

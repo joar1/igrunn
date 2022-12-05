@@ -4,7 +4,13 @@ export function CardLeft(props) {
 	return (
 		<CardContainer>
 			<CardDiv>
-				<img src={props.img} alt='#' />
+				<ImageLink>
+					<img src={props.img} alt='#' />
+					<a href={props.link} target='_blank' rel='noreferrer'>
+						{props.linkName}
+					</a>
+				</ImageLink>
+
 				<TextDivLeft>
 					<h2>{props.title}</h2>
 					<h3>{props.description}</h3>
@@ -30,8 +36,12 @@ export function CardRight(props) {
 					<p>{props.paragraphThree}</p>
 					<p>{props.paragraphFour}</p>
 				</TextDiv>
+
 				<ImageLink>
 					<img src={props.img} alt='#' />
+					<a href={props.link} target='_blank' rel='noreferrer'>
+						{props.linkName}
+					</a>
 				</ImageLink>
 			</CardDiv>
 		</CardContainer>
@@ -102,4 +112,12 @@ const TextDivLeft = styled.div`
 const ImageLink = styled.div`
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	a {
+		margin-top: 1em;
+		color: blue;
+		text-underline-offset: 0.3em;
+	}
 `;

@@ -42,7 +42,7 @@ const AboutContainer = styled.div`
 `;
 
 const AboutDiv = styled.div`
-	width: 40%;
+	width: 70%;
 	justify-content: center;
 	margin: 2em auto;
 

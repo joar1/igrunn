@@ -48,7 +48,7 @@ const FooterDiv = styled.div`
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
-	color: lightblue;
+	color: orange;
 
 	h3 {
 		margin-left: 0.5em;
