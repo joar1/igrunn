@@ -24,7 +24,6 @@ function Contact() {
 export default Contact;
 
 const ContactContainer = styled.div`
-	height: auto;
 	line-height: 1.4em;
 	background: black;
 `;
@@ -41,7 +40,6 @@ const ContactDiv = styled.div`
 
 const BgImg = styled.div`
 	background-image: url(${BackgroundImg});
-	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

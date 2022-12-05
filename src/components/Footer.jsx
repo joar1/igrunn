@@ -11,14 +11,13 @@ function Footer() {
 				<img src={Logo} alt='logo' />
 			</FooterImg>
 			<FooterDiv>
-				<p>Kontakt</p>
-				<StyledLink to='/about'>Om Oss</StyledLink>
+				<StyledLink to='/contact'>Kontakt</StyledLink>
+				<StyledLink to='/about'>Om oss</StyledLink>
 				<p>Følg oss</p>
 			</FooterDiv>
 
 			<FooterDiv>
 				<p>90925800</p>
-				<p>Om</p>
 				<p>Nyhetsbrev</p>
 			</FooterDiv>
 
@@ -45,6 +44,7 @@ const FooterContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	font-size: 1.3em;
 	background: black;
 `;
 
@@ -80,12 +80,11 @@ const SoMeLinks = styled.a`
 `;
 
 const StyledLink = styled(Link)`
-	padding: 0.7em;
-	font-size: 1.3em;
 	text-decoration: none;
 	color: orange;
+	margin-top: 0.2em;
 	&:hover {
 		text-decoration: underline;
-		text-underline-offset: 0.6em;
+		text-underline-offset: 0.3em;
 	}
 `;
