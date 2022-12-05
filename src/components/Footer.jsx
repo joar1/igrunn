@@ -51,7 +51,7 @@ const FooterContainer = styled.div`
 
 const FooterLogo = styled.div`
 	img {
-		height: 10em;
+		height: 7em;
 		padding: 1em 0;
 	}
 `;
