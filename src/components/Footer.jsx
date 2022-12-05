@@ -7,9 +7,10 @@ import styled from 'styled-components';
 function Footer() {
 	return (
 		<FooterContainer>
-			<FooterImg>
+			<FooterLogo>
 				<img src={Logo} alt='logo' />
-			</FooterImg>
+			</FooterLogo>
+
 			<FooterDiv>
 				<StyledLink to='/contact'>Kontakt</StyledLink>
 				<StyledLink to='/about'>Om oss</StyledLink>
@@ -48,7 +49,7 @@ const FooterContainer = styled.div`
 	background: black;
 `;
 
-const FooterImg = styled.div`
+const FooterLogo = styled.div`
 	img {
 		height: 10em;
 		padding: 1em 0;

@@ -53,10 +53,12 @@ const AboutDiv = styled.div`
 	h3 {
 		margin: 0.6em 0;
 		text-decoration: underline;
+		text-underline-offset: 0.3em;
 	}
 	h4 {
 		margin: 0.6em 0;
 		text-decoration: underline;
+		text-underline-offset: 0.3em;
 	}
 	p {
 		width: 60%;
