@@ -37,7 +37,7 @@ function About() {
 export default About;
 
 const AboutContainer = styled.div`
-	height: 100vh;
+	height: 50vh;
 	line-height: 1.3em;
 	background: #fffdfa;
 `;
@@ -46,33 +46,27 @@ const AboutDiv = styled.div`
 	width: 70%;
 	justify-content: center;
 	margin: 2em auto;
-
 	h1 {
-		margin: 1em 0;
+		margin-top: 3.2em;
 		text-align: center;
 	}
-
 	h3 {
 		margin: 0.6em 0;
 		text-decoration: underline;
 	}
-
 	h4 {
 		margin: 0.6em 0;
 		text-decoration: underline;
 	}
-
 	p {
 		width: 60%;
 		margin: 0 auto;
 		font-size: 1.3rem;
 	}
-
 	ul {
 		width: 60%;
 		margin: 0 auto;
 	}
-
 	li {
 		list-style: none;
 		font-size: 1.3rem;
