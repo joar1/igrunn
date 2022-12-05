@@ -11,9 +11,21 @@ function Footer() {
 			</FooterImg>
 			<FooterDiv>
 				<p>Kontakt</p>
-				<p>Om</p>
-				<p>Nyhtetsbrev</p>
+				<p>Om Oss</p>
+				<p>Følg oss</p>
 			</FooterDiv>
+
+			<FooterDiv>
+				<p>90925800</p>
+				<p>Om</p>
+				<p>Nyhetsbrev</p>
+			</FooterDiv>
+
+			<FooterDiv>
+				<p>Send oss en epost</p>
+				<p>Ledige stillinger</p>
+			</FooterDiv>
+
 			<SoMe>
 				<SoMeLinks href='#' target='_blank'>
 					<FaFacebookSquare />
@@ -31,7 +43,7 @@ export default Footer;
 const FooterContainer = styled.div`
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	background: black;
 `;
 
@@ -42,14 +54,20 @@ const FooterImg = styled.div`
 	}
 `;
 
+// const FooterCenter = styled.div`
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// `;
+
 const FooterDiv = styled.div`
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	color: orange;
-
 	p {
-		margin-left: 0.5em;
+		margin-top: 0.2em;
 	}
 `;
 
