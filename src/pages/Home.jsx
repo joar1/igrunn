@@ -137,8 +137,8 @@ const ImageContainer = styled.div`
 	margin: 5em auto;
 	width: 100%;
 	img {
-		height: 350px;
-		width: 380px;
+		height: 600px;
+		width: 600px;
 		border-radius: 50px;
 	}
 `;

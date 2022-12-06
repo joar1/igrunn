@@ -61,11 +61,10 @@ const CardDiv = styled.div`
 	justify-content: space-evenly;
 	width: 80%;
 	margin: 0 auto;
-
 	img {
-		height: 350px;
-		width: 400px;
-		border-radius: 50px;
+		height: 700px;
+		width: 700px;
+		object-fit: contain;
 	}
 `;
 
@@ -113,10 +112,15 @@ const ImageLink = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
+	img {
+		display: block;
+		height: 700px;
+		width: 700px;
+		object-fit: contain;
+	}
 	a {
+		margin-bottom: 4em;
 		font-weight: bold;
-		margin-top: 1em;
 		color: blue;
 		text-underline-offset: 0.3em;
 	}
