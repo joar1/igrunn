@@ -38,8 +38,8 @@ function Home() {
 
 				<StyledH3>
 					Lurer du på mer om teknologien, eller om den passer for deg, kan du
-					klikke deg inn {<a href='#Grunnvarme'>HER</a>} eller{' '}
-					{<a href='#MinBolig'>HER</a>}, før du svarer på spørsmålene under
+					klikke deg inn {<a href='#Grunnvarme'>HER</a>} eller {''}
+					{<a href='#MinBolig'>HER</a>} før du svarer på spørsmålene under
 				</StyledH3>
 
 				<Questions />
@@ -155,7 +155,7 @@ const StyledH3 = styled.h3`
 	margin-bottom: 4em;
 	a {
 		text-decoration: none;
-		color: orange;
+		color: blue;
 	}
 `;
 
