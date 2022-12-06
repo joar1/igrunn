@@ -3,8 +3,7 @@ import Navbar from '../components/Navbar';
 import Questions from '../components/Questions';
 import Footer from '../components/Footer';
 import Bilde1NoBg from '../images/bilde1-nobg.png';
-import Bilde6 from '../images/bilde6.JPG';
-import Bilde7 from '../images/bilde7.PNG';
+import { Link } from 'react-router-dom';
 import { CardRight } from '../components/Card';
 
 function Home() {
@@ -33,8 +32,10 @@ function Home() {
 
 				<StyledH3>
 					Lurer du på mer om teknologien, eller om den passer for deg, kan du
-					klikke deg inn {<a href='#Grunnvarme'>HER</a>} eller {''}
-					{<a href='#MinBolig'>HER</a>} før du svarer på spørsmålene under
+					klikke deg inn {<StyledLink to='/grunnvarme'>HER</StyledLink>} eller{' '}
+					{''}
+					{<StyledLink to='tilgjenglig'>HER</StyledLink>} før du svarer på
+					spørsmålene under
 				</StyledH3>
 
 				<Questions />
@@ -72,8 +73,9 @@ const StyledH3 = styled.h3`
 	word-wrap: normal;
 	margin: 0 auto;
 	margin-bottom: 4em;
-	a {
-		text-decoration: none;
-		color: blue;
-	}
+`;
+
+const StyledLink = styled(Link)`
+	text-decoration: none;
+	color: blue;
 `;
