@@ -15,8 +15,8 @@ function Contact() {
 						<p>adresse: xxxxxxxx</p>
 					</ContactDiv>
 				</BgImg>
+				<Footer />
 			</ContactContainer>
-			<Footer />
 		</>
 	);
 }

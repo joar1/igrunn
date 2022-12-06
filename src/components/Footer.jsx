@@ -12,8 +12,8 @@ function Footer() {
 			</FooterLogo>
 
 			<FooterDiv>
-				<StyledLink to='/contact'>Kontakt</StyledLink>
-				<StyledLink to='/about'>Om oss</StyledLink>
+				<StyledLink to='/kontakt'>Kontakt</StyledLink>
+				<StyledLink to='/om'>Om oss</StyledLink>
 				<p>Følg oss</p>
 			</FooterDiv>
 

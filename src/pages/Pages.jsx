@@ -4,6 +4,8 @@ import About from './About.jsx';
 import News from './News.jsx';
 import Services from './Services.jsx';
 import { Routes, Route } from 'react-router-dom';
+import BasicHeating from './BasicHeating.jsx';
+import Availability from './Availability.jsx';
 
 function Pages() {
 	return (
@@ -11,10 +13,11 @@ function Pages() {
 			<Routes>
 				<Route path='/*' element={<Home />} />
 				<Route path='/kontakt' element={<Contact />} />
-				<Route path='/about' element={<About />} />
-				<Route path='/news' element={<News />} />
-				<Route path='/services' element={<Services />} />
-				<Route path='contact' element={<Contact />} />
+				<Route path='/om' element={<About />} />
+				<Route path='/nyhetersbrev' element={<News />} />
+				<Route path='/tjenester' element={<Services />} />
+				<Route path='/grunnvarme' element={<BasicHeating />} />
+				<Route path='/tilgjenglig' element={<Availability />} />
 			</Routes>
 		</>
 	);

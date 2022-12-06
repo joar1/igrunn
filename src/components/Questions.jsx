@@ -32,7 +32,7 @@ export default Questions;
 
 const QuestionContainer = styled.div`
 	color: black;
-	margin: 2em auto;
+	margin: 0 auto;
 	padding: 2em;
 	text-align: center;
 	background: lightgrey;

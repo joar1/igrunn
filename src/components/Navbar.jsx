@@ -9,10 +9,10 @@ function Navbar() {
 					<StyledLogo to='/'>igrunnen.no</StyledLogo>
 				</NavLogo>
 				<NavDiv>
-					<StyledA href='#Grunnvarme'>Litt om grunnvarme</StyledA>
-					<StyledA href='#MinBolig'>Passer dette min bolig?</StyledA>
-					<StyledLink to='/services'>Tjenester</StyledLink>
-					<StyledLink to='/about'>Om</StyledLink>
+					<StyledLink to='/grunnvarme'>Litt om grunnvarme</StyledLink>
+					<StyledLink to='/tilgjenglig'>Passer dette min bolig?</StyledLink>
+					<StyledLink to='/tjenester'>Tjenester</StyledLink>
+					<StyledLink to='/om'>Om</StyledLink>
 				</NavDiv>
 			</NavContainer>
 		</>
@@ -63,13 +63,13 @@ const StyledLink = styled(Link)`
 	}
 `;
 
-const StyledA = styled.a`
-	padding: 0.7em;
-	font-size: 1.3em;
-	text-decoration: none;
-	color: #f1f1f1;
-	&:hover {
-		text-decoration: underline;
-		text-underline-offset: 0.6em;
-	}
-`;
+// const StyledA = styled.a`
+// 	padding: 0.7em;
+// 	font-size: 1.3em;
+// 	text-decoration: none;
+// 	color: #f1f1f1;
+// 	&:hover {
+// 		text-decoration: underline;
+// 		text-underline-offset: 0.6em;
+// 	}
+// `;
