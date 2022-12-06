@@ -32,16 +32,16 @@ export default Questions;
 
 const QuestionContainer = styled.div`
 	color: black;
-	width: 76%;
 	margin: 2em auto;
-
+	padding: 2em;
+	text-align: center;
+	background: lightgrey;
 	h2 {
 		text-align: center;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
-		margin-bottom: 2em;
+		margin: 2em 0;
 	}
-
 	p {
 		margin: 1em 0;
 	}
