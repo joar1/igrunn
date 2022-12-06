@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import Navbar from '../components/Navbar';
 import Questions from '../components/Questions';
 import Footer from '../components/Footer';
-import Bilde1 from '../images/bilde1.jpg';
 import Bilde1NoBg from '../images/bilde1-nobg.png';
 import Bilde2 from '../images/bilde2.jpg';
 import Bilde3 from '../images/bilde3.JPG';
@@ -10,7 +9,6 @@ import Bilde4 from '../images/bilde4.jpg';
 import Bilde5 from '../images/bilde5.jpg';
 import Bilde6 from '../images/bilde6.JPG';
 import Bilde7 from '../images/bilde7.PNG';
-import { Link } from 'react-router-dom';
 import { CardRight, CardLeft } from '../components/Card';
 import Email from '../components/Email';
 
@@ -37,6 +35,12 @@ function Home() {
 					paragraph='Slik fungerer det:
 				Skriv inn adresse og svar på noen korte spørsmål. Vi vil i løpet av kort tid komme tilbake til deg med foreslått størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud på komplett grunnvarmeanlegg. Har dere allerede bestilt innvending VVS kan vi også levere energibrønnen alene. Dersom det er vannbrønn dere ønsker, klikk her (link til vannbrønn i Tjenester-meny)'
 				/>
+
+				<StyledH3>
+					Lurer du på mer om teknologien, eller om den passer for deg, kan du
+					klikke deg inn {<a href='#Grunnvarme'>HER</a>} eller{' '}
+					{<a href='#MinBolig'>HER</a>}, før du svarer på spørsmålene under
+				</StyledH3>
 
 				<Questions />
 
@@ -140,6 +144,18 @@ const ImageContainer = styled.div`
 		height: 600px;
 		width: 600px;
 		border-radius: 50px;
+	}
+`;
+
+const StyledH3 = styled.h3`
+	width: 60%;
+	text-align: center;
+	word-wrap: normal;
+	margin: 0 auto;
+	margin-bottom: 4em;
+	a {
+		text-decoration: none;
+		color: orange;
 	}
 `;
 

@@ -4,15 +4,13 @@ export function CardLeft(props) {
 	return (
 		<CardContainer>
 			<CardDiv>
-				<ImageLink>
-					<img src={props.img} alt='#' />
-					<a href={props.link} target='_blank' rel='noreferrer'>
-						{props.linkName}
-					</a>
-				</ImageLink>
+				<img src={props.img} alt='#' />
 
 				<TextDivLeft>
 					<h2>{props.title}</h2>
+					<a href={props.link} target='_blank' rel='noreferrer'>
+						{props.linkName}
+					</a>
 					<h3>{props.description}</h3>
 					<p>{props.paragraph}</p>
 					<p>{props.paragraphTwo}</p>
@@ -37,12 +35,7 @@ export function CardRight(props) {
 					<p>{props.paragraphFour}</p>
 				</TextDiv>
 
-				<ImageLink>
-					<img src={props.img} alt='#' />
-					<a href={props.link} target='_blank' rel='noreferrer'>
-						{props.linkName}
-					</a>
-				</ImageLink>
+				<img src={props.img} alt='#' />
 			</CardDiv>
 		</CardContainer>
 	);
@@ -52,7 +45,6 @@ const CardContainer = styled.div`
 	color: black;
 	margin: 0 auto;
 	line-height: 1.3em;
-	padding-bottom: 2em;
 `;
 
 const CardDiv = styled.div`
@@ -105,21 +97,8 @@ const TextDivLeft = styled.div`
 		margin-top: 0.8em;
 		width: 80%;
 	}
-`;
-
-const ImageLink = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	img {
-		display: block;
-		height: 700px;
-		width: 700px;
-		object-fit: contain;
-	}
 	a {
-		margin-bottom: 4em;
+		text-align: center;
 		font-weight: bold;
 		color: blue;
 		text-underline-offset: 0.3em;
