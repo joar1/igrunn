@@ -70,14 +70,6 @@ const StyledH2 = styled.h2`
 	text-align: center;
 `;
 
-// const StyledH3 = styled.h3`
-// 	width: 60%;
-// 	text-align: center;
-// 	word-wrap: normal;
-// 	margin: 0 auto;
-// 	margin-bottom: 4em;
-// `;
-
 const StyledLink = styled(Link)`
 	text-decoration: none;
 	color: blue;
