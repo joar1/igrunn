@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Navbar from '../components/Navbar';
+import News from '../components/News';
 import Questions from '../components/Questions';
 import Footer from '../components/Footer';
 // import Email from '../components/Email';
@@ -41,7 +42,26 @@ function Home() {
 
 				<Questions />
 
-				{/* <Email /> */}
+				<News
+					title='Grunnvarme avlaster strømnettet'
+					subTitle='
+				– Regjeringen er opptatt av at det legges til rette for bruk av energiløsninger som kan bidra til å avlaste kraftsystemet. Dette inkluderer også bergvarme, fremholder Sæter.
+				
+				Både bergvarme og fjernvarme bruker vannbåren varme. Disse energiformene belaster derfor ikke allerede fullastede strømnett.'
+					link='https://e24.no/norsk-oekonomi/i/gEdwn1/vil-faa-glemt-energi-opp-og-frem-i-lyset?fbclid=IwAR0ZqKxuw9dT2b4EugRXUyjZtki8y9cmABKyAcrbvlKJZJQth5RdQ8noBfk'
+					linkName='- Vil få glemt energi opp og frem i lyset – E24'
+				/>
+
+				<News
+					title='Grunnvarmeanlegg er suverent for både kjøling og oppvarming'
+					subTitle='- De som har en varmepumpe basert på bergvarme, er i en enda bedre situasjon når de ønsker å kjøle ned boligen. De trenger ikke kjøre varmepumpa i det hele tatt. Det holder å kjøre sirkulasjonspumpa som flytter væske ned og opp av brønnen som ofte er rundt 200 meter dyp. I fjell er årstemperaturen jevn på noen plussgrader. Det er et overlegent varmereservoar om vinteren, da man slipper det store termiske løftet som luft-til-luft-varmepumper har, men det er overlegent i kjølesesongen også. Da kan man sirkulere «bergkulde» gjennom anlegget uten at pumpa går og det krever svært lite strøm.'
+					paragraph='- Tar vi utgangspunkt i det samme kjølebehovet som i eksemplet med en luft-til-luft-varmepumpe, så holder det med å holde en 60 watts sirkulasjonspumpe i gang i 470 timer og noen watt til å drive vifta i viftekonvektorene. Det blir et sted mellom 30 og 35 kWt over året og et tilsvarende antall kroner, sier Kristensen.'
+					paragraphOne='Men det er også en annen effekt av slik kjøling. Man sender oppvarmet vann fra boligen ned i hullet for å avgi varmen til berget rundt. Det fungerer som en slags sparing til vintersesongen. Varmeledningsevnen til fjellet er lav og gjennom kjølesesongen blir berget rundt borehullet varmet opp.'
+					paragraphTwo='Det betyr at man kan starte fyringssesongen med enda høyere temperatur fra borehullet og det gjør at varmepumpa får høyere effektfaktor, noe som gir større besparelser.'
+					paragraphThree='– I Oslo-området vil et borehull på 200 meter ha en gjennomsnittemperatur over året på rundt 7 grader. På Finnmarksvidda er temperaturen bare noen grader lavere, så det er ikke så veldig store temperaturforskjeller langt nede i bakken på ulike steder i Norge. Hvis man bare bruker borehullet til å hente varme til en bergvarmepumpe, vil man over mange år senke gjennomsnittemperaturen en grad eller to. Eller mer, om det er snakk om store boliger med svømmebasseng og andre ting som bruker mye varme. Benyttes brønnen til såkalt frikjøling i den varme årstiden, hvor bare kaldt vann fra brønnen sirkuleres uten av varmepumpen går, vil man kunne vedlikeholde den opprinnelige temperaturen i brønnen. Da reduseres ikke COP-faktoren over årene. Derfor kan det være direkte lønnsomt å kjøle på denne måten, sier rådgiver i Asplan Viak AS og Førsteamanuensis på Institutt for geologi og bergteknikk ved NTNU, dr.ing. Randi Kalskin Ramstad.'
+					link='https://www.tu.no/artikler/derfor-er-det-billig-a-kjole-boligen-med-varmepumpe/396348?fbclid=IwAR1EmGDBujY-25OW82quliUNCec5d8h4Wewm-96JolmfCOa7lZMqHEm9mN0'
+					linkName='Derfor er det billig å kjøle boligen med varmepumpe - Tu.no'
+				/>
 
 				<Footer />
 			</HomeContainer>
