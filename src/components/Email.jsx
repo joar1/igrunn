@@ -3,28 +3,21 @@ import styled from 'styled-components';
 function Email() {
 	return (
 		<MailContainer>
-			<h2>Kontakt oss</h2>
+			<form
+				action='mailto:someone@example.com'
+				method='post'
+				enctype='text/plain'
+			>
+				<label>
+					Adresse:
+					<input type='text' name='adresse' />
+				</label>
 
-			<form>
-				<input
-					type='text'
-					name='user_name'
-					placeholder='Ditt navn...'
-					required
-				/>
+				<input type='text' name='mail' />
+				<input type='text' name='comment' size='50' />
 
-				<input
-					type='email'
-					name='user_email'
-					placeholder='Din epost...'
-					required
-				/>
-
-				<input type='text' placeholder='Emne...' name='subject' required />
-
-				<textarea name='message' cols='30' rows='10'></textarea>
-
-				<button type='submit'>Send melding</button>
+				<input type='submit' value='Send' />
+				<input type='reset' value='Reset' />
 			</form>
 		</MailContainer>
 	);
@@ -32,8 +25,9 @@ function Email() {
 
 export default Email;
 
-const MailContainer = styled.div``;
-
-const FormDiv = styled.div``;
-
-const Btn = styled.button``;
+const MailContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	margin: 2em auto;
+	width: 60%;
+`;

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Navbar from '../components/Navbar';
 import Questions from '../components/Questions';
 import Footer from '../components/Footer';
+// import Email from '../components/Email';
 import Bilde1NoBg from '../images/bilde1-nobg.png';
 import { Link } from 'react-router-dom';
 import { CardRight } from '../components/Card';
@@ -14,7 +15,7 @@ function Home() {
 
 				<HeaderIgrunn>Energien henter du fra Igrunnen</HeaderIgrunn>
 
-				<IntroH2>
+				<StyledH2>
 					Betydelig redusert strømregning og økt komfort på samme tid, er det
 					mulig? Ved bruk av grunnvarme fra energibrønn og varmepumpe kan du
 					redusere strømforbruk med opptil 50 % samtidig som du øker komforten
@@ -22,7 +23,7 @@ function Home() {
 					tillegg har vurdert lokale grunnforhold sett i sammenheng med antatt
 					energiforbruk, slik at grunnvarmeanlegget blir optimalisert for
 					nettopp deres bolig.
-				</IntroH2>
+				</StyledH2>
 
 				<CardRight
 					img={Bilde1NoBg}
@@ -30,15 +31,17 @@ function Home() {
 				Skriv inn adresse og svar på noen korte spørsmål. Vi vil i løpet av kort tid komme tilbake til deg med foreslått størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud på komplett grunnvarmeanlegg. Har dere allerede bestilt innvending VVS kan vi også levere energibrønnen alene. Dersom det er vannbrønn dere ønsker, klikk her (link til vannbrønn i Tjenester-meny)'
 				/>
 
-				<StyledH3>
+				<StyledH2>
 					Lurer du på mer om teknologien, eller om den passer for deg, kan du
 					klikke deg inn {<StyledLink to='/grunnvarme'>HER</StyledLink>} eller{' '}
 					{''}
 					{<StyledLink to='tilgjenglig'>HER</StyledLink>} før du svarer på
 					spørsmålene under
-				</StyledH3>
+				</StyledH2>
 
 				<Questions />
+
+				{/* <Email /> */}
 
 				<Footer />
 			</HomeContainer>
@@ -59,7 +62,7 @@ const HeaderIgrunn = styled.h1`
 	color: orange;
 `;
 
-const IntroH2 = styled.h2`
+const StyledH2 = styled.h2`
 	margin: 0 auto;
 	font-weight: bold;
 	padding: 1em 0 3em 0;
@@ -67,13 +70,13 @@ const IntroH2 = styled.h2`
 	text-align: center;
 `;
 
-const StyledH3 = styled.h3`
-	width: 60%;
-	text-align: center;
-	word-wrap: normal;
-	margin: 0 auto;
-	margin-bottom: 4em;
-`;
+// const StyledH3 = styled.h3`
+// 	width: 60%;
+// 	text-align: center;
+// 	word-wrap: normal;
+// 	margin: 0 auto;
+// 	margin-bottom: 4em;
+// `;
 
 const StyledLink = styled(Link)`
 	text-decoration: none;

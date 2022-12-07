@@ -51,4 +51,7 @@ const QuestionText = styled.p`
 	width: 50%;
 	margin: 1em auto;
 	text-align: left;
+	p {
+		font-size: 1.3em;
+	}
 `;
