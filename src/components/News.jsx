@@ -21,10 +21,10 @@ const NewsContainer = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 20%;
+	width: 33%;
 	padding: 0.5em;
-	margin-bottom: 0.5em;
-	border: solid 0.2em red;
+	margin: 0.5em;
+	background: #fffdfa;
 	h2 {
 		margin-bottom: 0.5em;
 		text-align: center;
