@@ -102,6 +102,7 @@ const TextDivLeft = styled.div`
 	a {
 		margin: 0 auto;
 		font-size: 1.6em;
+		text-align: center;
 		font-weight: bold;
 		color: blue;
 		text-underline-offset: 0.3em;
