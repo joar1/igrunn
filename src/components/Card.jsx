@@ -74,7 +74,7 @@ const TextDiv = styled.div`
 		margin-top: 0.4em;
 	}
 	p {
-		font-size: 1.3em;
+		font-size: 1.5em;
 		margin-top: 0.8em;
 		width: 80%;
 	}
