@@ -28,11 +28,14 @@ const NewsContainer = styled.div`
 	justify-content: center;
 	line-height: 1.4;
 	margin: 1em;
+	width: 50%;
+	margin: 0 auto;
 `;
 
 const NewsDiv = styled.div`
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	justify-content: space-evenly;
 	width: 50%;
 	padding: 0.5em;
@@ -58,5 +61,7 @@ const NewsDiv = styled.div`
 		height: 300px;
 		width: 300px;
 		object-fit: contain;
+		padding: 0;
+		margin: 0;
 	}
 `;
