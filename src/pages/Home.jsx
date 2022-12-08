@@ -103,7 +103,7 @@ const NewsWrapper = styled.div`
 	width: auto;
 	margin: 0 auto;
 	padding: 2em 0;
-	background: lightgrey;
+	background: #e5e5e5;
 `;
 
 const StyledLink = styled(Link)`

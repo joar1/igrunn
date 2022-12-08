@@ -37,7 +37,7 @@ const QuestionContainer = styled.div`
 	margin: 0 auto;
 	padding: 1em;
 	text-align: center;
-	background: lightgrey;
+	background: #bbbbbb;
 	h2 {
 		font-size: 3em;
 		text-align: center;
