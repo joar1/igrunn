@@ -4,6 +4,7 @@ function News(props) {
 	return (
 		<NewsContainer>
 			<NewsDiv>
+				<img src={props.img} alt='noreferrer' />
 				<h2>{props.title}</h2>
 				<h3>{props.subTitle}</h3>
 				<p>{props.paragraph}</p>
@@ -23,21 +24,19 @@ function News(props) {
 export default News;
 
 const NewsContainer = styled.div`
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
-	margin: 0;
-	padding: 0;
+	display: grid;
+	justify-content: center;
 	line-height: 1.4;
+	margin: 1em;
 `;
 
 const NewsDiv = styled.div`
 	display: flex;
 	flex-direction: column;
-	text-align: left;
-	width: 80%;
-	margin: 1em;
-	padding: 1em;
+	justify-content: space-evenly;
+	width: 50%;
+	padding: 0.5em;
+	border: solid 0.2em black;
 	h2 {
 		margin-bottom: 0.5em;
 		text-align: center;
@@ -45,7 +44,7 @@ const NewsDiv = styled.div`
 		text-underline-offset: 0.3em;
 	}
 	h3 {
-		margin-bottom: 0.6em;
+		margin-bottom: 0.5em;
 	}
 	p {
 		margin-bottom: 0.5em;
@@ -54,5 +53,10 @@ const NewsDiv = styled.div`
 		font-weight: bold;
 		color: blue;
 		text-underline-offset: 0.3em;
+	}
+	img {
+		height: 300px;
+		width: 300px;
+		object-fit: contain;
 	}
 `;

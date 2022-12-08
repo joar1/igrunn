@@ -35,14 +35,15 @@ export default Questions;
 const QuestionContainer = styled.div`
 	color: black;
 	margin: 0 auto;
-	padding: 2em;
+	padding: 1em;
 	text-align: center;
 	background: lightgrey;
 	h2 {
+		font-size: 3em;
 		text-align: center;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
-		margin: 2em 0;
+		margin: 1em 0;
 	}
 `;
 
