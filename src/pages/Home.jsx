@@ -86,7 +86,7 @@ const StyledH2 = styled.h2`
 	font-weight: bold;
 	padding: 1em 0 3em 0;
 	width: 75%;
-	text-align: center;
+	text-align: left;
 `;
 const NewsTitle = styled.h2`
 	font-size: 3em;

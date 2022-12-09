@@ -19,15 +19,15 @@ export default News;
 const NewsContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
+	text-align: left;
 	width: 33%;
 	padding: 0.5em;
 	margin: 0.5em;
 	background: #fffdfa;
 	h2 {
-		margin-bottom: 0.5em;
-		text-align: center;
+		margin-bottom: 0.8em;
+		text-align: left;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
 	}
