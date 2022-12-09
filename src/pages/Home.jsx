@@ -21,8 +21,8 @@ function Home() {
 						Betydelig redusert strømregning og økt komfort på samme tid, er det
 						mulig? Ved bruk av grunnvarme fra energibrønn og varmepumpe kan du
 						redusere strømforbruk med opptil 50 % samtidig som du øker komforten
-						innomhus. Endelig får du brønnboring og VVS på samme sted, hvor vi i
-						tillegg har vurdert lokale grunnforhold sett i sammenheng med antatt
+						innomhus. Endelig får du brønnboring og VVS på samme sted. Vi
+						vurderer i tillegg lokale grunnforhold sett i sammenheng med antatt
 						energiforbruk, slik at grunnvarmeanlegget blir optimalisert for
 						nettopp deres bolig.
 					</StyledH2Intro>
