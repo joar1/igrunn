@@ -32,7 +32,7 @@ function Home() {
 						størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud
 						på komplett grunnvarmeanlegg. Har dere allerede bestilt innvending
 						VVS kan vi også levere energibrønnen alene. Dersom det er vannbrønn
-						dere ønsker, {<StyledLink to='tilgjenglig'>klikk Her</StyledLink>}
+						dere ønsker, {<StyledLink to='tjenester'>klikk Her</StyledLink>}
 					</StyledH2Intro>
 				</BackgroundHeader>
 
@@ -44,10 +44,10 @@ function Home() {
 
 				<StyledH2>
 					Lurer du på mer om teknologien, eller om den passer for deg, kan du
-					klikke deg inn {<StyledLink to='/grunnvarme'>HER</StyledLink>} eller{' '}
-					{''}
-					{<StyledLink to='tilgjenglig'>HER</StyledLink>} før du svarer på
-					spørsmålene under
+					klikke deg inn {<StyledLink to='/grunnvarme'>grunnvarme</StyledLink>}{' '}
+					eller {''}
+					{<StyledLink to='tilgjenglig'>tilgjenglig</StyledLink>} før du svarer
+					på spørsmålene under
 				</StyledH2>
 
 				<Questions />
@@ -88,8 +88,8 @@ const BackgroundHeader = styled.div`
 	background-image: url(${BackgroundImg});
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin: 2em 0;
 	opacity: 0.8;
+	margin: 1em 0;
 `;
 
 const HeaderIgrunn = styled.h1`
