@@ -88,15 +88,25 @@ const BackgroundHeader = styled.div`
 	background-image: url(${BackgroundImg});
 	background-size: cover;
 	background-repeat: no-repeat;
-	opacity: 0.8;
+	opacity: 0.7;
 	margin: 1em 0;
 `;
 
 const HeaderIgrunn = styled.h1`
-	padding: 1em 0;
+	padding: 0.8em 0;
 	font-size: 4em;
 	text-align: center;
 	color: black;
+	opacity: 1;
+`;
+
+const StyledH2Intro = styled.h2`
+	margin: 0.8em auto;
+	font-weight: bold;
+	padding: 1em 3em;
+	width: 85%;
+	text-align: left;
+	opacity: 1;
 `;
 
 const StyledH2 = styled.h2`
@@ -104,14 +114,6 @@ const StyledH2 = styled.h2`
 	font-weight: bold;
 	padding: 1em 0 3em 0;
 	width: 75%;
-	text-align: left;
-`;
-
-const StyledH2Intro = styled.h2`
-	margin: 1em auto;
-	font-weight: bold;
-	padding: 1em 3em;
-	width: 85%;
 	text-align: left;
 `;
 
