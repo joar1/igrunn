@@ -55,6 +55,6 @@ const ImageContainer = styled.div`
 	img {
 		height: 600px;
 		width: 600px;
-		border-radius: 50px;
+		border-radius: 20px;
 	}
 `;

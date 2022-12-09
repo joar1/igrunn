@@ -36,7 +36,7 @@ const ServiceContainer = styled.div`
 
 const StyledParagraph = styled.p`
 	width: 60%;
-	text-align: center;
+	text-align: left;
 	word-wrap: normal;
 	margin-bottom: 2em;
 `;

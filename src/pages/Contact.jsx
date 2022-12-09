@@ -31,9 +31,9 @@ const ContactContainer = styled.div`
 const ContactDiv = styled.div`
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	text-align: left;
 	justify-content: center;
-	width: 50vh;
+	width: 40vh;
 	height: 80vh;
 	margin: 0 auto;
 `;
