@@ -93,7 +93,7 @@ const BackgroundHeader = styled.div`
 `;
 
 const HeaderIgrunn = styled.h1`
-	padding: 1em 0 1em 0;
+	padding: 1em 0;
 	font-size: 4em;
 	text-align: center;
 	color: black;
@@ -111,7 +111,7 @@ const StyledH2Intro = styled.h2`
 	margin: 1em auto;
 	font-weight: bold;
 	padding: 1em 3em;
-	width: 75%;
+	width: 85%;
 	text-align: left;
 `;
 
