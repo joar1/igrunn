@@ -64,7 +64,7 @@ function Home() {
 					/>
 
 					<News
-						img='https://www.tu.no/_next/image?url=https%3A%2F%2Fimages.gfx.no%2F1000x563%2F2051%2F2051690%2FKjoling%2520med%2520bergvarme.jpg&w=1080&q=75'
+						img='https://www.tu.no/_next/image?url=https%3A%2F%2Fimages.gfx.no%2F1000x%2F2051%2F2051691%2Fluft-luft%2520kjoling.jpg&w=1080&q=75'
 						title='Grunnvarmeanlegg er suverent for både kjøling og oppvarming'
 						subTitle='- De som har en varmepumpe basert på bergvarme, er i en enda bedre situasjon når de ønsker å kjøle ned boligen. De trenger ikke kjøre varmepumpa i det hele tatt. Det holder å kjøre sirkulasjonspumpa som flytter væske ned og opp av brønnen som ofte er rundt 200 meter dyp. I fjell er årstemperaturen jevn på noen plussgrader. Det er et overlegent varmereservoar om vinteren, da man slipper det store termiske løftet som luft-til-luft-varmepumper har, men det er overlegent i kjølesesongen også. Da kan man sirkulere «bergkulde» gjennom anlegget uten at pumpa går og det krever svært lite strøm.'
 						link='https://www.tu.no/artikler/derfor-er-det-billig-a-kjole-boligen-med-varmepumpe/396348?fbclid=IwAR1EmGDBujY-25OW82quliUNCec5d8h4Wewm-96JolmfCOa7lZMqHEm9mN0'
