@@ -11,7 +11,6 @@ function BasicHeating() {
 	return (
 		<>
 			<Navbar />
-			<HeaderH1 id='Grunnvarme'>Litt om grunnvarme</HeaderH1>
 
 			<CardLeft
 				img={Bilde2}

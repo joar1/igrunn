@@ -43,20 +43,6 @@ function Home() {
 					</StyledH2Intro>
 				</BackgroundHeader>
 
-				{/* <CardRight
-					img={Bilde1NoBg}
-					paragraph='Slik fungerer det:
-				Skriv inn adresse og svar på noen korte spørsmål. Vi vil i løpet av kort tid komme tilbake til deg med foreslått størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud på komplett grunnvarmeanlegg. Har dere allerede bestilt innvending VVS kan vi også levere energibrønnen alene. Dersom det er vannbrønn dere ønsker, klikk her (link til vannbrønn i Tjenester-meny)'
-				/> */}
-
-				{/* <StyledH2>
-					Lurer du på mer om teknologien, eller om den passer for deg, kan du
-					klikke deg inn {<StyledLink to='/grunnvarme'>grunnvarme</StyledLink>}{' '}
-					eller {''}
-					{<StyledLink to='tilgjenglig'>tilgjenglig</StyledLink>} før du svarer
-					på spørsmålene under
-				</StyledH2> */}
-
 				<Questions />
 
 				<NewsTitle>Nyheter!</NewsTitle>
