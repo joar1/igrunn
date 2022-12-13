@@ -4,9 +4,10 @@ import News from '../components/News';
 import Questions from '../components/Questions';
 import Footer from '../components/Footer';
 import BackgroundImg from '../images/background.jpg';
-import Bilde1NoBg from '../images/bilde1-nobg.png';
+// import Bilde1NoBg from '../images/bilde1-nobg.png';
 import { Link } from 'react-router-dom';
-import { CardRight } from '../components/Card';
+import FormInput from '../components/FormInput';
+// import { CardRight } from '../components/Card';
 
 function Home() {
 	return (
@@ -15,9 +16,8 @@ function Home() {
 				<Navbar />
 
 				<BackgroundHeader>
-					{' '}
 					<HeaderIgrunn>Energien henter du fra Igrunnen</HeaderIgrunn>
-					<StyledH2Intro>
+					<StyledH2>
 						Betydelig redusert strømregning og økt komfort på samme tid, er det
 						mulig? Ved bruk av grunnvarme fra energibrønn og varmepumpe kan du
 						redusere strømforbruk med opptil 50 % samtidig som du øker komforten
@@ -25,28 +25,28 @@ function Home() {
 						vurderer i tillegg lokale grunnforhold sett i sammenheng med antatt
 						energiforbruk, slik at grunnvarmeanlegget blir optimalisert for
 						nettopp deres bolig.
-					</StyledH2Intro>
-					<StyledH2Intro>
+					</StyledH2>
+					<StyledH2>
 						Slik fungerer det: Skriv inn adresse og svar på noen korte spørsmål.
 						Vi vil i løpet av kort tid komme tilbake til deg med foreslått
 						størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud
 						på komplett grunnvarmeanlegg. Har dere allerede bestilt innvending
 						VVS kan vi også levere energibrønnen alene. Dersom det er vannbrønn
 						dere ønsker, {<StyledLink to='tjenester'>klikk Her</StyledLink>}
-					</StyledH2Intro>
-					<StyledH2Intro>
+					</StyledH2>
+					<StyledH2>
 						Lurer du på mer om teknologien, eller om den passer for deg, kan du
-						klikke deg inn{' '}
+						klikke deg inn på{' '}
 						{<StyledLink to='/grunnvarme'>grunnvarme</StyledLink>} eller {''}
 						{<StyledLink to='tilgjenglig'>tilgjenglig</StyledLink>} før du
 						svarer på spørsmålene under
-					</StyledH2Intro>
+					</StyledH2>
 				</BackgroundHeader>
 
+				{/* <FormInput /> */}
 				<Questions />
 
 				<NewsTitle>Nyheter!</NewsTitle>
-
 				<NewsWrapper>
 					<News
 						img='https://akamai.vgc.no/v2/images/23e3d3c7-0706-43a7-9173-a348e6b83f23?fit=crop&format=auto&h=800&w=1200&s=8eea665662384552ef2c180d48c6703af4ef4be8'
@@ -82,7 +82,6 @@ const BackgroundHeader = styled.div`
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 0.7;
-	margin: 1em 0;
 `;
 
 const HeaderIgrunn = styled.h1`
@@ -93,21 +92,13 @@ const HeaderIgrunn = styled.h1`
 	opacity: 1;
 `;
 
-const StyledH2Intro = styled.h2`
+const StyledH2 = styled.h2`
 	margin: 0.8em auto;
 	font-weight: bold;
 	padding: 1em 3em;
 	width: 85%;
 	text-align: left;
 	opacity: 1;
-`;
-
-const StyledH2 = styled.h2`
-	margin: 0 auto;
-	font-weight: bold;
-	padding: 1em 0 3em 0;
-	width: 75%;
-	text-align: left;
 `;
 
 const NewsTitle = styled.h2`

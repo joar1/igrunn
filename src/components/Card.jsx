@@ -15,7 +15,6 @@ export function CardLeft(props) {
 						{props.linkName}
 					</a>
 					<p>{props.paragraphThree}</p>
-					<p>{props.paragraphFour}</p>
 				</TextDivLeft>
 			</CardDiv>
 		</CardContainer>
@@ -32,7 +31,6 @@ export function CardRight(props) {
 					<p>{props.paragraph}</p>
 					<p>{props.paragraphTwo}</p>
 					<p>{props.paragraphThree}</p>
-					<p>{props.paragraphFour}</p>
 				</TextDiv>
 				<img src={props.img} alt='#' />
 			</CardDiv>

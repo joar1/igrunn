@@ -8,8 +8,8 @@ function Questions() {
 				<p>Skriv inn din adresse.</p>
 				<p>
 					Vet du totalt årsforbruk i kWt for bolig forrige år, eller gjerne
-					snitt fra 3 siste år? {<br />}Kan hentes på «Min side» hos nettleie-
-					og/eller strømleverandør. {<br />} Dersom ikke, la være blankt.
+					snitt fra 3 siste år? (Kan hentes på «Min side» hos nettleie- og/eller
+					strømleverandør.) {<br />} Dersom ikke, la være blankt.
 				</p>
 				<p>Bruksareal på bolig (m2)?</p>
 				<p>Byggeår bolig?</p>
@@ -53,6 +53,7 @@ const QuestionText = styled.p`
 	margin: 2em auto;
 	text-align: left;
 	p {
+		margin-top: 0.4em;
 		font-size: 1.3em;
 	}
 `;
