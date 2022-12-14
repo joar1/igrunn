@@ -91,16 +91,15 @@ const HeaderIgrunn = styled.h1`
 	font-size: 4em;
 	text-align: center;
 	color: black;
-	opacity: 1;
 `;
 
 const StyledH2Intro = styled.h2`
-	margin: 10px auto;
+	border: solid 2px red;
+	margin: 6em auto;
 	font-weight: bold;
-	padding: 130px 3em 0 3em;
+	padding: 10em auto;
 	width: 80%;
 	text-align: left;
-	opacity: 1;
 `;
 
 const StyledH2 = styled.h2`
