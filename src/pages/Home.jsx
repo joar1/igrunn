@@ -94,7 +94,6 @@ const HeaderIgrunn = styled.h1`
 `;
 
 const StyledH2Intro = styled.h2`
-	border: solid 2px red;
 	margin: 150px auto 50px auto;
 	font-weight: bold;
 	padding: 100px auto;
