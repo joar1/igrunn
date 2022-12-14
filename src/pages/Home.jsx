@@ -97,7 +97,7 @@ const StyledH2Intro = styled.h2`
 	border: solid 2px red;
 	margin: 150px auto;
 	font-weight: bold;
-	padding: 10em auto;
+	padding: 100px auto;
 	width: 80%;
 	text-align: left;
 `;
