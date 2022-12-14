@@ -26,22 +26,22 @@ function Home() {
 						energiforbruk, slik at grunnvarmeanlegget blir optimalisert for
 						nettopp deres bolig.
 					</StyledH2>
-					<StyledH2>
-						Slik fungerer det: Skriv inn adresse og svar på noen korte spørsmål.
-						Vi vil i løpet av kort tid komme tilbake til deg med foreslått
-						størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud
-						på komplett grunnvarmeanlegg. Har dere allerede bestilt innvending
-						VVS kan vi også levere energibrønnen alene. Dersom det er vannbrønn
-						dere ønsker, {<StyledLink to='tjenester'>klikk Her</StyledLink>}
-					</StyledH2>
-					<StyledH2>
-						Lurer du på mer om teknologien, eller om den passer for deg, kan du
-						klikke deg inn på{' '}
-						{<StyledLink to='/grunnvarme'>grunnvarme</StyledLink>} eller {''}
-						{<StyledLink to='tilgjenglig'>tilgjenglig</StyledLink>} før du
-						svarer på spørsmålene under
-					</StyledH2>
 				</BackgroundHeader>
+				<StyledH2>
+					Slik fungerer det: Skriv inn adresse og svar på noen korte spørsmål.
+					Vi vil i løpet av kort tid komme tilbake til deg med foreslått
+					størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud på
+					komplett grunnvarmeanlegg. Har dere allerede bestilt innvending VVS
+					kan vi også levere energibrønnen alene. Dersom det er vannbrønn dere
+					ønsker, {<StyledLink to='tjenester'>klikk Her</StyledLink>}
+				</StyledH2>
+				<StyledH2>
+					Lurer du på mer om teknologien, eller om den passer for deg, kan du
+					klikke deg inn på{' '}
+					{<StyledLink to='/grunnvarme'>grunnvarme</StyledLink>} eller {''}
+					{<StyledLink to='tilgjenglig'>tilgjenglig</StyledLink>} før du svarer
+					på spørsmålene under
+				</StyledH2>
 
 				{/* <FormInput /> */}
 				<Questions />
@@ -80,12 +80,14 @@ const HomeContainer = styled.div`
 const BackgroundHeader = styled.div`
 	background-image: url(${BackgroundImg});
 	background-size: cover;
+	/* opacity: 0.7; */
 	background-repeat: no-repeat;
-	opacity: 0.7;
+	background-color: rgba(255, 255, 255, 0.486);
+	background-blend-mode: overlay;
 `;
 
 const HeaderIgrunn = styled.h1`
-	padding: 0.8em 0;
+	padding: 150px 0 280px 0;
 	font-size: 4em;
 	text-align: center;
 	color: black;
@@ -93,7 +95,7 @@ const HeaderIgrunn = styled.h1`
 `;
 
 const StyledH2 = styled.h2`
-	margin: 0.8em auto;
+	margin: 10px auto;
 	font-weight: bold;
 	padding: 1em 3em;
 	width: 85%;
