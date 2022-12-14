@@ -17,7 +17,7 @@ function Home() {
 
 				<BackgroundHeader>
 					<HeaderIgrunn>Energien henter du fra Igrunnen</HeaderIgrunn>
-					<StyledH2>
+					<StyledH2Intro>
 						Betydelig redusert strømregning og økt komfort på samme tid, er det
 						mulig? Ved bruk av grunnvarme fra energibrønn og varmepumpe kan du
 						redusere strømforbruk med opptil 50 % samtidig som du øker komforten
@@ -25,7 +25,7 @@ function Home() {
 						vurderer i tillegg lokale grunnforhold sett i sammenheng med antatt
 						energiforbruk, slik at grunnvarmeanlegget blir optimalisert for
 						nettopp deres bolig.
-					</StyledH2>
+					</StyledH2Intro>
 				</BackgroundHeader>
 				<StyledH2>
 					Slik fungerer det: Skriv inn adresse og svar på noen korte spørsmål.
@@ -94,11 +94,20 @@ const HeaderIgrunn = styled.h1`
 	opacity: 1;
 `;
 
-const StyledH2 = styled.h2`
+const StyledH2Intro = styled.h2`
 	margin: 10px auto;
 	font-weight: bold;
+	padding: 130px 3em 0 3em;
+	width: 80%;
+	text-align: left;
+	opacity: 1;
+`;
+
+const StyledH2 = styled.h2`
+	margin: 0 auto;
+	font-weight: bold;
 	padding: 1em 3em;
-	width: 85%;
+	width: 80%;
 	text-align: left;
 	opacity: 1;
 `;
