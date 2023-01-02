@@ -6,7 +6,6 @@ import Footer from '../components/Footer';
 import BackgroundImg from '../images/background.jpg';
 // import Bilde1NoBg from '../images/bilde1-nobg.png';
 import { Link } from 'react-router-dom';
-import FormInput from '../components/FormInput';
 // import { CardRight } from '../components/Card';
 
 function Home() {
@@ -37,7 +36,7 @@ function Home() {
 				</StyledH2>
 				<StyledH2>
 					Lurer du på mer om teknologien, eller om den passer for deg, kan du
-					klikke deg inn på{' '}
+					klikke deg inn på{' '}
 					{<StyledLink to='/grunnvarme'>grunnvarme</StyledLink>} eller {''}
 					{<StyledLink to='tilgjenglig'>tilgjenglig</StyledLink>} før du svarer
 					på spørsmålene under
@@ -87,17 +86,17 @@ const BackgroundHeader = styled.div`
 `;
 
 const HeaderIgrunn = styled.h1`
-	padding: 150px 0 280px 0;
+	padding: 200px 0 280px 0;
 	font-size: 4em;
 	text-align: center;
 	color: black;
 `;
 
 const StyledH2Intro = styled.h2`
-	margin: 150px auto 50px auto;
+	margin: 100px 20px 50px auto;
 	font-weight: bold;
 	padding: 100px auto;
-	width: 70%;
+	width: 30%;
 	text-align: left;
 `;
 
