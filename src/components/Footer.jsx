@@ -59,7 +59,7 @@ const FooterLogo = styled.div`
 const FooterDiv = styled.div`
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
 	justify-content: center;
 	color: orange;
 	p {
