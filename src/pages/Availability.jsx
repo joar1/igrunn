@@ -60,10 +60,10 @@ const ImageContainer = styled.div`
 	align-items: center;
 	justify-content: space-evenly;
 	margin: 5em auto;
-	width: 100%;
+	width: 80%;
 	img {
-		height: 600px;
-		width: 600px;
+		height: 400px;
+		width: 400px;
 		border-radius: 20px;
 	}
 `;
