@@ -40,36 +40,8 @@ const NewsContainer = styled.div`
 		/* text-underline-offset: 0.3em; */
 	}
 	img {
-		height: 40%;
+		height: 50%;
 		width: 100%;
 		object-fit: contain;
 	}
 `;
-
-// const NewsDiv = styled.div`
-// 	display: flex;
-// 	flex-direction: column;
-// 	align-items: center;
-// 	justify-content: center;
-// 	width: 20%;
-// 	padding: 0.5em;
-// 	margin-bottom: 0.5em;
-// 	border: solid 0.2em red;
-// 	h2 {
-// 		margin-bottom: 0.5em;
-// 		text-align: center;
-// 		text-decoration: underline;
-// 		text-underline-offset: 0.3em;
-// 	}
-// 	a {
-// 		margin-top: 0.5em;
-// 		font-weight: bold;
-// 		color: blue;
-// 		text-underline-offset: 0.3em;
-// 	}
-// 	img {
-// 		height: 40%;
-// 		width: 100%;
-// 		object-fit: contain;
-// 	}
-// `;

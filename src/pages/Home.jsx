@@ -62,6 +62,14 @@ function Home() {
 						link='https://www.tu.no/artikler/derfor-er-det-billig-a-kjole-boligen-med-varmepumpe/396348?fbclid=IwAR1EmGDBujY-25OW82quliUNCec5d8h4Wewm-96JolmfCOa7lZMqHEm9mN0'
 						linkName='- Derfor er det billig å kjøle boligen med varmepumpe - Tu.no'
 					/>
+
+					<News
+						img='https://www.dagsavisen.no/resizer/4Pel4t6QRz8kEX32tl_zi0O5K0Y=/980x653/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/mentormedier/MN26WBWFWNCYXPTK4JKWR5HGHQ.jpg'
+						title='Antallet energibrønner i Norge har passert 50.000.'
+						subTitle=' – Med en energipris på to kroner per kilowattime, utgjør besparelsen på Skaugum 650.000 kroner i året, fortsetter Sveine. Bygget bruker like mye energi som tidligere, men man henter altså 60-70 prosent gratisenergi fra energibrønnene.'
+						link='https://www.dagsavisen.no/nyheter/innenriks/2022/08/25/populaert-tiltak-for-a-bremse-stromkostnadene-na-far-kronprinsparet-energibronner/'
+						linkName=' - Populært tiltak for å bremse strømkostnadene: Nå får kronprinsparet energibrønner'
+					/>
 				</NewsWrapper>
 
 				<Footer />

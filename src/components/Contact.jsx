@@ -87,8 +87,9 @@ function Contact() {
 export default Contact;
 
 const StyledContactForm = styled.div`
-	width: 400px;
-	margin: 5em auto;
+	/* width: 400px; */
+	width: 30em;
+	margin: 1em auto;
 	h2 {
 		font-size: 3em;
 		text-align: center;
@@ -134,6 +135,7 @@ const StyledContactForm = styled.div`
 		}
 		input[type='submit'] {
 			margin-top: 2rem;
+			margin-bottom: 4em;
 			cursor: pointer;
 			background: orange;
 			color: white;
