@@ -45,7 +45,7 @@ function Home() {
 
 				{/* <Questions /> */}
 
-				<NewsTitle>Nyheter!</NewsTitle>
+				<NewsTitle>Nyheter</NewsTitle>
 				<NewsWrapper>
 					<News
 						img='https://akamai.vgc.no/v2/images/23e3d3c7-0706-43a7-9173-a348e6b83f23?fit=crop&format=auto&h=800&w=1200&s=8eea665662384552ef2c180d48c6703af4ef4be8'

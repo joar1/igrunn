@@ -48,7 +48,7 @@ const CardDiv = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 	img {
 		height: 700px;
