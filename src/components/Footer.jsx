@@ -23,7 +23,7 @@ function Footer() {
 			</FooterDiv>
 
 			<FooterDiv>
-				<p>Send oss en epost</p>
+				<StyledA href='mailto:someone@yoursite.com'>Send oss en epost</StyledA>
 				<p>Ledige stillinger</p>
 			</FooterDiv>
 
@@ -81,6 +81,16 @@ const SoMeLinks = styled.a`
 `;
 
 const StyledLink = styled(Link)`
+	text-decoration: none;
+	color: orange;
+	margin-top: 0.2em;
+	&:hover {
+		text-decoration: underline;
+		text-underline-offset: 0.3em;
+	}
+`;
+
+const StyledA = styled.a`
 	text-decoration: none;
 	color: orange;
 	margin-top: 0.2em;
