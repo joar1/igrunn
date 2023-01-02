@@ -45,6 +45,8 @@ const ImageContainer = styled.div`
 	margin: 5em auto;
 	width: 100%;
 	img {
+		max-width: 100%;
+		display: block;
 		height: 600px;
 		width: 600px;
 		border-radius: 20px;

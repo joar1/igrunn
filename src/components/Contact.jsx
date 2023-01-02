@@ -132,10 +132,10 @@ const StyledContactForm = styled.div`
 			}
 		}
 		label {
-			margin-top: 1rem;
+			margin-top: 1em;
 		}
 		input[type='submit'] {
-			margin-top: 2rem;
+			margin-top: 2em;
 			margin-bottom: 4em;
 			cursor: pointer;
 			background: orange;

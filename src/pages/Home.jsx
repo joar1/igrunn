@@ -91,6 +91,7 @@ const BackgroundHeader = styled.div`
 	background-repeat: no-repeat;
 	background-color: rgba(255, 255, 255, 0.486);
 	background-blend-mode: overlay;
+	padding: 2em auto;
 `;
 
 const HeaderIgrunn = styled.h1`

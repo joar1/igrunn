@@ -40,6 +40,8 @@ const NewsContainer = styled.div`
 		/* text-underline-offset: 0.3em; */
 	}
 	img {
+		max-width: 100%;
+		display: block;
 		height: 50%;
 		width: 100%;
 		object-fit: contain;

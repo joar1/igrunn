@@ -51,6 +51,8 @@ const CardDiv = styled.div`
 	width: 80%;
 	margin: 0 auto;
 	img {
+		max-width: 100%;
+		display: block;
 		height: 700px;
 		width: 700px;
 		object-fit: contain;
