@@ -49,7 +49,7 @@ const QuestionContainer = styled.div`
 
 const QuestionText = styled.p`
 	line-height: 1.4;
-	width: 50%;
+	width: 73%;
 	margin: 2em auto;
 	text-align: left;
 	p {

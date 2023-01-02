@@ -4,9 +4,7 @@ import News from '../components/News';
 import Questions from '../components/Questions';
 import Footer from '../components/Footer';
 import BackgroundImg from '../images/background.jpg';
-// import Bilde1NoBg from '../images/bilde1-nobg.png';
 import { Link } from 'react-router-dom';
-// import { CardRight } from '../components/Card';
 
 function Home() {
 	return (

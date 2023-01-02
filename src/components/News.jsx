@@ -22,6 +22,7 @@ const NewsContainer = styled.div`
 	justify-content: center;
 	text-align: left;
 	width: 33%;
+	line-height: 1.4;
 	padding: 0.5em;
 	margin: 0.5em;
 	background: #fffdfa;
