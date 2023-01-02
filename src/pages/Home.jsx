@@ -5,6 +5,7 @@ import Questions from '../components/Questions';
 import Footer from '../components/Footer';
 import BackgroundImg from '../images/background.jpg';
 import { Link } from 'react-router-dom';
+import Contact from '../components/Contact';
 
 function Home() {
 	return (
@@ -40,8 +41,9 @@ function Home() {
 					på spørsmålene under
 				</StyledH2>
 
-				{/* <FormInput /> */}
-				<Questions />
+				<Contact />
+
+				{/* <Questions /> */}
 
 				<NewsTitle>Nyheter!</NewsTitle>
 				<NewsWrapper>
