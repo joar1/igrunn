@@ -10,7 +10,7 @@ function Availability() {
 			<Navbar />
 			<AvailabilityContainer>
 				{' '}
-				<HeaderH1>Passer dette min bolig?</HeaderH1>
+				{/* <HeaderH1>Passer dette min bolig?</HeaderH1> */}
 				<StyledParagraph>
 					For å benytte seg av grunnvarme gir det mest mening om du har
 					vannbåren varme installert- som gir stabil og behagelig innetemperatur
@@ -53,17 +53,16 @@ const AvailabilityContainer = styled.div`
 	width: 80%;
 `;
 
-const HeaderH1 = styled.h1`
-	padding: 0.8em 0;
-	font-size: 3.5em;
-	text-align: center;
-	color: orange;
-`;
+// const HeaderH1 = styled.h1`
+// 	padding: 0.8em 0;
+// 	font-size: 3.5em;
+// 	text-align: center;
+// 	color: orange;
+// `;
 
 const StyledParagraph = styled.p`
 	text-align: left;
-	margin: 1em auto;
-	margin-bottom: 2em;
+	margin: 3em auto 2em auto;
 	font-size: 2em;
 `;
 
