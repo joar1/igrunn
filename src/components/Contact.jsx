@@ -29,74 +29,84 @@ function Contact() {
 	};
 
 	return (
-		<StyledContactForm>
-			<h2>Spørsmål</h2>
-			<form ref={form} onSubmit={sendEmail}>
-				<label>Navn</label>
-				<input type='text' name='user_name' required />
+		<ContactWrapper>
+			<StyledContactForm>
+				<h2>Spørsmål</h2>
+				<form ref={form} onSubmit={sendEmail}>
+					<label>Navn</label>
+					<input type='text' name='user_name' required />
 
-				<label>Email</label>
-				<input type='email' name='user_email' required />
+					<label>Email</label>
+					<input type='email' name='user_email' required />
 
-				<label>Skriv din adresse</label>
-				<input type='text' name='user_adresse' required />
+					<label>Skriv din adresse</label>
+					<input type='text' name='user_adresse' required />
 
-				<label>
-					Vet du totalt årsforbruk i kWt for bolig forrige år, eller gjerne
-					snitt fra 3 siste år? (Kan hentes på «Min side» hos nettleie- og/eller
-					strømleverandør.) Dersom ikke, la være blankt.
-				</label>
-				<input type='number' name='user_kwt' />
+					<label>
+						Vet du totalt årsforbruk i kWt for bolig forrige år, eller gjerne
+						snitt fra 3 siste år? (Kan hentes på «Min side» hos nettleie-
+						og/eller strømleverandør.) Dersom ikke, la være blankt.
+					</label>
+					<input type='number' name='user_kwt' />
 
-				<label>Bruksareal på bolig (m2)?</label>
-				<input type='number' name='user_m2' required />
+					<label>Bruksareal på bolig (m2)?</label>
+					<input type='number' name='user_m2' required />
 
-				<label>Byggeår bolig?</label>
-				<input type='number' name='user_build' required />
+					<label>Byggeår bolig?</label>
+					<input type='number' name='user_build' required />
 
-				<label>Er bolig etterisolert?</label>
-				<input type='text' name='user_isolation' required />
+					<label>Er bolig etterisolert?</label>
+					<input type='text' name='user_isolation' required />
 
-				<label>Hvor mange husstandsmedlemmer?</label>
-				<input type='number' name='user_members' required />
+					<label>Hvor mange husstandsmedlemmer?</label>
+					<input type='number' name='user_members' required />
 
-				<label>Har dere badekar?</label>
-				<input type='text' name='user_bathtub' required />
+					<label>Har dere badekar?</label>
+					<input type='text' name='user_bathtub' required />
 
-				<label>Har boligen et kjølebehov?</label>
-				<input type='text' name='user_cooling' required />
+					<label>Har boligen et kjølebehov?</label>
+					<input type='text' name='user_cooling' required />
 
-				<label>
-					Har dere vannbåren varme, eller ønsker dere tilbud på dette?
-				</label>
-				<input type='text' name='user_water' required />
+					<label>
+						Har dere vannbåren varme, eller ønsker dere tilbud på dette?
+					</label>
+					<input type='text' name='user_water' required />
 
-				<label>
-					Har dere allerede bestilt varmepumpe, og hva er i tilfelle
-					effektstørrelse (kW).?
-				</label>
-				<input type='text' name='user_heatPump' required />
+					<label>
+						Har dere allerede bestilt varmepumpe, og hva er i tilfelle
+						effektstørrelse (kW).?
+					</label>
+					<input type='text' name='user_heatPump' required />
 
-				<label>Til slutt, har dere noen kommentarer eller ønsker?</label>
-				<textarea name='message' />
-				<input type='submit' value='Send' required />
-			</form>
-		</StyledContactForm>
+					<label>Til slutt, har dere noen kommentarer eller ønsker?</label>
+					<textarea name='message' />
+					<input type='submit' value='Send' required />
+				</form>
+			</StyledContactForm>
+		</ContactWrapper>
 	);
 }
 
 export default Contact;
 
+const ContactWrapper = styled.div`
+	background: #ada7a7;
+	border-radius: 2%;
+	width: 70em;
+	margin: 0em auto;
+`;
+
 const StyledContactForm = styled.div`
 	/* width: 400px; */
-	width: 30em;
+	width: 40em;
 	margin: 1em auto;
 	h2 {
 		font-size: 3em;
 		text-align: center;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
-		margin: 1em 0;
+		padding: 1em 0;
+		margin: 0;
 	}
 
 	form {
@@ -141,6 +151,7 @@ const StyledContactForm = styled.div`
 			background: orange;
 			color: white;
 			border: none;
+			font-weight: 600;
 		}
 	}
 `;

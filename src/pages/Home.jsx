@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import Navbar from '../components/Navbar';
 import News from '../components/News';
-import Questions from '../components/Questions';
 import Footer from '../components/Footer';
 import BackgroundImg from '../images/background.jpg';
 import { Link } from 'react-router-dom';
@@ -43,8 +42,6 @@ function Home() {
 
 				<Contact />
 
-				{/* <Questions /> */}
-
 				<NewsTitle>Nyheter</NewsTitle>
 				<NewsWrapper>
 					<News
@@ -81,13 +78,12 @@ function Home() {
 export default Home;
 
 const HomeContainer = styled.div`
-	background: #fffdfa;
+	background: #eaeff2;
 `;
 
 const BackgroundHeader = styled.div`
 	background-image: url(${BackgroundImg});
 	background-size: cover;
-	/* opacity: 0.7; */
 	background-repeat: no-repeat;
 	background-color: rgba(255, 255, 255, 0.486);
 	background-blend-mode: overlay;
@@ -133,7 +129,7 @@ const NewsWrapper = styled.div`
 	width: auto;
 	margin: 0 auto;
 	padding: 2em 0;
-	background: #e5e5e5;
+	background: #eaeff2;
 `;
 
 const StyledLink = styled(Link)`

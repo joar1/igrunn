@@ -23,6 +23,7 @@ const NewsContainer = styled.div`
 	text-align: left;
 	width: 33%;
 	line-height: 1.4;
+	border-radius: 1%;
 	padding: 0.5em;
 	margin: 0.5em;
 	background: #fffdfa;
@@ -37,7 +38,6 @@ const NewsContainer = styled.div`
 		font-weight: bold;
 		color: blue;
 		text-decoration: none;
-		/* text-underline-offset: 0.3em; */
 	}
 	img {
 		max-width: 100%;
