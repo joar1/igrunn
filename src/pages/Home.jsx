@@ -89,25 +89,33 @@ const HeroSection = styled.div`
 	background-repeat: no-repeat;
 	background-color: rgba(255, 255, 255, 0.486);
 	background-blend-mode: overlay;
-	height: 100vh;
-	width: 100vw;
-	max-width: 100%;
+	img {
+		height: 100vh;
+		width: 100vw;
+		max-width: 100%;
+	}
+
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat(4, 1fr);
 `;
 
 const HeaderIgrunn = styled.h1`
-	position: absolute;
-	margin: 2em 4em 0 4em;
 	font-size: 4em;
 	text-align: center;
-	color: black;
+	grid-row: 10;
+	grid-column: 1 / 5;
+	margin: 0 auto;
+	width: 100%;
 `;
 
 const StyledH2Intro = styled.h2`
-	position: absolute;
-	margin: 20em 0 0 37em;
 	font-weight: bold;
-	width: 40%;
 	text-align: left;
+	grid-row: 30;
+	grid-column: 3 / 10;
+	margin: 0 auto;
+	width: 70%;
 `;
 
 const StyledH2 = styled.h2`
