@@ -12,7 +12,7 @@ function Home() {
 			<HomeContainer>
 				<Navbar />
 
-				<BackgroundHeader>
+				<HeroSection>
 					<HeaderIgrunn>Energien henter du fra Igrunnen</HeaderIgrunn>
 					<StyledH2Intro>
 						Betydelig redusert strømregning og økt komfort på samme tid, er det
@@ -23,7 +23,8 @@ function Home() {
 						energiforbruk, slik at grunnvarmeanlegget blir optimalisert for
 						nettopp deres bolig.
 					</StyledH2Intro>
-				</BackgroundHeader>
+				</HeroSection>
+
 				<StyledH2>
 					Slik fungerer det: {<br />} Skriv inn adresse og svar på noen korte
 					spørsmål. Vi vil i løpet av kort tid komme tilbake til deg med
@@ -82,17 +83,22 @@ const HomeContainer = styled.div`
 	background: #eaeff2;
 `;
 
-const BackgroundHeader = styled.div`
+const HeroSection = styled.div`
 	background-image: url(${BackgroundImg});
-	background-size: contain;
+	position: relative;
+	background-position: 50% 50%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: rgba(255, 255, 255, 0.486);
 	background-blend-mode: overlay;
-	padding: 2em auto;
+	height: 100vh;
+	width: 100vw;
+	max-width: 100%;
 `;
 
 const HeaderIgrunn = styled.h1`
-	padding: 160px 0 280px 0;
+	margin: 0;
+	padding: 100px 0 230px 0;
 	font-size: 4em;
 	text-align: center;
 	color: black;
@@ -101,19 +107,17 @@ const HeaderIgrunn = styled.h1`
 const StyledH2Intro = styled.h2`
 	margin: 0 0 0 auto;
 	font-weight: bold;
-	padding: 100px auto;
-	width: 30%;
+	width: 45%;
 	text-align: left;
-	padding: 1em 1em 2em 0;
+	padding: 4em 1em 0 3em;
 `;
 
 const StyledH2 = styled.h2`
-	margin: 1em auto;
+	margin: 0 auto;
 	font-weight: bold;
 	padding: 1em 3em;
 	width: 80%;
 	text-align: left;
-	opacity: 1;
 `;
 
 const NewsTitle = styled.h2`
