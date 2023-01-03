@@ -83,7 +83,7 @@ const HomeContainer = styled.div`
 
 const BackgroundHeader = styled.div`
 	background-image: url(${BackgroundImg});
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: rgba(255, 255, 255, 0.486);
 	background-blend-mode: overlay;
@@ -91,18 +91,19 @@ const BackgroundHeader = styled.div`
 `;
 
 const HeaderIgrunn = styled.h1`
-	padding: 200px 0 280px 0;
+	padding: 160px 0 280px 0;
 	font-size: 4em;
 	text-align: center;
 	color: black;
 `;
 
 const StyledH2Intro = styled.h2`
-	margin: 100px 20px 50px auto;
+	margin: 0 0 0 auto;
 	font-weight: bold;
 	padding: 100px auto;
 	width: 30%;
 	text-align: left;
+	padding: 1em 1em 2em 0;
 `;
 
 const StyledH2 = styled.h2`
