@@ -39,4 +39,5 @@ const StyledParagraph = styled.p`
 	text-align: left;
 	word-wrap: normal;
 	margin-bottom: 2em;
+	font-size: 2em;
 `;

@@ -74,4 +74,5 @@ const StyledParagraph = styled.p`
 	word-wrap: normal;
 	margin: 0 auto;
 	margin-bottom: 2em;
+	font-size: 2em;
 `;
