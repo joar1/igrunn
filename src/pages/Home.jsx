@@ -85,6 +85,7 @@ const HomeContainer = styled.div`
 
 const HeroSection = styled.div`
 	background-image: url(${BackgroundImg});
+	position: relative;
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -96,19 +97,19 @@ const HeroSection = styled.div`
 `;
 
 const HeaderIgrunn = styled.h1`
-	margin: 0;
-	padding: 100px 0 230px 0;
+	position: absolute;
+	margin: 2em 4em 0 4em;
 	font-size: 4em;
 	text-align: center;
 	color: black;
 `;
 
 const StyledH2Intro = styled.h2`
-	margin: 0 0 0 auto;
+	position: absolute;
+	margin: 20em 0 0 37em;
 	font-weight: bold;
-	width: 45%;
+	width: 40%;
 	text-align: left;
-	padding: 4em 1em 0 3em;
 `;
 
 const StyledH2 = styled.h2`
