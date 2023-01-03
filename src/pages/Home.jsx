@@ -85,37 +85,32 @@ const HomeContainer = styled.div`
 
 const HeroSection = styled.div`
 	background-image: url(${BackgroundImg});
+	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: rgba(255, 255, 255, 0.486);
 	background-blend-mode: overlay;
-	img {
-		height: 100vh;
-		width: 100vw;
-		max-width: 100%;
-	}
+	height: 100vh;
+	width: 100vw;
+	max-width: 100%;
 
 	display: grid;
-	grid-gap: 15px;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 3fr 1fr;
 `;
 
 const HeaderIgrunn = styled.h1`
-	font-size: 4em;
+	font-size: 5em;
+	font-weight: bolder;
 	text-align: center;
-	grid-row: 10;
-	grid-column: 1 / 5;
 	margin: 0 auto;
-	width: 100%;
+	grid-area: 2 / 2 / 3 / 3;
 `;
 
 const StyledH2Intro = styled.h2`
 	font-weight: bold;
 	text-align: left;
-	grid-row: 30;
-	grid-column: 3 / 10;
-	margin: 0 auto;
-	width: 70%;
+	grid-area: 3 / 3 / 4 / 4;
 `;
 
 const StyledH2 = styled.h2`
