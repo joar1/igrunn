@@ -6,17 +6,15 @@ function Services() {
 		<>
 			<Navbar />
 			<ServiceContainer>
-				<StyledParagraph>
-					Energibrønner, ferdig montert varmepumpe.
-				</StyledParagraph>
-				<StyledParagraph>
-					Vannbrønner, ferdig montert med nedihullspumpe og vanngaranti
-				</StyledParagraph>
-				<StyledParagraph>
-					Konsulenttjenester for deg som trenger grunnvarmeanlegg større enn til
-					et standard bolighus
-				</StyledParagraph>
-				<StyledParagraph>VVS /Varmepumpe etc.</StyledParagraph>
+				<ul>
+					<li>Energibrønner, ferdig montert varmepumpe.</li>
+					<li>Vannbrønner, ferdig montert med nedihullspumpe og vanngaranti</li>
+					<li>
+						Konsulenttjenester for deg som trenger grunnvarmeanlegg større enn
+						til et standard bolighus
+					</li>
+					<li>VVS /Varmepumpe etc.</li>
+				</ul>
 			</ServiceContainer>
 		</>
 	);
@@ -30,14 +28,14 @@ const ServiceContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 	margin: 12em auto;
-	width: 80%;
-	background: #fffdfa;
-`;
-
-const StyledParagraph = styled.p`
-	width: 60%;
-	text-align: left;
-	word-wrap: normal;
-	margin-bottom: 2em;
-	font-size: 2em;
+	width: 50%;
+	ul {
+		margin: 0 auto;
+	}
+	li {
+		list-style: none;
+		font-size: 2em;
+		margin-bottom: 1em;
+		line-height: 1.2em;
+	}
 `;
