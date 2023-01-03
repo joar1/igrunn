@@ -128,7 +128,7 @@ const NewsWrapper = styled.div`
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
-	width: auto;
+	width: 75%;
 	margin: 0 auto;
 	padding: 2em 0;
 	background: #eaeff2;
