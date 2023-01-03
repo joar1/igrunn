@@ -25,17 +25,18 @@ function Home() {
 					</StyledH2Intro>
 				</BackgroundHeader>
 				<StyledH2>
-					Slik fungerer det: Skriv inn adresse og svar på noen korte spørsmål.
-					Vi vil i løpet av kort tid komme tilbake til deg med foreslått
-					størrelse på varmepumpe og dybde på brønn, og kommer med et tilbud på
-					komplett grunnvarmeanlegg. Har dere allerede bestilt innvending VVS
-					kan vi også levere energibrønnen alene. Dersom det er vannbrønn dere
-					ønsker, {<StyledLink to='tjenester'>klikk Her</StyledLink>}
-				</StyledH2>
-				<StyledH2>
+					Slik fungerer det: {<br />} Skriv inn adresse og svar på noen korte
+					spørsmål. Vi vil i løpet av kort tid komme tilbake til deg med
+					foreslått størrelse på varmepumpe og dybde på brønn, og kommer med et
+					tilbud på komplett grunnvarmeanlegg. Har dere allerede bestilt
+					innvending VVS kan vi også levere energibrønnen alene. Dersom det er
+					vannbrønn dere ønsker{' '}
+					{<StyledLink to='tjenester'>klikk Her</StyledLink>}
+					{<br />}
+					{<br />}
 					Lurer du på mer om teknologien, eller om den passer for deg, kan du
-					klikke deg inn på{' '}
-					{<StyledLink to='/grunnvarme'>grunnvarme</StyledLink>} eller {''}
+					klikke deg inn på{' '}
+					{<StyledLink to='/grunnvarme'>grunnvarme</StyledLink>} eller{' '}
 					{<StyledLink to='tilgjenglig'>tilgjenglig</StyledLink>} før du svarer
 					på spørsmålene under
 				</StyledH2>
@@ -107,7 +108,7 @@ const StyledH2Intro = styled.h2`
 `;
 
 const StyledH2 = styled.h2`
-	margin: 0 auto;
+	margin: 1em auto;
 	font-weight: bold;
 	padding: 1em 3em;
 	width: 80%;
