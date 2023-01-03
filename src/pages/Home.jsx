@@ -85,7 +85,6 @@ const HomeContainer = styled.div`
 
 const HeroSection = styled.div`
 	background-image: url(${BackgroundImg});
-	position: relative;
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
