@@ -62,8 +62,9 @@ const AvailabilityContainer = styled.div`
 
 const StyledParagraph = styled.p`
 	text-align: left;
-	margin: 3em auto 2em auto;
-	font-size: 2em;
+	margin: 2em auto 2em auto;
+	font-size: 2.5em;
+	padding: 2em;
 `;
 
 const ImageContainer = styled.div`
