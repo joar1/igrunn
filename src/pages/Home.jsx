@@ -111,7 +111,6 @@ const HeaderIgrunn = styled.h1`
 
 const StyledH2Intro = styled.h2`
 	font-weight: bold;
-	font-size: 1.6em;
 	line-height: 1.3;
 	text-align: left;
 	grid-column: 3;
