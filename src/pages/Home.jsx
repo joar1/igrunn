@@ -93,10 +93,11 @@ const HeroSection = styled.div`
 	height: 100vh;
 	width: 100vw;
 	max-width: 100%;
+	padding: 1em;
 
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 1fr 3fr 1fr;
+	grid-gap: 1em;
+	grid-template: repeat(4, 1fr) / repeat(3, 1fr);
 `;
 
 const HeaderIgrunn = styled.h1`
@@ -104,17 +105,19 @@ const HeaderIgrunn = styled.h1`
 	font-weight: bolder;
 	text-align: center;
 	margin: 0 auto;
-	grid-area: 2 / 2 / 3 / 3;
+	grid-column: 2;
+	grid-row: 2;
 `;
 
 const StyledH2Intro = styled.h2`
 	font-weight: bold;
 	text-align: left;
-	grid-area: 3 / 3 / 4 / 4;
+	grid-column: 3;
+	grid-row: 4;
 `;
 
 const StyledH2 = styled.h2`
-	margin: 0 auto;
+	margin: 8em auto 1em auto;
 	font-weight: bold;
 	padding: 1em 3em;
 	width: 80%;
@@ -126,7 +129,8 @@ const NewsTitle = styled.h2`
 	text-align: center;
 	text-decoration: underline;
 	text-underline-offset: 0.3em;
-	margin: 0.5em 0;
+	margin-top: 5em;
+	margin-bottom: 0.5em;
 `;
 
 const NewsWrapper = styled.div`
