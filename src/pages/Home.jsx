@@ -124,7 +124,7 @@ const StyledH2 = styled.h2`
 	font-weight: bold;
 	font-size: 2em;
 	line-height: 1.3;
-	width: 80%;
+	width: 70%;
 `;
 
 const NewsTitle = styled.h2`
