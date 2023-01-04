@@ -73,7 +73,7 @@ const TextDiv = styled.div`
 		margin-top: 0.4em;
 	}
 	p {
-		font-size: 1.5em;
+		font-size: 1.8em;
 		margin-top: 0.8em;
 		width: 80%;
 	}
@@ -95,7 +95,7 @@ const TextDivLeft = styled.div`
 		text-align: left;
 		margin-left: auto;
 		margin-top: 0.8em;
-		font-size: 1.5em;
+		font-size: 1.8em;
 		width: 80%;
 	}
 	a {

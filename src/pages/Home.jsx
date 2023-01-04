@@ -32,7 +32,7 @@ function Home() {
 					tilbud på komplett grunnvarmeanlegg. Har dere allerede bestilt
 					innvending VVS kan vi også levere energibrønnen alene. Dersom det er
 					vannbrønn dere ønsker{' '}
-					{<StyledLink to='tjenester'>klikk Her</StyledLink>}
+					{<StyledLink to='tjenester'>klikk her</StyledLink>}
 					{<br />}
 					{<br />}
 					Lurer du på mer om teknologien, eller om den passer for deg, kan du
@@ -103,14 +103,16 @@ const HeroSection = styled.div`
 const HeaderIgrunn = styled.h1`
 	font-size: 5em;
 	font-weight: bolder;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
-	grid-column: 2;
+	grid-column: 1/4;
 	grid-row: 2;
 `;
 
 const StyledH2Intro = styled.h2`
 	font-weight: bold;
+	font-size: 1.6em;
+	line-height: 1.3;
 	text-align: left;
 	grid-column: 3;
 	grid-row: 4;
@@ -118,18 +120,21 @@ const StyledH2Intro = styled.h2`
 
 const StyledH2 = styled.h2`
 	margin: 8em auto 1em auto;
-	font-weight: bold;
 	padding: 1em 3em;
-	width: 80%;
 	text-align: left;
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 1.3;
+	width: 80%;
 `;
 
 const NewsTitle = styled.h2`
-	font-size: 3em;
+	font-weight: bold;
+	font-size: 5em;
 	text-align: center;
 	text-decoration: underline;
 	text-underline-offset: 0.3em;
-	margin-top: 5em;
+	margin-top: 2em;
 	margin-bottom: 0.5em;
 `;
 
