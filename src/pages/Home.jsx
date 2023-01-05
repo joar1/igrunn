@@ -25,23 +25,24 @@ function Home() {
 					</StyledH2Intro>
 				</HeroSection>
 
-				<StyledH2>
-					Slik fungerer det: {<br />} Skriv inn adresse og svar på noen korte
-					spørsmål. Vi vil i løpet av kort tid komme tilbake til deg med
-					foreslått størrelse på varmepumpe og dybde på brønn, og kommer med et
-					tilbud på komplett grunnvarmeanlegg. Har dere allerede bestilt
-					innvending VVS kan vi også levere energibrønnen alene. Dersom det er
-					vannbrønn dere ønsker{' '}
-					{<StyledLink to='tjenester'>klikk her</StyledLink>}
-					{<br />}
-					{<br />}
-					Lurer du på mer om teknologien, eller om den passer for deg, kan du
-					klikke deg inn på{' '}
-					{<StyledLink to='/grunnvarme'>grunnvarme</StyledLink>} eller{' '}
-					{<StyledLink to='tilgjenglig'>tilgjenglig</StyledLink>} før du svarer
-					på spørsmålene under
-				</StyledH2>
-
+				<StyledH2Wrapper>
+					<StyledH2>
+						{<span>Slik fungerer det:</span>} {<br />} Skriv inn adresse og svar
+						på noen korte spørsmål. Vi vil i løpet av kort tid komme tilbake til
+						deg med foreslått størrelse på varmepumpe og dybde på brønn, og
+						kommer med et tilbud på komplett grunnvarmeanlegg. Har dere allerede
+						bestilt innvending VVS kan vi også levere energibrønnen alene.
+						Dersom det er vannbrønn dere ønsker{' '}
+						{<StyledLink to='tjenester'>klikk her</StyledLink>}
+						{<br />}
+						{<br />}
+						Lurer du på mer om teknologien, eller om den passer for deg, kan du
+						klikke deg inn på{' '}
+						{<StyledLink to='/grunnvarme'>grunnvarme</StyledLink>} eller{' '}
+						{<StyledLink to='tilgjenglig'>tilgjenglig</StyledLink>} før du
+						svarer på spørsmålene under
+					</StyledH2>
+				</StyledH2Wrapper>
 				<Contact />
 
 				<NewsTitle>Nyheter</NewsTitle>
@@ -80,7 +81,7 @@ function Home() {
 export default Home;
 
 const HomeContainer = styled.div`
-	background: #eaeff2;
+	background: #dde1e5;
 `;
 
 const HeroSection = styled.div`
@@ -117,14 +118,24 @@ const StyledH2Intro = styled.h2`
 	grid-row: 4;
 `;
 
+const StyledH2Wrapper = styled.div`
+	margin: 4em auto 1em auto;
+	background: #231e1a;
+	color: white;
+	width: 100;
+`;
+
 const StyledH2 = styled.h2`
-	margin: 8em auto 1em auto;
 	padding: 1em 3em;
 	text-align: left;
 	font-weight: bold;
 	font-size: 2em;
 	line-height: 1.3;
-	width: 70%;
+	width: 80%;
+	margin: 0 auto;
+	span {
+		color: orange;
+	}
 `;
 
 const NewsTitle = styled.h2`
@@ -141,13 +152,13 @@ const NewsWrapper = styled.div`
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
-	width: 75%;
+	width: 80%;
 	margin: 0 auto;
-	padding: 2em 0;
-	background: #eaeff2;
+	padding: 2em;
+	background: #231e1a;
 `;
 
 const StyledLink = styled(Link)`
 	text-decoration: none;
-	color: blue;
+	color: orange;
 `;
