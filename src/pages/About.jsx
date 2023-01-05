@@ -76,7 +76,7 @@ const AboutDiv = styled.div`
 	}
 	ul {
 		width: 50%;
-		margin: 0 auto;
+		margin: 2em auto;
 	}
 	li {
 		list-style: none;
