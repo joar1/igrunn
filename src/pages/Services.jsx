@@ -44,7 +44,7 @@ const ServiceContainer = styled.div`
 	border-radius: 25px;
 	background: #121212;
 	width: 75%;
-	padding: 2em;
+	padding: 5em 2em;
 	h4 {
 		font-size: 3em;
 	}

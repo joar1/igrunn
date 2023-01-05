@@ -66,6 +66,7 @@ const StyledParagraph = styled.p`
 	font-size: 2.5em;
 	padding: 2em;
 	width: 85%;
+	color: orange;
 `;
 
 const ImageContainer = styled.div`

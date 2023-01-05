@@ -48,7 +48,7 @@ const AboutContainer = styled.div`
 const AboutDiv = styled.div`
 	width: 70%;
 	justify-content: center;
-	margin: 2em auto 8em auto;
+	margin: 10em auto 8em auto;
 	h1 {
 		margin: 0.8em auto;
 		text-align: center;
