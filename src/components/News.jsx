@@ -23,7 +23,7 @@ const NewsContainer = styled.div`
 	text-align: left;
 	width: 33%;
 	line-height: 1.4;
-	border-radius: 1%;
+	border-radius: 5px;
 	padding: 2em;
 	margin: 0.5em;
 	background: #231e1a;

@@ -44,12 +44,12 @@ const ServiceContainer = styled.div`
 	border-radius: 25px;
 	background: #121212;
 	width: 75%;
-	padding: 5em 2em;
+	padding: 5em;
 	h4 {
 		font-size: 3em;
 	}
 	li {
-		width: 60%;
+		width: 65%;
 		list-style: none;
 		font-size: 2em;
 		margin-bottom: 2em;
