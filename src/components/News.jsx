@@ -24,14 +24,18 @@ const NewsContainer = styled.div`
 	width: 33%;
 	line-height: 1.4;
 	border-radius: 1%;
-	padding: 0.5em;
+	padding: 2em;
 	margin: 0.5em;
-	background: #fffdfa;
+	background: #231e1a;
 	h2 {
 		margin-bottom: 0.8em;
 		text-align: left;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
+		color: orange;
+	}
+	h3 {
+		color: white;
 	}
 	a {
 		margin-top: 0.5em;
