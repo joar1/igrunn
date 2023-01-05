@@ -31,6 +31,7 @@ export function CardRight(props) {
 const CardContainer = styled.div`
 	margin: 0 auto;
 	width: 100%;
+	line-height: 2.3em;
 `;
 
 const CardDivLeft = styled.div`
@@ -38,9 +39,8 @@ const CardDivLeft = styled.div`
 	grid-template: repeat(2, 1fr) / repeat(3, 1fr);
 	text-align: left;
 	word-wrap: normal;
-	line-height: 2em;
-	margin: 0 auto;
-	width: 80%;
+	margin: 5em auto 0 auto;
+	width: 75%;
 	padding: 1em;
 	img {
 		grid-row: 1;
@@ -56,9 +56,8 @@ const CardDivLeft = styled.div`
 		font-size: 1.3em;
 		padding: 0.1em;
 		font-weight: bold;
-		color: blue;
+		color: orange;
 		text-decoration: none;
-		/* text-underline-offset: 0.3em; */
 	}
 `;
 
@@ -79,6 +78,7 @@ const StyledP2Left = styled.p`
 	grid-column: 1 / 4;
 	padding: 2em;
 	font-size: 2.5em;
+	color: orange;
 `;
 
 const CardDivRight = styled.div`
@@ -86,9 +86,8 @@ const CardDivRight = styled.div`
 	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 	text-align: left;
 	word-wrap: normal;
-	line-height: 2em;
-	margin: 10em auto 0 auto;
-	width: 80%;
+	margin: 2em auto 0 auto;
+	width: 75%;
 	padding: 1em;
 	img {
 		grid-row: 1;
@@ -116,6 +115,7 @@ const StyledP2Right = styled.p`
 	grid-column: 1 / 4;
 	padding: 2em;
 	font-size: 2.5em;
+	color: orange;
 `;
 
 const StyledP3Right = styled.p`

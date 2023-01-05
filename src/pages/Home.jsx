@@ -81,7 +81,7 @@ function Home() {
 export default Home;
 
 const HomeContainer = styled.div`
-	background: #dde1e5;
+	background: #121212;
 `;
 
 const HeroSection = styled.div`
@@ -94,8 +94,7 @@ const HeroSection = styled.div`
 	height: 100vh;
 	width: 100vw;
 	max-width: 100%;
-	padding: 1em;
-
+	padding: 2em;
 	display: grid;
 	grid-gap: 1em;
 	grid-template: repeat(4, 1fr) / repeat(3, 1fr);
@@ -119,20 +118,21 @@ const StyledH2Intro = styled.h2`
 `;
 
 const StyledH2Wrapper = styled.div`
-	margin: 4em auto 1em auto;
-	background: #231e1a;
+	margin: 0 auto 1em auto;
+	padding: 2em;
+	background: #121212;
 	color: white;
 	width: 100;
 `;
 
 const StyledH2 = styled.h2`
+	margin: 2em auto;
 	padding: 1em 3em;
 	text-align: left;
 	font-weight: bold;
 	font-size: 2em;
 	line-height: 1.3;
 	width: 80%;
-	margin: 0 auto;
 	span {
 		color: orange;
 	}
@@ -146,6 +146,7 @@ const NewsTitle = styled.h2`
 	text-underline-offset: 0.3em;
 	margin-top: 2em;
 	margin-bottom: 0.5em;
+	color: orange;
 `;
 
 const NewsWrapper = styled.div`
@@ -155,7 +156,7 @@ const NewsWrapper = styled.div`
 	width: 80%;
 	margin: 0 auto;
 	padding: 2em;
-	background: #231e1a;
+	/* background: #231e1a; */
 `;
 
 const StyledLink = styled(Link)`

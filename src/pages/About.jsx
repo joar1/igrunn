@@ -5,8 +5,8 @@ import Footer from '../components/Footer';
 function About() {
 	return (
 		<>
-			<Navbar />
 			<AboutContainer>
+				<Navbar />
 				<AboutDiv>
 					<h1>Om oss</h1>
 					<h3>Tor Eggebø:</h3>
@@ -30,8 +30,8 @@ function About() {
 						<li>VVS-firma</li>
 					</ul>
 				</AboutDiv>
+				<Footer />
 			</AboutContainer>
-			<Footer />
 		</>
 	);
 }
@@ -40,29 +40,34 @@ export default About;
 
 const AboutContainer = styled.div`
 	line-height: 1.4em;
-	background: #fffdfa;
+	background: #231e1a;
+	color: white;
+	width: 100;
 `;
 
 const AboutDiv = styled.div`
 	width: 70%;
 	justify-content: center;
-	margin: 2em auto;
+	margin: 2em auto 8em auto;
 	h1 {
 		margin: 0.8em auto;
 		text-align: center;
 		font-size: 4em;
+		color: orange;
 	}
 	h3 {
 		margin: 1em 0;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
 		font-size: 2em;
+		color: orange;
 	}
 	h4 {
 		margin: 1em 0;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
 		font-size: 1.4em;
+		color: orange;
 	}
 	p {
 		width: 60%;

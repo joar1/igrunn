@@ -7,10 +7,9 @@ import Footer from '../components/Footer';
 function Availability() {
 	return (
 		<>
-			<Navbar />
 			<AvailabilityContainer>
-				{' '}
-				{/* <HeaderH1>Passer dette min bolig?</HeaderH1> */}
+				<Navbar />
+				<HeaderH1>Passer dette min bolig?</HeaderH1>
 				<StyledParagraph>
 					For å benytte seg av grunnvarme gir det mest mening om du har
 					vannbåren varme installert- som gir stabil og behagelig innetemperatur
@@ -33,15 +32,13 @@ function Availability() {
 					til en luft-luft varmepumpe, med både varme- og kjølefunksjon. En
 					fordel her er også at kjøling/overskuddsvarme fra sommerhalvåret
 					«lader» brønnen til vinteren, og det er dette som kalles frikjøling.
-				</StyledParagraph>
-				<StyledParagraph>
+					{<br />} {<br />}
 					Den samme varmepumpa leverer også tappevann, slik at din gamle elkjel
 					kan fases ut. Varmtvannet du bruker til dusj og oppvask er altså
 					oppvarmet med den samme kostnadsbesparende teknologien.
 				</StyledParagraph>
+				<Footer />
 			</AvailabilityContainer>
-
-			<Footer />
 		</>
 	);
 }
@@ -50,21 +47,25 @@ export default Availability;
 
 const AvailabilityContainer = styled.div`
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
+	background: #231e1a;
+	color: white;
 `;
 
-// const HeaderH1 = styled.h1`
-// 	padding: 0.8em 0;
-// 	font-size: 3.5em;
-// 	text-align: center;
-// 	color: orange;
-// `;
+const HeaderH1 = styled.h1`
+	margin-top: 1em;
+	font-size: 4em;
+	padding: 0.8em 0;
+	text-align: center;
+	color: orange;
+`;
 
 const StyledParagraph = styled.p`
 	text-align: left;
-	margin: 2em auto 2em auto;
+	margin: 1em auto 2em auto;
 	font-size: 2.5em;
 	padding: 2em;
+	width: 85%;
 `;
 
 const ImageContainer = styled.div`
@@ -72,6 +73,7 @@ const ImageContainer = styled.div`
 	grid-template-columns: 1fr 1fr;
 	justify-content: center;
 	margin: 0 auto;
+	width: 75%;
 	img {
 		height: 512px;
 		width: 560px;

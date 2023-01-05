@@ -90,16 +90,16 @@ function Contact() {
 export default Contact;
 
 const ContactWrapper = styled.div`
-	background: #ada7a7;
-	border-radius: 2%;
-	width: 70em;
-	margin: 0em auto;
+	background: #231e1a;
+	color: white;
+	width: 100%;
+	margin: 0 auto;
 `;
 
 const StyledContactForm = styled.div`
-	/* width: 400px; */
-	width: 40em;
-	margin: 1em auto;
+	width: 60em;
+	margin: 0 auto;
+	padding: 2em;
 	h2 {
 		font-size: 3em;
 		text-align: center;
