@@ -1,46 +1,52 @@
 import styled from 'styled-components';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import BackgroundImg from '../images/contact.jpg';
 
 function Contact() {
 	return (
 		<>
-			<ContactContainer>
+			<ContactWrapper>
 				<Navbar />
-				<BgImg>
-					<ContactDiv>
-						<p>Tlf: 90925800</p>
-						<p>e-mail: xxxxx@xxx.com</p>
-						<p>adresse: xxxxxxxx</p>
-					</ContactDiv>
-				</BgImg>
+				<ContactContainer>
+					<h4>Kontakt</h4>
+					<ul>
+						<li>tlf: {<br />} xxx xx xxx</li>
+						<li>email: xxxx@xxxxxxx.com</li>
+						<li>adresse: xxxxxxx</li>
+					</ul>
+				</ContactContainer>
 				<Footer />
-			</ContactContainer>
+			</ContactWrapper>
 		</>
 	);
 }
 
 export default Contact;
 
-const ContactContainer = styled.div`
-	line-height: 1.4em;
-	background: black;
+const ContactWrapper = styled.div`
+	line-height: 2.3em;
+	background: #231e1a;
+	color: orange;
 `;
 
-const ContactDiv = styled.div`
+const ContactContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	text-align: left;
+	align-items: center;
 	justify-content: center;
-	width: 40vh;
-	height: 80vh;
-	margin: 0 auto;
-`;
-
-const BgImg = styled.div`
-	background-image: url(${BackgroundImg});
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	margin: 5em auto;
+	border-radius: 25px;
+	background: #121212;
+	width: 60%;
+	padding: 5em;
+	h4 {
+		font-size: 3em;
+	}
+	li {
+		width: 60%;
+		list-style: none;
+		font-size: 2em;
+		margin-bottom: 2em;
+		margin: 2em auto;
+	}
 `;

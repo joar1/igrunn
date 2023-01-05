@@ -75,7 +75,7 @@ const AboutDiv = styled.div`
 		font-size: 2em;
 	}
 	ul {
-		width: 50%;
+		width: 80%;
 		margin: 2em auto;
 	}
 	li {
