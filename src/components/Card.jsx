@@ -91,7 +91,7 @@ const CardDivRight = styled.div`
 	padding: 1em;
 	img {
 		grid-row: 1;
-		grid-column: 1;
+		grid-column: 3;
 		height: 512px;
 		width: 560px;
 	}
@@ -102,7 +102,7 @@ const StyledP1Right = styled.p`
 	justify-content: center;
 	align-items: center;
 	grid-row: 1;
-	grid-column: 2 / 4;
+	grid-column: 1 / 3;
 	font-size: 1.8em;
 	padding: 2em;
 `;
