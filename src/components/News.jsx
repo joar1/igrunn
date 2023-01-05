@@ -40,7 +40,7 @@ const NewsContainer = styled.div`
 	a {
 		margin-top: 0.5em;
 		font-weight: bold;
-		color: blue;
+		color: #3f00ff;
 		text-decoration: none;
 	}
 	img {
