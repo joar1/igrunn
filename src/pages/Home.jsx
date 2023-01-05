@@ -156,7 +156,6 @@ const NewsWrapper = styled.div`
 	width: 80%;
 	margin: 0 auto;
 	padding: 2em;
-	/* background: #231e1a; */
 `;
 
 const StyledLink = styled(Link)`
