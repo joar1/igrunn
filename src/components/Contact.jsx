@@ -107,6 +107,7 @@ const StyledContactForm = styled.div`
 		text-underline-offset: 0.3em;
 		padding: 1em 0;
 		margin: 0;
+		color: orange;
 	}
 
 	form {
