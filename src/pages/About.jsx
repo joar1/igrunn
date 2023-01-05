@@ -39,7 +39,7 @@ function About() {
 export default About;
 
 const AboutContainer = styled.div`
-	line-height: 1.4em;
+	line-height: 1.3;
 	background: #231e1a;
 	color: white;
 	width: 100;

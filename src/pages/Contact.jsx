@@ -24,7 +24,7 @@ function Contact() {
 export default Contact;
 
 const ContactWrapper = styled.div`
-	line-height: 2.3em;
+	line-height: 1.3;
 	background: #231e1a;
 	color: orange;
 `;

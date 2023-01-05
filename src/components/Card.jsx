@@ -31,7 +31,7 @@ export function CardRight(props) {
 const CardContainer = styled.div`
 	margin: 0 auto;
 	width: 100%;
-	line-height: 2.3em;
+	line-height: 1.3;
 `;
 
 const CardDivLeft = styled.div`

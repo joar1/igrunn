@@ -30,7 +30,7 @@ function Services() {
 export default Services;
 
 const ServiceWrapper = styled.div`
-	line-height: 2.3em;
+	line-height: 1.3;
 	background: #231e1a;
 	color: orange;
 `;
