@@ -8,7 +8,7 @@ function Services() {
 			<ServiceWrapper>
 				<Navbar />
 				<ServiceContainer>
-					<h4>Tjenester</h4>
+					<h4>Våre tjenester</h4>
 					<ul>
 						<li>Energibrønner, ferdig montert varmepumpe.</li>
 						<li>
