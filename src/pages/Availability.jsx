@@ -10,7 +10,7 @@ function Availability() {
 			<AvailabilityContainer>
 				<Navbar />
 				<HeaderH1>Passer dette min bolig?</HeaderH1>
-				<StyledParagraph>
+				<StyledParagraphWhite>
 					For å benytte seg av grunnvarme gir det mest mening om du har
 					vannbåren varme installert- som gir stabil og behagelig innetemperatur
 					i hele rommet. Vannbåren varme er følgelig lettere å implementere
@@ -21,12 +21,12 @@ function Availability() {
 					prosessen. Se her hvordan det kan gjøres, enten ved utskiftning av
 					gulv, eller ved å installere fra undersiden om du kommer til fra for
 					eksempel kjeller.
-				</StyledParagraph>
+				</StyledParagraphWhite>
 				<ImageContainer>
 					<img src={Bilde6} alt='#' />
 					<img src={Bilde7} alt='#' />
 				</ImageContainer>
-				<StyledParagraph>
+				<StyledParagraphOrange>
 					Mange velger også å installere en viftekonvektor. Disse kommer nå i
 					slanke og elegante varianter, og fungerer som en tilsvarende innedel
 					til en luft-luft varmepumpe, med både varme- og kjølefunksjon. En
@@ -36,7 +36,7 @@ function Availability() {
 					Den samme varmepumpa leverer også tappevann, slik at din gamle elkjel
 					kan fases ut. Varmtvannet du bruker til dusj og oppvask er altså
 					oppvarmet med den samme kostnadsbesparende teknologien.
-				</StyledParagraph>
+				</StyledParagraphOrange>
 				<Footer />
 			</AvailabilityContainer>
 		</>
@@ -59,7 +59,16 @@ const HeaderH1 = styled.h1`
 	color: orange;
 `;
 
-const StyledParagraph = styled.p`
+const StyledParagraphWhite = styled.p`
+	text-align: left;
+	margin: 1em auto 2em auto;
+	font-size: 3em;
+	line-height: 1.2;
+	padding: 2em;
+	width: 90%;
+	color: white;
+`;
+const StyledParagraphOrange = styled.p`
 	text-align: left;
 	margin: 1em auto 2em auto;
 	font-size: 3em;
