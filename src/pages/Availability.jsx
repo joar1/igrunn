@@ -71,12 +71,13 @@ const StyledParagraph = styled.p`
 `;
 
 const ImageContainer = styled.div`
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	justify-content: center;
-	margin: 0 auto;
-	width: 75%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 1em auto 10em auto;
+	width: 80%;
 	img {
+		max-width: 100%;
 		height: 512px;
 		width: 560px;
 		border-radius: 20px;
