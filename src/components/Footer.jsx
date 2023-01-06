@@ -5,12 +5,14 @@ import Logo from '../images/igrunnen.jpg';
 import styled from 'styled-components';
 
 function Footer() {
+	const ScrollTop = (e) => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	};
+
 	return (
 		<FooterContainer>
 			<FooterLogo>
-				<a href='#NavBar'>
-					<img src={Logo} alt='logo' />
-				</a>
+				<img src={Logo} alt='logo' onClick={ScrollTop} />
 			</FooterLogo>
 
 			<FooterDiv>
@@ -55,6 +57,9 @@ const FooterLogo = styled.div`
 	img {
 		height: 7em;
 		padding: 1em 0;
+	}
+	&:hover {
+		cursor: pointer;
 	}
 `;
 
