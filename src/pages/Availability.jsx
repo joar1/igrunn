@@ -47,7 +47,6 @@ export default Availability;
 
 const AvailabilityContainer = styled.div`
 	margin: 0 auto;
-	width: 100%;
 	background: #231e1a;
 	color: white;
 `;
@@ -66,7 +65,7 @@ const StyledParagraph = styled.p`
 	font-size: 3em;
 	line-height: 1.2;
 	padding: 2em;
-	width: 75%;
+	width: 70%;
 	color: orange;
 `;
 
