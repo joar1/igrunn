@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from 'styled-components';
 
-function Contact() {
+function ContactForm() {
 	const form = useRef();
 
 	const sendEmail = (e) => {
@@ -87,7 +87,7 @@ function Contact() {
 	);
 }
 
-export default Contact;
+export default ContactForm;
 
 const ContactWrapper = styled.div`
 	background: #231e1a;

@@ -46,7 +46,7 @@ const AboutContainer = styled.div`
 `;
 
 const AboutDiv = styled.div`
-	width: 70%;
+	width: 80%;
 	justify-content: center;
 	margin: 10em auto 8em auto;
 	h1 {
@@ -75,7 +75,7 @@ const AboutDiv = styled.div`
 		font-size: 2em;
 	}
 	ul {
-		width: 80%;
+		width: 60%;
 		margin: 2em auto;
 	}
 	li {

@@ -4,7 +4,7 @@ import News from '../components/News';
 import Footer from '../components/Footer';
 import BackgroundImg from '../images/background.jpg';
 import { Link } from 'react-router-dom';
-import Contact from '../components/Contact';
+import ContactForm from '../components/ContactForm';
 
 function Home() {
 	return (
@@ -39,11 +39,11 @@ function Home() {
 						Lurer du på mer om teknologien, eller om den passer for deg, kan du
 						klikke deg inn på{' '}
 						{<StyledLink to='/grunnvarme'>grunnvarme</StyledLink>} eller{' '}
-						{<StyledLink to='tilgjenglig'>tilgjenglig</StyledLink>} før du
-						svarer på spørsmålene under
+						{<StyledLink to='tilgjenglig'>passer det min bolig</StyledLink>} før
+						du svarer på spørsmålene under
 					</StyledH2>
 				</StyledH2Wrapper>
-				<Contact />
+				<ContactForm />
 
 				<NewsTitle>Nyheter</NewsTitle>
 				<NewsWrapper>

@@ -8,7 +8,9 @@ function Footer() {
 	return (
 		<FooterContainer>
 			<FooterLogo>
-				<img src={Logo} alt='logo' />
+				<a href='#NavBar'>
+					<img src={Logo} alt='logo' />
+				</a>
 			</FooterLogo>
 
 			<FooterDiv>

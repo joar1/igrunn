@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
 	return (
 		<>
-			<NavContainer>
+			<NavContainer id='NavBar'>
 				<NavLogo>
 					<StyledLogo to='/'>igrunnen.no</StyledLogo>
 				</NavLogo>
