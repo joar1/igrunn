@@ -66,7 +66,7 @@ const StyledParagraph = styled.p`
 	font-size: 3em;
 	line-height: 1.2;
 	padding: 2em;
-	width: 80%;
+	width: 75%;
 	color: orange;
 `;
 
