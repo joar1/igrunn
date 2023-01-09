@@ -47,6 +47,7 @@ const CardDivLeft = styled.div`
 		grid-column: 1;
 		height: 512px;
 		width: 560px;
+		border-radius: 20px;
 	}
 	a {
 		display: flex;
@@ -94,6 +95,7 @@ const CardDivRight = styled.div`
 		grid-column: 3;
 		height: 512px;
 		width: 560px;
+		border-radius: 20px;
 	}
 `;
 

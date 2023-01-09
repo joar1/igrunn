@@ -7,29 +7,31 @@ function About() {
 		<>
 			<AboutContainer>
 				<Navbar />
-				<AboutDiv>
-					<h1>Om oss</h1>
-					<h3>Tor Eggebø:</h3>
-					<ul>
-						<li>
-							Master i geologi fra UiT, 2007. Han har jobbet ca. 13 år med
-							boring av brønner i nordsjøen, for så å ta videreutdanning i
-							Sveits (Deep geothermal systems). Jobbet ca. 3 år hos Asplan Viak
-							AS, som rådgiver grunnvarme, før han startet igrunnen.no.
-						</li>
-						<li>«Brønnborer»</li>
-						<li>
-							Fagprøve innen bergsprenging i 2005, og har deretter jobbet som
-							skytebas via eget firma i 15 år.
-						</li>
-					</ul>
-				</AboutDiv>
-				<AboutDiv>
-					<h4>Våre samarbeidspartnere:</h4>
-					<ul>
-						<li>VVS-firma</li>
-					</ul>
-				</AboutDiv>
+				<AboutWrapper>
+					<AboutDiv>
+						<h1>Om oss</h1>
+						<h3>Tor Eggebø:</h3>
+						<ul>
+							<li>
+								Master i geologi fra UiT, 2007. Han har jobbet ca. 13 år med
+								boring av brønner i nordsjøen, for så å ta videreutdanning i
+								Sveits (Deep geothermal systems). Jobbet ca. 3 år hos Asplan
+								Viak AS, som rådgiver grunnvarme, før han startet igrunnen.no.
+							</li>
+							<li>«Brønnborer»</li>
+							<li>
+								Fagprøve innen bergsprenging i 2005, og har deretter jobbet som
+								skytebas via eget firma i 15 år.
+							</li>
+						</ul>
+					</AboutDiv>
+					<AboutDiv>
+						<h4>Våre samarbeidspartnere:</h4>
+						<ul>
+							<li>VVS-firma</li>
+						</ul>
+					</AboutDiv>
+				</AboutWrapper>
 				<Footer />
 			</AboutContainer>
 		</>
@@ -42,15 +44,22 @@ const AboutContainer = styled.div`
 	line-height: 1.3;
 	background: #231e1a;
 	color: white;
-	width: 100;
+`;
+
+const AboutWrapper = styled.div`
+	border-radius: 25px;
+	background: #121212;
+	width: 90%;
+	margin: 5em auto;
+	padding: 1em;
 `;
 
 const AboutDiv = styled.div`
 	width: 80%;
 	justify-content: center;
-	margin: 10em auto 8em auto;
+	margin: 5em auto 8em auto;
 	h1 {
-		margin: 0.8em auto;
+		margin: 0 auto;
 		text-align: center;
 		font-size: 4em;
 		color: orange;
@@ -75,7 +84,7 @@ const AboutDiv = styled.div`
 		font-size: 2em;
 	}
 	ul {
-		width: 60%;
+		width: 70%;
 		margin: 2em auto;
 	}
 	li {
