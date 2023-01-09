@@ -51,7 +51,7 @@ const AboutWrapper = styled.div`
 	background: #121212;
 	width: 90%;
 	margin: 5em auto;
-	padding: 1em;
+	padding: 1em 0;
 `;
 
 const AboutDiv = styled.div`

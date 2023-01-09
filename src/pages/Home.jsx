@@ -101,7 +101,7 @@ const HeroSection = styled.div`
 `;
 
 const HeaderIgrunn = styled.h1`
-	font-size: 5em;
+	font-size: 5.5em;
 	font-weight: bolder;
 	text-align: left;
 	margin: 0 auto;
