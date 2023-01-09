@@ -40,7 +40,7 @@ const CardDivLeft = styled.div`
 	text-align: left;
 	word-wrap: normal;
 	margin: 5em auto 0 auto;
-	width: 75%;
+	width: 80%;
 	padding: 1em;
 	img {
 		grid-row: 1;

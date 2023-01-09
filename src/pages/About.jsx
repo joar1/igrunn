@@ -5,9 +5,9 @@ import Footer from '../components/Footer';
 function About() {
 	return (
 		<>
-			<AboutContainer>
+			<AboutWrapper>
 				<Navbar />
-				<AboutWrapper>
+				<AboutContainer>
 					<AboutDiv>
 						<h1>Om oss</h1>
 						<h3>Tor Eggebø:</h3>
@@ -25,39 +25,39 @@ function About() {
 							</li>
 						</ul>
 					</AboutDiv>
-					<AboutDiv>
+					<AboutDivPartners>
 						<h4>Våre samarbeidspartnere:</h4>
 						<ul>
 							<li>VVS-firma</li>
 						</ul>
-					</AboutDiv>
-				</AboutWrapper>
+					</AboutDivPartners>
+				</AboutContainer>
 				<Footer />
-			</AboutContainer>
+			</AboutWrapper>
 		</>
 	);
 }
 
 export default About;
 
-const AboutContainer = styled.div`
+const AboutWrapper = styled.div`
 	line-height: 1.3;
 	background: #231e1a;
 	color: white;
 `;
 
-const AboutWrapper = styled.div`
+const AboutContainer = styled.div`
 	border-radius: 25px;
 	background: #121212;
-	width: 90%;
+	width: 75%;
 	margin: 5em auto;
-	padding: 1em 0;
 `;
 
 const AboutDiv = styled.div`
-	width: 80%;
+	width: 75%;
 	justify-content: center;
 	margin: 5em auto 8em auto;
+	padding: 5em 5em 0 5em;
 	h1 {
 		margin: 0 auto;
 		text-align: center;
@@ -72,25 +72,51 @@ const AboutDiv = styled.div`
 		color: orange;
 	}
 	h4 {
-		margin: 1em 0;
+		margin: 0 0 1em 0;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
 		font-size: 1.4em;
 		color: orange;
 	}
-	p {
-		width: 60%;
-		margin: 0 auto;
-		font-size: 2em;
-	}
-	ul {
-		width: 70%;
-		margin: 2em auto;
-	}
 	li {
+		width: 90%;
 		list-style: none;
 		font-size: 2em;
-		margin-bottom: 1em;
-		line-height: 1.2em;
+		margin-bottom: 2em;
+		margin: 2em auto;
+	}
+`;
+
+const AboutDivPartners = styled.div`
+	width: 75%;
+	justify-content: center;
+	margin: 5em auto 8em auto;
+	padding: 0 5em 5em 5em;
+	h1 {
+		margin: 0 auto;
+		text-align: center;
+		font-size: 4em;
+		color: orange;
+	}
+	h3 {
+		margin: 1em 0;
+		text-decoration: underline;
+		text-underline-offset: 0.3em;
+		font-size: 2em;
+		color: orange;
+	}
+	h4 {
+		margin: 0 0 1em 0;
+		text-decoration: underline;
+		text-underline-offset: 0.3em;
+		font-size: 1.4em;
+		color: orange;
+	}
+	li {
+		width: 90%;
+		list-style: none;
+		font-size: 2em;
+		margin-bottom: 2em;
+		margin: 2em auto;
 	}
 `;

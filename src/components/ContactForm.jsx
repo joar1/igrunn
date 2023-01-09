@@ -1,9 +1,12 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from 'styled-components';
+import Modal from './Modal';
 
 function ContactForm() {
 	const form = useRef();
+
+	const [openModal, setOpenModal] = useState(false);
 
 	const sendEmail = (e) => {
 		e.preventDefault();
@@ -25,7 +28,7 @@ function ContactForm() {
 				}
 			);
 		e.target.reset();
-		window.alert('Melding sendt');
+		setOpenModal(true);
 	};
 
 	return (
@@ -80,7 +83,8 @@ function ContactForm() {
 
 					<label>Til slutt, har dere noen kommentarer eller ønsker?</label>
 					<textarea name='message' />
-					<input type='submit' value='Send' required />
+					<input type='submit' value='Send' />
+					{openModal && <Modal closeModal={setOpenModal} />}
 				</form>
 			</StyledContactForm>
 		</ContactWrapper>
@@ -148,11 +152,11 @@ const StyledContactForm = styled.div`
 		input[type='submit'] {
 			margin-top: 2em;
 			margin-bottom: 4em;
-			cursor: pointer;
 			background: orange;
 			color: white;
 			border: none;
 			font-weight: 600;
+			cursor: pointer;
 		}
 	}
 `;
