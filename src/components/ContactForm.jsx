@@ -119,7 +119,7 @@ const StyledContactForm = styled.div`
 		align-items: flex-start;
 		flex-direction: column;
 		width: 100%;
-		font-size: 2em;
+		font-size: 1.3em;
 
 		input {
 			width: 100%;
