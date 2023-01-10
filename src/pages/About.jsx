@@ -75,7 +75,7 @@ const AboutDiv = styled.div`
 		margin: 0 0 1em 0;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
-		font-size: 1.4em;
+		font-size: 2em;
 		color: orange;
 	}
 	li {
@@ -109,7 +109,7 @@ const AboutDivPartners = styled.div`
 		margin: 0 0 1em 0;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
-		font-size: 1.4em;
+		font-size: 2em;
 		color: orange;
 	}
 	li {

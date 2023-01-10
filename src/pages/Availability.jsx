@@ -61,8 +61,8 @@ const HeaderH1 = styled.h1`
 
 const StyledParagraphWhite = styled.p`
 	text-align: left;
-	margin: 1em auto 2em auto;
-	font-size: 3em;
+	margin: 0 auto 2em auto;
+	font-size: 2em;
 	line-height: 1.2;
 	padding: 2em;
 	width: 90%;
@@ -71,7 +71,7 @@ const StyledParagraphWhite = styled.p`
 const StyledParagraphOrange = styled.p`
 	text-align: left;
 	margin: 1em auto 2em auto;
-	font-size: 3em;
+	font-size: 2em;
 	line-height: 1.2;
 	padding: 2em;
 	width: 90%;

@@ -68,8 +68,8 @@ const StyledP1Left = styled.p`
 	align-items: center;
 	grid-row: 1;
 	grid-column: 2 / 4;
-	font-size: 1.8em;
-	padding: 2em;
+	font-size: 2em;
+	padding: 1em 2em;
 `;
 const StyledP2Left = styled.p`
 	display: flex;
@@ -78,7 +78,7 @@ const StyledP2Left = styled.p`
 	grid-row: 2;
 	grid-column: 1 / 4;
 	padding: 2em;
-	font-size: 2.5em;
+	font-size: 2em;
 	color: orange;
 `;
 
@@ -105,8 +105,8 @@ const StyledP1Right = styled.p`
 	align-items: center;
 	grid-row: 1;
 	grid-column: 1 / 3;
-	font-size: 1.8em;
-	padding: 2em;
+	font-size: 2em;
+	padding: 1em 2em;
 `;
 
 const StyledP2Right = styled.p`
@@ -116,7 +116,7 @@ const StyledP2Right = styled.p`
 	grid-row: 2;
 	grid-column: 1 / 4;
 	padding: 2em;
-	font-size: 2.5em;
+	font-size: 2em;
 	color: orange;
 `;
 
@@ -127,5 +127,5 @@ const StyledP3Right = styled.p`
 	grid-row: 3;
 	grid-column: 1 / 4;
 	padding: 2em;
-	font-size: 2.5em;
+	font-size: 2em;
 `;

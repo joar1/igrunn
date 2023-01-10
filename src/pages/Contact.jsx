@@ -40,7 +40,7 @@ const ContactContainer = styled.div`
 	width: 60%;
 	padding: 5em;
 	h4 {
-		font-size: 3em;
+		font-size: 4em;
 	}
 	li {
 		width: 60%;
