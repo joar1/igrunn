@@ -54,5 +54,6 @@ const ServiceContainer = styled.div`
 		font-size: 2em;
 		margin-bottom: 2em;
 		margin: 2em auto;
+		color: white;
 	}
 `;

@@ -65,7 +65,7 @@ const StyledParagraphWhite = styled.p`
 	font-size: 2em;
 	line-height: 1.2;
 	padding: 2em;
-	width: 90%;
+	width: 85%;
 	color: white;
 `;
 const StyledParagraphOrange = styled.p`
@@ -74,7 +74,7 @@ const StyledParagraphOrange = styled.p`
 	font-size: 2em;
 	line-height: 1.2;
 	padding: 2em;
-	width: 90%;
+	width: 85%;
 	color: orange;
 `;
 

@@ -154,7 +154,7 @@ const NewsWrapper = styled.div`
 	align-items: flex-start;
 	justify-content: center;
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 auto 2em auto;
 	padding: 2em;
 `;
 
