@@ -105,12 +105,13 @@ const StyledContactForm = styled.div`
 	margin: 0 auto;
 	padding: 2em;
 	h2 {
-		font-size: 3em;
+		font-weight: bold;
+		font-size: 5em;
 		text-align: center;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
-		padding: 1em 0;
-		margin: 0;
+		margin-top: 2em;
+		margin-bottom: 0.5em;
 		color: orange;
 	}
 
