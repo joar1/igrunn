@@ -80,6 +80,7 @@ function Home() {
 
 export default Home;
 
+// HOME-STYLING
 const HomeContainer = styled.div`
 	background: #121212;
 `;
@@ -126,26 +127,38 @@ const StyledH2Wrapper = styled.div`
 `;
 
 const StyledH2 = styled.h2`
-	margin: 2em auto;
-	padding: 1em 3em;
+	margin: 1em auto;
+	padding: 0 3em;
 	text-align: left;
 	font-weight: bold;
 	font-size: 2em;
 	line-height: 1.3;
-	width: 80%;
+	width: 90%;
 	span {
 		color: orange;
+		text-shadow: red 1px 0 10px;
 	}
 `;
 
+const StyledLink = styled(Link)`
+	text-decoration: none;
+	color: orange;
+	text-shadow: red 1px 0 10px;
+	&:hover {
+		text-decoration: underline;
+		text-underline-offset: 0.3em;
+	}
+`;
+
+// NEWS-STYLING
 const NewsTitle = styled.h2`
 	font-weight: bold;
 	font-size: 5em;
 	text-align: center;
 	text-decoration: underline;
 	text-underline-offset: 0.3em;
-	margin-top: 2em;
 	margin-bottom: 0.5em;
+	margin-top: 0.6em;
 	color: orange;
 `;
 
@@ -153,12 +166,6 @@ const NewsWrapper = styled.div`
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
-	width: 80%;
 	margin: 0 auto 2em auto;
 	padding: 2em;
-`;
-
-const StyledLink = styled(Link)`
-	text-decoration: none;
-	color: orange;
 `;

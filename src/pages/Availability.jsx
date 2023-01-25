@@ -46,34 +46,36 @@ function Availability() {
 export default Availability;
 
 const AvailabilityContainer = styled.div`
+	display: grid;
 	margin: 0 auto;
 	background: #231e1a;
 	color: white;
+	grid-template-columns: 1fr;
 `;
 
 const HeaderH1 = styled.h1`
 	margin-top: 1em;
 	font-size: 4em;
-	padding: 0.8em 0;
+	padding: 0;
 	text-align: center;
 	color: orange;
 `;
 
 const StyledParagraphWhite = styled.p`
 	text-align: left;
-	margin: 0 auto 2em auto;
+	margin: 0 auto;
 	font-size: 2em;
 	line-height: 1.2;
-	padding: 2em;
+	padding: 1em 2em;
 	width: 85%;
 	color: white;
 `;
 const StyledParagraphOrange = styled.p`
 	text-align: left;
-	margin: 1em auto 2em auto;
+	margin: 0 auto;
 	font-size: 2em;
 	line-height: 1.2;
-	padding: 2em;
+	padding: 1em 2em 2em 2em;
 	width: 85%;
 	color: orange;
 `;
@@ -82,8 +84,8 @@ const ImageContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	margin: 1em auto 10em auto;
-	width: 80%;
+	margin: 0 auto;
+	width: 85%;
 	img {
 		max-width: 100%;
 		height: 512px;

@@ -69,6 +69,7 @@ const FooterDiv = styled.div`
 	align-items: left;
 	justify-content: center;
 	color: orange;
+	text-shadow: red 1px 0 10px;
 	p {
 		margin-top: 0.2em;
 	}
@@ -84,7 +85,7 @@ const SoMeLinks = styled.a`
 	margin: 0 0.3em;
 	text-decoration: none;
 	color: orange;
-	font-size: 1.6em;
+	font-size: 1.8em;
 `;
 
 const StyledLink = styled(Link)`
@@ -94,6 +95,7 @@ const StyledLink = styled(Link)`
 	&:hover {
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
+		text-shadow: red 1px 0 10px;
 	}
 `;
 
@@ -104,5 +106,6 @@ const StyledA = styled.a`
 	&:hover {
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
+		text-shadow: red 1px 0 10px;
 	}
 `;

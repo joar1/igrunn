@@ -32,7 +32,7 @@ function ContactForm() {
 	};
 
 	return (
-		<ContactWrapper>
+		<ContactContainer>
 			<StyledContactForm>
 				<h2>Spørsmål</h2>
 				<form ref={form} onSubmit={sendEmail}>
@@ -87,41 +87,41 @@ function ContactForm() {
 					{openModal && <Modal closeModal={setOpenModal} />}
 				</form>
 			</StyledContactForm>
-		</ContactWrapper>
+		</ContactContainer>
 	);
 }
 
 export default ContactForm;
 
-const ContactWrapper = styled.div`
+const ContactContainer = styled.div`
 	background: #231e1a;
 	color: white;
 	width: 100%;
 	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
 `;
 
 const StyledContactForm = styled.div`
-	width: 60em;
+	width: 50%;
 	margin: 0 auto;
-	padding: 2em;
+	padding: 3em 0;
 	h2 {
 		font-weight: bold;
 		font-size: 5em;
 		text-align: center;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
-		margin-top: 2em;
 		margin-bottom: 0.5em;
 		color: orange;
+		margin-bottom: 0.8em;
 	}
-
 	form {
 		display: flex;
 		align-items: flex-start;
 		flex-direction: column;
 		width: 100%;
 		font-size: 1.3em;
-
 		input {
 			width: 100%;
 			height: 35px;

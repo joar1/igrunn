@@ -43,33 +43,31 @@ const StyledLogo = styled(Link)`
 	text-decoration: none;
 	font-size: 1.7em;
 	color: orange;
+	text-shadow: red 1px 0 10px;
 `;
 
 const NavDiv = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	margin-right: 7em;
+	margin-right: 4em;
 `;
 
 const StyledLink = styled(Link)`
-	padding: 0.7em;
+	padding: 0.8em;
 	font-size: 1.3em;
 	text-decoration: none;
 	color: #f1f1f1;
 	&:hover {
 		text-decoration: underline;
 		text-underline-offset: 0.6em;
+		color: orange;
+		text-shadow: red 1px 0 10px;
+	}
+	&:active {
+		text-decoration: underline;
+		text-underline-offset: 0.6em;
+		color: orange;
+		text-shadow: red 1px 0 10px;
 	}
 `;
-
-// const StyledA = styled.a`
-// 	padding: 0.7em;
-// 	font-size: 1.3em;
-// 	text-decoration: none;
-// 	color: #f1f1f1;
-// 	&:hover {
-// 		text-decoration: underline;
-// 		text-underline-offset: 0.6em;
-// 	}
-// `;

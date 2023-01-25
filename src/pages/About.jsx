@@ -26,7 +26,7 @@ function About() {
 						</ul>
 					</AboutDiv>
 					<AboutDivPartners>
-						<h4>Våre samarbeidspartnere:</h4>
+						<h3>Våre samarbeidspartnere:</h3>
 						<ul>
 							<li>VVS-firma</li>
 						</ul>
@@ -71,13 +71,6 @@ const AboutDiv = styled.div`
 		font-size: 2em;
 		color: orange;
 	}
-	h4 {
-		margin: 0 0 1em 0;
-		text-decoration: underline;
-		text-underline-offset: 0.3em;
-		font-size: 2em;
-		color: orange;
-	}
 	li {
 		width: 90%;
 		list-style: none;
@@ -99,13 +92,6 @@ const AboutDivPartners = styled.div`
 		color: orange;
 	}
 	h3 {
-		margin: 1em 0;
-		text-decoration: underline;
-		text-underline-offset: 0.3em;
-		font-size: 2em;
-		color: orange;
-	}
-	h4 {
 		margin: 0 0 1em 0;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;

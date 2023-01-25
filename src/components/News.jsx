@@ -3,8 +3,13 @@ import styled from 'styled-components';
 function News(props) {
 	return (
 		<NewsContainer>
-			<img src={props.img} alt='noreferrer' />
-			<h2>{props.title}</h2>
+			<a href={props.link} target='_blank' rel='noreferrer'>
+				<img src={props.img} alt='noreferrer' />
+			</a>
+			<a href={props.link} target='_blank' rel='noreferrer'>
+				<h2>{props.title}</h2>
+			</a>
+
 			<h3>{props.subTitle}</h3>
 			<p>{props.paragraph}</p>
 			<a href={props.link} target='_blank' rel='noreferrer'>
@@ -21,11 +26,11 @@ const NewsContainer = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	text-align: left;
-	width: 33%;
 	line-height: 1.4;
+	width: 80%;
 	border-radius: 5px;
 	padding: 2em;
-	margin: 0.5em;
+	margin: 1em;
 	background: #231e1a;
 	h2 {
 		margin-bottom: 0.8em;
@@ -33,6 +38,7 @@ const NewsContainer = styled.div`
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
 		color: orange;
+		text-shadow: red 1px 0 10px;
 	}
 	h3 {
 		color: white;
