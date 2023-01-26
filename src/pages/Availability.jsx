@@ -53,7 +53,6 @@ const AvailabilityContainer = styled.div`
 		display: grid;
 		grid-template-columns: 1fr;
 		font-size: 2vw;
-		max-width: 100%;
 	}
 `;
 
@@ -94,11 +93,10 @@ const ImageContainer = styled.div`
 		height: 512px;
 		width: 560px;
 		border-radius: 20px;
-		@media (max-width: 768px) {
-			display: grid;
-			grid-template-columns: 1fr;
-			font-size: 2vw;
-			max-width: 100%;
-		}
+	}
+	@media (max-width: 768px) {
+		display: flex;
+		flex-direction: column;
+		max-width: 100%;
 	}
 `;
