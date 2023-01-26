@@ -50,8 +50,6 @@ const AvailabilityContainer = styled.div`
 	background: #231e1a;
 	color: white;
 	@media (max-width: 768px) {
-		display: grid;
-		grid-template-columns: 1fr;
 		font-size: 2vw;
 		max-width: 100%;
 	}
