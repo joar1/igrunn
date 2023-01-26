@@ -117,6 +117,10 @@ const HeaderIgrunn = styled.h1`
 	margin: 0 auto;
 	grid-column: 1/4;
 	grid-row: 2;
+	@media (max-width: 768px) {
+		font-size: 4vw;
+		font-size: 4vh;
+	}
 `;
 
 const StyledH2Intro = styled.h2`

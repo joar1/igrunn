@@ -65,5 +65,8 @@ const StyledLink = styled(Link)`
 		text-underline-offset: 0.6em;
 		color: orange;
 		text-shadow: red 1px 0 10px;
+		@media (max-width: 768px) {
+			text-decoration: none;
+		}
 	}
 `;

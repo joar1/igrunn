@@ -64,6 +64,9 @@ const AboutDiv = styled.div`
 	justify-content: center;
 	margin: 5em auto 8em auto;
 	padding: 5em 5em 0 5em;
+	@media (max-width: 768px) {
+		width: 100%;
+	}
 	h1 {
 		margin: 0 auto;
 		text-align: center;
@@ -76,6 +79,9 @@ const AboutDiv = styled.div`
 		text-underline-offset: 0.3em;
 		font-size: 2em;
 		color: orange;
+		@media (max-width: 768px) {
+			font-size: 2vh;
+		}
 	}
 	li {
 		width: 90%;
@@ -83,6 +89,9 @@ const AboutDiv = styled.div`
 		font-size: 2em;
 		margin-bottom: 2em;
 		margin: 2em auto;
+		@media (max-width: 768px) {
+			font-size: 2vh;
+		}
 	}
 `;
 
@@ -91,6 +100,9 @@ const AboutDivPartners = styled.div`
 	justify-content: center;
 	margin: 5em auto 8em auto;
 	padding: 0 5em 5em 5em;
+	@media (max-width: 768px) {
+		width: 100%;
+	}
 	h1 {
 		margin: 0 auto;
 		text-align: center;
@@ -103,6 +115,9 @@ const AboutDivPartners = styled.div`
 		text-underline-offset: 0.3em;
 		font-size: 2em;
 		color: orange;
+		@media (max-width: 768px) {
+			font-size: 2vh;
+		}
 	}
 	li {
 		width: 90%;
@@ -110,5 +125,8 @@ const AboutDivPartners = styled.div`
 		font-size: 2em;
 		margin-bottom: 2em;
 		margin: 2em auto;
+		@media (max-width: 768px) {
+			font-size: 2vh;
+		}
 	}
 `;

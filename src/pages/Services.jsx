@@ -61,5 +61,8 @@ const ServiceContainer = styled.div`
 		margin-bottom: 2em;
 		margin: 2em auto;
 		color: white;
+		@media (max-width: 768px) {
+			font-size: 2vh;
+		}
 	}
 `;
