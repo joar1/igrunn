@@ -53,6 +53,7 @@ const AvailabilityContainer = styled.div`
 		display: grid;
 		grid-template-columns: 1fr;
 		font-size: 2vw;
+		max-width: 100%;
 	}
 `;
 
