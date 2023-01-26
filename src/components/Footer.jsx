@@ -51,6 +51,9 @@ const FooterContainer = styled.div`
 	justify-content: space-around;
 	font-size: 1.3em;
 	background: black;
+	@media (max-width: 768px) {
+		font-size: 2vw;
+	}
 `;
 
 const FooterLogo = styled.div`
@@ -69,7 +72,6 @@ const FooterDiv = styled.div`
 	align-items: left;
 	justify-content: center;
 	color: orange;
-	text-shadow: red 1px 0 10px;
 	p {
 		margin-top: 0.2em;
 	}

@@ -33,6 +33,12 @@ const ServiceWrapper = styled.div`
 	line-height: 1.3;
 	background: #231e1a;
 	color: orange;
+	@media (max-width: 768px) {
+		display: grid;
+		grid-template-columns: 1fr;
+		font-size: 2vw;
+		max-width: 100%;
+	}
 `;
 
 const ServiceContainer = styled.div`

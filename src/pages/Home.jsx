@@ -83,6 +83,10 @@ export default Home;
 // HOME-STYLING
 const HomeContainer = styled.div`
 	background: #121212;
+	max-width: 100%;
+	@media (max-width: 768px) {
+		flex-direction: column;
+	}
 `;
 
 const HeroSection = styled.div`
@@ -102,7 +106,8 @@ const HeroSection = styled.div`
 `;
 
 const HeaderIgrunn = styled.h1`
-	font-size: 5.5em;
+	font-size: 5em;
+	font-size: 4vw;
 	font-weight: bolder;
 	text-align: left;
 	margin: 0 auto;
@@ -124,6 +129,10 @@ const StyledH2Wrapper = styled.div`
 	background: #121212;
 	color: white;
 	width: 100;
+	@media (max-width: 768px) {
+		width: 100%;
+		font-size: 2vw;
+	}
 `;
 
 const StyledH2 = styled.h2`
@@ -154,6 +163,7 @@ const StyledLink = styled(Link)`
 const NewsTitle = styled.h2`
 	font-weight: bold;
 	font-size: 5em;
+	font-size: 4vw;
 	text-align: center;
 	text-decoration: underline;
 	text-underline-offset: 0.3em;
@@ -168,4 +178,8 @@ const NewsWrapper = styled.div`
 	justify-content: center;
 	margin: 0 auto 2em auto;
 	padding: 2em;
+	@media (max-width: 768px) {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 `;

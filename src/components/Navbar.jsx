@@ -26,11 +26,13 @@ const NavContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 100%;
+	max-width: 100%;
 	height: 4vh;
 	padding: 2em 0;
-	text-shadow: 3.2px 1.1px black;
 	background: black;
+	@media (max-width: 768px) {
+		font-size: 2vw;
+	}
 `;
 
 const NavLogo = styled.div`
@@ -59,12 +61,6 @@ const StyledLink = styled(Link)`
 	text-decoration: none;
 	color: #f1f1f1;
 	&:hover {
-		text-decoration: underline;
-		text-underline-offset: 0.6em;
-		color: orange;
-		text-shadow: red 1px 0 10px;
-	}
-	&:active {
 		text-decoration: underline;
 		text-underline-offset: 0.6em;
 		color: orange;

@@ -98,17 +98,16 @@ const ContactContainer = styled.div`
 	color: white;
 	width: 100%;
 	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr;
 `;
 
 const StyledContactForm = styled.div`
 	width: 50%;
 	margin: 0 auto;
-	padding: 3em 0;
+	padding: 3em 0 2em 0;
 	h2 {
 		font-weight: bold;
 		font-size: 5em;
+		font-size: 4vw;
 		text-align: center;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;

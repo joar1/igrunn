@@ -46,11 +46,15 @@ function Availability() {
 export default Availability;
 
 const AvailabilityContainer = styled.div`
-	display: grid;
 	margin: 0 auto;
 	background: #231e1a;
 	color: white;
-	grid-template-columns: 1fr;
+	@media (max-width: 768px) {
+		display: grid;
+		grid-template-columns: 1fr;
+		font-size: 2vw;
+		max-width: 100%;
+	}
 `;
 
 const HeaderH1 = styled.h1`
@@ -87,9 +91,14 @@ const ImageContainer = styled.div`
 	margin: 0 auto;
 	width: 85%;
 	img {
-		max-width: 100%;
 		height: 512px;
 		width: 560px;
 		border-radius: 20px;
+		@media (max-width: 768px) {
+			display: grid;
+			grid-template-columns: 1fr;
+			font-size: 2vw;
+			max-width: 100%;
+		}
 	}
 `;
