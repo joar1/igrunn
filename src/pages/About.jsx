@@ -45,9 +45,6 @@ const AboutWrapper = styled.div`
 	background: #231e1a;
 	color: white;
 	@media (max-width: 768px) {
-		display: grid;
-		grid-template-columns: 1fr;
-		font-size: 2vw;
 		max-width: 100%;
 	}
 `;
@@ -66,6 +63,7 @@ const AboutDiv = styled.div`
 	padding: 5em 5em 0 5em;
 	@media (max-width: 768px) {
 		width: 100%;
+		font-size: 2vw;
 	}
 	h1 {
 		margin: 0 auto;
@@ -102,6 +100,7 @@ const AboutDivPartners = styled.div`
 	padding: 0 5em 5em 5em;
 	@media (max-width: 768px) {
 		width: 100%;
+		font-size: 2vw;
 	}
 	h1 {
 		margin: 0 auto;
