@@ -9,8 +9,8 @@ function About() {
 				<Navbar />
 				<AboutContainer>
 					<AboutDiv>
-						<h1>Om oss</h1>
-						<h3>Tor Eggebø:</h3>
+						<h4>Om oss</h4>
+						<h5>Tor Eggebø:</h5>
 						<ul>
 							<li>
 								Master i geologi fra UiT, 2007. Han har jobbet ca. 13 år med
@@ -26,7 +26,7 @@ function About() {
 						</ul>
 					</AboutDiv>
 					<AboutDivPartners>
-						<h3>Våre samarbeidspartnere:</h3>
+						<h5>Våre samarbeidspartnere:</h5>
 						<ul>
 							<li>VVS-firma</li>
 						</ul>
@@ -54,6 +54,9 @@ const AboutContainer = styled.div`
 	background: #121212;
 	width: 75%;
 	margin: 5em auto;
+	@media (max-width: 768px) {
+		margin: 0 auto;
+	}
 `;
 
 const AboutDiv = styled.div`
@@ -65,13 +68,13 @@ const AboutDiv = styled.div`
 		width: 100%;
 		font-size: 2vw;
 	}
-	h1 {
+	h4 {
 		margin: 0 auto;
 		text-align: center;
 		font-size: 4em;
 		color: orange;
 	}
-	h3 {
+	h5 {
 		margin: 1em 0;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
@@ -102,13 +105,7 @@ const AboutDivPartners = styled.div`
 		width: 100%;
 		font-size: 2vw;
 	}
-	h1 {
-		margin: 0 auto;
-		text-align: center;
-		font-size: 4em;
-		color: orange;
-	}
-	h3 {
+	h5 {
 		margin: 0 0 1em 0;
 		text-decoration: underline;
 		text-underline-offset: 0.3em;
