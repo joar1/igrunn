@@ -10,7 +10,7 @@ function Contact() {
 				<ContactContainer>
 					<h4>Kontakt</h4>
 					<ul>
-						<li>tlf: {<br />} xxx xx xxx</li>
+						<li>tlf: {<br />} 90925800</li>
 						<li>email: xxxx@xxxxxxx.com</li>
 						<li>adresse: xxxxxxx</li>
 					</ul>
@@ -43,10 +43,12 @@ const ContactContainer = styled.div`
 		font-size: 4em;
 	}
 	li {
-		width: 60%;
 		list-style: none;
 		font-size: 2em;
-		margin-bottom: 2em;
-		margin: 2em auto;
+		margin: 1em auto;
+	}
+	@media (max-width: 768px) {
+		font-size: 2vw;
+		max-width: 100%;
 	}
 `;

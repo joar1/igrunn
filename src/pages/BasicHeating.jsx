@@ -86,6 +86,11 @@ const LeftSection = styled.div`
 		line-height: 1.4;
 		font-size: 1.8em;
 		text-align: left;
+		@media (max-width: 768px) {
+			font-size: 3vh;
+			max-width: 100%;
+			padding: 1em 2em;
+		}
 	}
 	img {
 		height: 512px;
@@ -95,10 +100,6 @@ const LeftSection = styled.div`
 	@media (max-width: 768px) {
 		display: flex;
 		flex-direction: column;
-		font-size: 2vh;
-		max-width: 100%;
-		margin: 0;
-		padding: 0;
 	}
 `;
 
@@ -129,6 +130,11 @@ const RightSection = styled.div`
 		line-height: 1.4;
 		font-size: 1.8em;
 		font-size: 3vh;
+		@media (max-width: 768px) {
+			font-size: 3vh;
+			max-width: 100%;
+			padding: 1em 2em;
+		}
 	}
 	img {
 		height: 512px;
@@ -140,6 +146,7 @@ const RightSection = styled.div`
 		flex-direction: column;
 		font-size: 3vh;
 		max-width: 100%;
+		margin-top: 0;
 	}
 `;
 
@@ -176,8 +183,8 @@ const ImageContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	margin: 0 auto 2em auto;
-	width: 85%;
+	margin: 0 auto 3em auto;
+	width: 100%;
 	img {
 		height: 512px;
 		width: 560px;

@@ -56,9 +56,8 @@ const AvailabilityContainer = styled.div`
 `;
 
 const HeaderH1 = styled.h1`
-	margin-top: 1em;
+	margin: 0.5em auto;
 	font-size: 4em;
-	padding: 0;
 	text-align: center;
 	color: orange;
 `;
@@ -68,7 +67,7 @@ const StyledParagraphWhite = styled.p`
 	margin: 0 auto;
 	font-size: 2em;
 	line-height: 1.2;
-	padding: 1em 2em;
+	padding: 0.5em 0;
 	width: 85%;
 	color: white;
 `;
@@ -77,7 +76,7 @@ const StyledParagraphOrange = styled.p`
 	margin: 0 auto;
 	font-size: 2em;
 	line-height: 1.2;
-	padding: 1em 2em 2em 2em;
+	padding: 0.5em 0;
 	width: 85%;
 	color: orange;
 `;
@@ -86,8 +85,8 @@ const ImageContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	margin: 0 auto;
-	width: 85%;
+	margin: 1em auto 2em auto;
+	width: 100%;
 	img {
 		height: 512px;
 		width: 560px;

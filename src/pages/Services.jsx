@@ -5,9 +5,9 @@ import Footer from '../components/Footer';
 function Services() {
 	return (
 		<>
-			<ServiceWrapper>
+			<ServiceContainer>
 				<Navbar />
-				<ServiceContainer>
+				<ServiceWrapper>
 					<h4>Våre tjenester</h4>
 					<ul>
 						<li>Energibrønner, ferdig montert varmepumpe.</li>
@@ -20,16 +20,16 @@ function Services() {
 						</li>
 						<li>VVS /Varmepumpe etc.</li>
 					</ul>
-				</ServiceContainer>
+				</ServiceWrapper>
 				<Footer />
-			</ServiceWrapper>
+			</ServiceContainer>
 		</>
 	);
 }
 
 export default Services;
 
-const ServiceWrapper = styled.div`
+const ServiceContainer = styled.div`
 	line-height: 1.3;
 	background: #231e1a;
 	color: orange;
@@ -41,7 +41,7 @@ const ServiceWrapper = styled.div`
 	}
 `;
 
-const ServiceContainer = styled.div`
+const ServiceWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;

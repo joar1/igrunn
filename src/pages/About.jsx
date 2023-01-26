@@ -5,9 +5,9 @@ import Footer from '../components/Footer';
 function About() {
 	return (
 		<>
-			<AboutWrapper>
+			<AboutContainer>
 				<Navbar />
-				<AboutContainer>
+				<AboutWrapper>
 					<AboutDiv>
 						<h4>Om oss</h4>
 						<h5>Tor Eggebø:</h5>
@@ -31,16 +31,16 @@ function About() {
 							<li>VVS-firma</li>
 						</ul>
 					</AboutDivPartners>
-				</AboutContainer>
+				</AboutWrapper>
 				<Footer />
-			</AboutWrapper>
+			</AboutContainer>
 		</>
 	);
 }
 
 export default About;
 
-const AboutWrapper = styled.div`
+const AboutContainer = styled.div`
 	line-height: 1.3;
 	background: #231e1a;
 	color: white;
@@ -49,7 +49,7 @@ const AboutWrapper = styled.div`
 	}
 `;
 
-const AboutContainer = styled.div`
+const AboutWrapper = styled.div`
 	border-radius: 25px;
 	background: #121212;
 	width: 75%;
@@ -92,6 +92,7 @@ const AboutDiv = styled.div`
 		margin: 2em auto;
 		@media (max-width: 768px) {
 			font-size: 2vh;
+			width: 100%;
 		}
 	}
 `;
@@ -123,6 +124,7 @@ const AboutDivPartners = styled.div`
 		margin: 2em auto;
 		@media (max-width: 768px) {
 			font-size: 2vh;
+			width: 100%;
 		}
 	}
 `;
