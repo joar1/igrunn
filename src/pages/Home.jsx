@@ -103,6 +103,10 @@ const HeroSection = styled.div`
 	display: grid;
 	grid-gap: 1em;
 	grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+	@media (max-width: 768px) {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 `;
 
 const HeaderIgrunn = styled.h1`
@@ -121,6 +125,10 @@ const StyledH2Intro = styled.h2`
 	text-align: left;
 	grid-column: 3;
 	grid-row: 4;
+	@media (max-width: 768px) {
+		font-size: 2vw;
+		font-size: 2vh;
+	}
 `;
 
 const StyledH2Wrapper = styled.div`
