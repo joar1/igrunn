@@ -64,7 +64,7 @@ const StyledLink = styled(NavLink)`
 		text-decoration: underline;
 		text-underline-offset: 0.6em;
 		color: orange;
-		text-shadow: red 1px 0 10px;
+		/* text-shadow: red 1px 0 10px; */
 		@media (max-width: 768px) {
 			text-decoration: none;
 		}
@@ -72,5 +72,7 @@ const StyledLink = styled(NavLink)`
 	&.active {
 		color: orange;
 		text-shadow: red 1px 0 10px;
+		text-decoration: underline;
+		text-underline-offset: 0.6em;
 	}
 `;
