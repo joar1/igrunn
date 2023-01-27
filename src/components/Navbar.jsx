@@ -36,8 +36,11 @@ const NavContainer = styled.div`
 `;
 
 const NavLogo = styled.div`
-	margin-left: 3.2em;
+	margin-left: 2.5em;
 	font-weight: bold;
+	@media (max-width: 768px) {
+		margin: 1em;
+	}
 `;
 
 const StyledLogo = styled(NavLink)`
