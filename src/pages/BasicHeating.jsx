@@ -134,7 +134,6 @@ const RightSection = styled.div`
 		padding-right: 3em;
 		line-height: 1.4;
 		font-size: 1.8em;
-		font-size: 3vh;
 		@media (max-width: 768px) {
 			font-size: 3vh;
 			max-width: 100%;

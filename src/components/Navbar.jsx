@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
 	return (
@@ -40,7 +40,7 @@ const NavLogo = styled.div`
 	font-weight: bold;
 `;
 
-const StyledLogo = styled(Link)`
+const StyledLogo = styled(NavLink)`
 	padding: 0.2em;
 	text-decoration: none;
 	font-size: 1.7em;
@@ -55,7 +55,7 @@ const NavDiv = styled.div`
 	margin-right: 4em;
 `;
 
-const StyledLink = styled(Link)`
+const StyledLink = styled(NavLink)`
 	padding: 0.8em;
 	font-size: 1.3em;
 	text-decoration: none;
@@ -68,5 +68,9 @@ const StyledLink = styled(Link)`
 		@media (max-width: 768px) {
 			text-decoration: none;
 		}
+	}
+	&:active {
+		color: orange;
+		text-shadow: red 1px 0 10px;
 	}
 `;
