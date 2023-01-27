@@ -114,6 +114,9 @@ const StyledContactForm = styled.div`
 		margin-bottom: 0.5em;
 		color: orange;
 		margin-bottom: 0.8em;
+		@media (max-width: 768px) {
+			font-size: 6vh;
+		}
 	}
 	form {
 		display: flex;

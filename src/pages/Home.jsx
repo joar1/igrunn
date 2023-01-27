@@ -118,7 +118,6 @@ const HeaderIgrunn = styled.h1`
 	grid-column: 1/4;
 	grid-row: 2;
 	@media (max-width: 768px) {
-		font-size: 4vw;
 		font-size: 4vh;
 	}
 `;
@@ -179,9 +178,12 @@ const NewsTitle = styled.h2`
 	text-align: center;
 	text-decoration: underline;
 	text-underline-offset: 0.3em;
-	margin-bottom: 0.5em;
-	margin-top: 0.6em;
+	margin-bottom: 0.1em;
+	margin-top: 0.5em;
 	color: orange;
+	@media (max-width: 768px) {
+		font-size: 6vh;
+	}
 `;
 
 const NewsWrapper = styled.div`
@@ -193,5 +195,7 @@ const NewsWrapper = styled.div`
 	@media (max-width: 768px) {
 		display: grid;
 		grid-template-columns: 1fr;
+		margin: 0 auto;
+		width: 100%;
 	}
 `;

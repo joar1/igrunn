@@ -91,6 +91,11 @@ const ImageContainer = styled.div`
 		height: 512px;
 		width: 560px;
 		border-radius: 20px;
+		@media (max-width: 768px) {
+			height: 300px;
+			width: 350px;
+			margin: 1em auto;
+		}
 	}
 	@media (max-width: 768px) {
 		display: flex;
