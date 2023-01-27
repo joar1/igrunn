@@ -69,7 +69,7 @@ const StyledLink = styled(NavLink)`
 			text-decoration: none;
 		}
 	}
-	&:active {
+	&.active {
 		color: orange;
 		text-shadow: red 1px 0 10px;
 	}
