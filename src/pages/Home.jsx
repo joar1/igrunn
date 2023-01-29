@@ -43,6 +43,7 @@ function Home() {
 						du svarer på spørsmålene under
 					</StyledH2>
 				</StyledH2Wrapper>
+
 				<ContactForm />
 
 				<NewsTitle>Nyheter</NewsTitle>

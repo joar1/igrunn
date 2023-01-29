@@ -5,12 +5,10 @@ import Modal from './Modal';
 
 function ContactForm() {
 	const form = useRef();
-
 	const [openModal, setOpenModal] = useState(false);
 
 	const sendEmail = (e) => {
 		e.preventDefault();
-
 		emailjs
 			.sendForm(
 				/* Service-ID */ 'service_pgaca68',
@@ -136,8 +134,6 @@ const StyledContactForm = styled.div`
 			}
 		}
 		textarea {
-			max-width: 100%;
-			min-width: 100%;
 			width: 100%;
 			max-height: 100px;
 			min-height: 100px;
@@ -150,7 +146,8 @@ const StyledContactForm = styled.div`
 			}
 		}
 		label {
-			margin-top: 1em;
+			margin-top: 1.2em;
+			padding-bottom: 0.5em;
 		}
 		input[type='submit'] {
 			margin-top: 2em;
@@ -160,6 +157,9 @@ const StyledContactForm = styled.div`
 			border: none;
 			font-weight: 600;
 			cursor: pointer;
+		}
+		fieldset {
+			display: block;
 		}
 	}
 `;

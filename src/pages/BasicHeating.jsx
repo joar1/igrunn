@@ -84,12 +84,11 @@ const LeftSection = styled.div`
 	p {
 		padding-left: 3em;
 		line-height: 1.4;
-		font-size: 1.8em;
+		font-size: 2em;
 		text-align: left;
 		@media (max-width: 768px) {
 			font-size: 3vh;
-			max-width: 100%;
-			padding: 1em 2em;
+			padding: 1em 0;
 		}
 	}
 	img {
@@ -118,8 +117,7 @@ const ParagraphBelowLeftSection = styled.p`
 	text-align: left;
 	@media (max-width: 768px) {
 		font-size: 3vh;
-		max-width: 100%;
-		padding: 1em 2em;
+		padding: 1em 0;
 	}
 `;
 
@@ -133,11 +131,11 @@ const RightSection = styled.div`
 	p {
 		padding-right: 3em;
 		line-height: 1.4;
-		font-size: 1.8em;
+		font-size: 2em;
 		@media (max-width: 768px) {
 			font-size: 3vh;
 			max-width: 100%;
-			padding: 1em 2em;
+			padding: 1em 0;
 		}
 	}
 	img {
@@ -169,22 +167,22 @@ const ParagraphBelowRightSection = styled.p`
 	@media (max-width: 768px) {
 		font-size: 3vh;
 		max-width: 100%;
-		padding: 1em 2em;
+		padding: 1em 0;
 	}
 `;
 
 const ParagraphBelowRightSectionOrange = styled.p`
 	width: 85%;
 	margin: 0 auto;
-	line-height: 1.4;
 	padding: 0.5em 0;
+	line-height: 1.4;
 	font-size: 2em;
 	color: orange;
 	text-align: left;
 	@media (max-width: 768px) {
 		font-size: 3vh;
 		max-width: 100%;
-		padding: 1em 2em;
+		padding: 1em 0;
 	}
 `;
 
