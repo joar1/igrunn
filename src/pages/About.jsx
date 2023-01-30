@@ -54,9 +54,6 @@ const AboutWrapper = styled.div`
 	background: #121212;
 	width: 75%;
 	margin: 5em auto;
-	@media (max-width: 768px) {
-		margin: 0 auto;
-	}
 `;
 
 const AboutDiv = styled.div`

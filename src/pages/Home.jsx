@@ -166,7 +166,7 @@ const StyledH2 = styled.h2`
 	}
 	@media (max-width: 768px) {
 		max-width: 100%;
-		padding: 0;
+		padding: 0 0.5em;
 	}
 `;
 
