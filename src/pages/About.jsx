@@ -64,10 +64,6 @@ const AboutDiv = styled.div`
 	justify-content: center;
 	margin: 5em auto 8em auto;
 	padding: 5em 5em 0 5em;
-	@media (max-width: 768px) {
-		width: 100%;
-		font-size: 2vw;
-	}
 	h4 {
 		margin: 0 auto;
 		text-align: center;
@@ -95,6 +91,10 @@ const AboutDiv = styled.div`
 			width: 100%;
 		}
 	}
+	@media (max-width: 768px) {
+		width: 100%;
+		font-size: 2vw;
+	}
 `;
 
 const AboutDivPartners = styled.div`
@@ -102,10 +102,6 @@ const AboutDivPartners = styled.div`
 	justify-content: center;
 	margin: 5em auto 8em auto;
 	padding: 0 5em 5em 5em;
-	@media (max-width: 768px) {
-		width: 100%;
-		font-size: 2vw;
-	}
 	h5 {
 		margin: 0 0 1em 0;
 		text-decoration: underline;
@@ -126,5 +122,9 @@ const AboutDivPartners = styled.div`
 			font-size: 2vh;
 			width: 100%;
 		}
+	}
+	@media (max-width: 768px) {
+		width: 100%;
+		font-size: 2vw;
 	}
 `;

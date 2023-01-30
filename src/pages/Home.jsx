@@ -107,6 +107,7 @@ const HeroSection = styled.div`
 	@media (max-width: 768px) {
 		display: grid;
 		grid-template-columns: 1fr;
+		padding: 1em 0.2em;
 	}
 `;
 
@@ -119,7 +120,10 @@ const HeaderIgrunn = styled.h1`
 	grid-column: 1/4;
 	grid-row: 2;
 	@media (max-width: 768px) {
-		font-size: 4vh;
+		font-size: 3.6vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 `;
 
@@ -130,8 +134,8 @@ const StyledH2Intro = styled.h2`
 	grid-column: 3;
 	grid-row: 4;
 	@media (max-width: 768px) {
-		font-size: 2vw;
-		font-size: 2vh;
+		font-size: 2.5vw;
+		font-size: 2.5vh;
 	}
 `;
 
@@ -142,8 +146,9 @@ const StyledH2Wrapper = styled.div`
 	color: white;
 	width: 100;
 	@media (max-width: 768px) {
-		width: 100%;
+		max-width: 100%;
 		font-size: 2vw;
+		padding: 0;
 	}
 `;
 
@@ -158,6 +163,10 @@ const StyledH2 = styled.h2`
 	span {
 		color: orange;
 		text-shadow: red 1px 0 10px;
+	}
+	@media (max-width: 768px) {
+		max-width: 100%;
+		padding: 0;
 	}
 `;
 

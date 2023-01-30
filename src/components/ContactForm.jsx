@@ -96,6 +96,9 @@ const ContactContainer = styled.div`
 	color: white;
 	width: 100%;
 	margin: 0 auto;
+	@media (max-width: 768px) {
+		max-width: 100%;
+	}
 `;
 
 const StyledContactForm = styled.div`

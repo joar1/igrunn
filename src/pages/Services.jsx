@@ -65,4 +65,10 @@ const ServiceWrapper = styled.div`
 			font-size: 2vh;
 		}
 	}
+	@media (max-width: 768px) {
+		display: grid;
+		grid-template-columns: 1fr;
+		font-size: 2vw;
+		max-width: 100%;
+	}
 `;
