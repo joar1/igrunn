@@ -40,8 +40,11 @@ function ContactForm() {
 					<label>Email</label>
 					<input type='email' name='user_email' required />
 
+					<label>Telefon</label>
+					<input type='number' name='user_phone' required />
+
 					<label>Skriv din adresse</label>
-					<input type='text' name='user_adresse' required />
+					<input type='text' name='user_adresse' />
 
 					<label>
 						Vet du totalt årsforbruk i kWt for bolig forrige år, eller gjerne
@@ -51,33 +54,33 @@ function ContactForm() {
 					<input type='number' name='user_kwt' />
 
 					<label>Bruksareal på bolig (m2)?</label>
-					<input type='number' name='user_m2' required />
+					<input type='number' name='user_m2' />
 
 					<label>Byggeår bolig?</label>
-					<input type='number' name='user_build' required />
+					<input type='number' name='user_build' />
 
 					<label>Er bolig etterisolert?</label>
-					<input type='text' name='user_isolation' required />
+					<input type='text' name='user_isolation' />
 
 					<label>Hvor mange husstandsmedlemmer?</label>
-					<input type='number' name='user_members' required />
+					<input type='number' name='user_members' />
 
 					<label>Har dere badekar?</label>
-					<input type='text' name='user_bathtub' required />
+					<input type='text' name='user_bathtub' />
 
 					<label>Har boligen et kjølebehov?</label>
-					<input type='text' name='user_cooling' required />
+					<input type='text' name='user_cooling' />
 
 					<label>
 						Har dere vannbåren varme, eller ønsker dere tilbud på dette?
 					</label>
-					<input type='text' name='user_water' required />
+					<input type='text' name='user_water' />
 
 					<label>
 						Har dere allerede bestilt varmepumpe, og hva er i tilfelle
 						effektstørrelse (kW).?
 					</label>
-					<input type='text' name='user_heatPump' required />
+					<input type='text' name='user_heatPump' />
 
 					<label>Til slutt, har dere noen kommentarer eller ønsker?</label>
 					<textarea name='message' />

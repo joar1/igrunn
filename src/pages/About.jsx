@@ -86,6 +86,7 @@ const AboutDiv = styled.div`
 		@media (max-width: 768px) {
 			font-size: 2vh;
 			width: 100%;
+			padding: 0;
 		}
 	}
 	@media (max-width: 768px) {
@@ -118,6 +119,7 @@ const AboutDivPartners = styled.div`
 		@media (max-width: 768px) {
 			font-size: 2vh;
 			width: 100%;
+			padding: 0;
 		}
 	}
 	@media (max-width: 768px) {

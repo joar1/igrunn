@@ -37,7 +37,7 @@ const ServiceContainer = styled.div`
 		display: grid;
 		grid-template-columns: 1fr;
 		font-size: 2vw;
-		max-width: 100%;
+		width: 100%;
 	}
 `;
 
@@ -63,6 +63,8 @@ const ServiceWrapper = styled.div`
 		color: white;
 		@media (max-width: 768px) {
 			font-size: 2vh;
+			max-width: 100%;
+			padding: 0;
 		}
 	}
 	@media (max-width: 768px) {
