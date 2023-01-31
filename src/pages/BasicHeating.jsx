@@ -19,7 +19,7 @@ function BasicHeating() {
 					grunnen er stabil året rundt, og holder ofte 1 til 2 grader høyere
 					temperatur enn årsmiddeltemperatur (gjennomsnittlig utetemperatur
 					gjennom et helt år) på stedet. Dette gjelder også når utetemperatur er
-					på sitt kaldeste, og oppvarmingsbehovet for ditt bygg er størst.'
+					på sitt kaldeste, og oppvarmingsbehovet for ditt bygg er størst.
 				</p>
 			</LeftSection>
 			<ParagraphBelowLeftSection>
@@ -28,7 +28,7 @@ function BasicHeating() {
 				kjølevæske. Denne væsken sirkulerer fra borehullet, opp til en
 				varmepumpe som løfter temperaturen ytterligere til gulvvarme og
 				radiatortemperatur, for så å returnere til brønnen for å bli oppvarmet
-				nytt.'
+				nytt.
 			</ParagraphBelowLeftSection>
 
 			<RightSection>
@@ -36,7 +36,7 @@ function BasicHeating() {
 					Energien som kreves er elektrisitet for å drive varmepumpe. Dersom
 					varmepumpa har en virkningsgrad (COP) på 4,0, betyr dette at 1 kW
 					strøm trengs for å få 4,0 kW «gratis» fra grunnen, altså en reduksjon
-					på 80 % sammenlignet med bruk av elkjel til samme formål.'
+					på 80 % sammenlignet med bruk av elkjel til samme formål.
 				</p>
 				<img src={Bilde3} alt='#' />
 			</RightSection>
@@ -45,13 +45,13 @@ function BasicHeating() {
 				ENOVA anslår at andelen energi benyttet til oppvarming av en
 				gjennomsnittlig norsk bolig er 55%, men at andelen kan være så høy som
 				80 ved store, dårlig isolerte bygg, og nede i 30 – 40 % i nye, godt
-				isolerte bygg. Her kan det altså være mye å spare.'
+				isolerte bygg. Her kan det altså være mye å spare.
 			</ParagraphBelowRightSection>
 			<ParagraphBelowRightSectionOrange>
 				Avtrykket et minimalt - brønnløkket er i grunnen det eneste du ser.
 				Ingen klimautslipp annet enn ved boring av brønn, og her benytter vi oss
 				av miljødiesel for å holde dette på sitt laveste. Levetiden på brønnen
-				er 50-100 år, og levertid for varmepumpe er ca 20 år.'
+				er 50-100 år, og levertid for varmepumpe er ca 20 år.
 			</ParagraphBelowRightSectionOrange>
 
 			<ImageContainer>
@@ -173,7 +173,7 @@ const ParagraphBelowRightSection = styled.p`
 
 const ParagraphBelowRightSectionOrange = styled.p`
 	width: 85%;
-	margin: 0 auto;
+	margin: 0 auto 1em auto;
 	padding: 0.5em 0;
 	line-height: 1.4;
 	font-size: 2em;
