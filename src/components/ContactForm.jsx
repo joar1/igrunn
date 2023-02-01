@@ -136,7 +136,7 @@ const StyledContactForm = styled.div`
 			border: 2px solid #eee;
 			border-radius: 10px;
 			&:focus {
-				border: 3px solid rgba(242, 121, 53, 1);
+				border: 3px solid orange;
 			}
 		}
 		textarea {
@@ -148,7 +148,7 @@ const StyledContactForm = styled.div`
 			box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
 			height: 150px;
 			&:focus {
-				border: 3px solid rgba(242, 121, 53, 1);
+				border: 3px solid orange;
 			}
 		}
 		label {
