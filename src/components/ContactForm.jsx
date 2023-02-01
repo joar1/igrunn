@@ -107,7 +107,7 @@ const ContactContainer = styled.div`
 const StyledContactForm = styled.div`
 	width: 50%;
 	margin: 0 auto;
-	padding: 3em 0 2em 0;
+	padding: 2em 0 2em 0;
 	h2 {
 		font-weight: bold;
 		font-size: 5em;
@@ -130,25 +130,25 @@ const StyledContactForm = styled.div`
 		font-size: 1.3em;
 		input {
 			width: 100%;
-			height: 35px;
-			padding: 7px;
+			padding: 10px;
+			margin: 10px 0;
 			outline: none;
-			border-radius: 5px;
-			border: 1px solid rgb(220, 220, 220);
+			border: 2px solid #eee;
+			border-radius: 10px;
 			&:focus {
-				border: 2px solid rgba(0, 206, 158, 1);
+				border: 3px solid rgba(242, 121, 53, 1);
 			}
 		}
 		textarea {
+			margin-bottom: 10px;
 			width: 100%;
-			max-height: 100px;
-			min-height: 100px;
-			padding: 7px;
+			padding: 15px;
+			border-radius: 15px;
 			outline: none;
-			border-radius: 5px;
-			border: 1px solid rgb(220, 220, 220);
+			box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+			height: 150px;
 			&:focus {
-				border: 2px solid rgba(0, 206, 158, 1);
+				border: 3px solid rgba(242, 121, 53, 1);
 			}
 		}
 		label {
@@ -156,12 +156,14 @@ const StyledContactForm = styled.div`
 			padding-bottom: 0.5em;
 		}
 		input[type='submit'] {
-			margin-top: 2em;
-			margin-bottom: 4em;
-			background: orange;
-			color: white;
+			margin: 10px 0;
+			padding: 10px;
 			border: none;
+			background-color: orange;
+			color: #fff;
 			font-weight: 600;
+			border-radius: 5px;
+			width: 100%;
 			cursor: pointer;
 		}
 		fieldset {
