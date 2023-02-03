@@ -83,8 +83,8 @@ export default Home;
 
 // HOME-STYLING
 const HomeContainer = styled.div`
-	background: #121212;
 	max-width: 100%;
+	margin: 0;
 	@media (max-width: 768px) {
 		flex-direction: column;
 	}
@@ -140,11 +140,15 @@ const StyledH2Intro = styled.h2`
 `;
 
 const StyledH2Wrapper = styled.div`
-	margin: 0 auto 1em auto;
+	margin: 0 auto;
 	padding: 2em;
-	background: #121212;
 	color: white;
 	width: 100;
+	background: linear-gradient(
+		0deg,
+		rgba(35, 30, 26, 1) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
 	@media (max-width: 768px) {
 		max-width: 100%;
 		font-size: 2vw;
@@ -188,9 +192,13 @@ const NewsTitle = styled.h2`
 	text-align: center;
 	text-decoration: underline;
 	text-underline-offset: 0.3em;
-	margin-bottom: 0.1em;
-	margin-top: 0.5em;
+	margin: 0;
 	color: orange;
+	background: linear-gradient(
+		0deg,
+		rgba(35, 30, 26, 1) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
 	@media (max-width: 768px) {
 		font-size: 6vh;
 	}
@@ -200,8 +208,13 @@ const NewsWrapper = styled.div`
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
-	margin: 0 auto 2em auto;
+	margin: 0 auto;
 	padding: 2em;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(35, 30, 26, 1) 100%
+	);
 	@media (max-width: 768px) {
 		display: grid;
 		grid-template-columns: 1fr;

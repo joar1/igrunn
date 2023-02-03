@@ -95,7 +95,11 @@ function ContactForm() {
 export default ContactForm;
 
 const ContactContainer = styled.div`
-	background: #231e1a;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(35, 30, 26, 1) 100%
+	);
 	color: white;
 	width: 100%;
 	margin: 0 auto;

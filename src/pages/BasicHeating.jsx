@@ -66,7 +66,11 @@ function BasicHeating() {
 export default BasicHeating;
 
 const HeatingContainer = styled.div`
-	background: #231e1a;
+	background: linear-gradient(
+		0deg,
+		rgba(18, 18, 18, 1) 00%,
+		rgba(35, 30, 26, 1) 100%
+	);
 	color: white;
 	@media (max-width: 768px) {
 		font-size: 2vw;

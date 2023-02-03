@@ -20,7 +20,7 @@ function Contact() {
 						</li>
 						<li>
 							{' '}
-							<BsFillPinMapFill /> Eksempelveien 20, 4020, Stavanger
+							<BsFillPinMapFill /> Eksempelveien 20, 4020,
 						</li>
 					</ul>
 				</ContactContainer>

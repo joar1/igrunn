@@ -51,6 +51,7 @@ const FooterContainer = styled.div`
 	justify-content: space-around;
 	font-size: 1.3em;
 	background: black;
+	border-top: solid 1px white;
 	@media (max-width: 768px) {
 		font-size: 2vw;
 	}

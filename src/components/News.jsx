@@ -31,7 +31,11 @@ const NewsContainer = styled.div`
 	border-radius: 18px;
 	padding: 1em 2em;
 	margin: 1em;
-	background: #231e1a;
+	background: linear-gradient(
+		0deg,
+		rgba(35, 30, 26, 1) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
 	h2 {
 		margin-bottom: 0.8em;
 		text-align: left;
