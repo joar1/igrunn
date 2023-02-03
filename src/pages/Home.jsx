@@ -152,7 +152,6 @@ const StyledH2Wrapper = styled.div`
 	@media (max-width: 768px) {
 		max-width: 100%;
 		font-size: 2vw;
-		padding: 0;
 	}
 `;
 
