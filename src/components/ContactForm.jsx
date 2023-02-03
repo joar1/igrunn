@@ -135,6 +135,8 @@ const StyledContactForm = styled.div`
 			outline: none;
 			border: 2px solid #eee;
 			border-radius: 10px;
+			font-family: inherit;
+			font-size: inherit;
 			&:focus {
 				border: 3px solid orange;
 			}
@@ -147,6 +149,8 @@ const StyledContactForm = styled.div`
 			outline: none;
 			box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
 			height: 150px;
+			font-family: inherit;
+			font-size: inherit;
 			&:focus {
 				border: 3px solid orange;
 			}

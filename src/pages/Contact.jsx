@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import { AiFillPhone, AiOutlineMail } from 'react-icons/ai';
+import { BsFillPinMapFill } from 'react-icons/bs';
 
 function Contact() {
 	return (
@@ -10,9 +12,16 @@ function Contact() {
 				<ContactContainer>
 					<h4>Kontakt</h4>
 					<ul>
-						<li>tlf: {<br />} 90925800</li>
-						<li>email: xxxx@xxxxxxx.com</li>
-						<li>adresse: xxxxxxx</li>
+						<li>
+							<AiFillPhone /> 90925800
+						</li>
+						<li>
+							<AiOutlineMail /> eksempel@eksempel.com
+						</li>
+						<li>
+							{' '}
+							<BsFillPinMapFill /> Eksempelveien 20, 4020, Stavanger
+						</li>
 					</ul>
 				</ContactContainer>
 				<Footer />
