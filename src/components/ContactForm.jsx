@@ -29,6 +29,11 @@ function ContactForm() {
 		setOpenModal(true);
 	};
 
+	const [value, setValue] = useState(false);
+	const handleChange = () => {
+		setValue(!value);
+	};
+
 	return (
 		<ContactContainer>
 			<StyledContactForm>
@@ -59,17 +64,77 @@ function ContactForm() {
 					<label>Byggeår bolig?</label>
 					<input type='number' name='user_build' />
 
-					<label>Er bolig etterisolert?</label>
-					<input type='text' name='user_isolation' />
+					<YesNoWrapper>
+						<label>Er bolig etterisolert?</label>
+						{/* <input type='text' name='user_isolation' /> */}
+						<p>
+							<input
+								type='radio'
+								name='user_isolation_yes'
+								value={value}
+								onChange={handleChange}
+							/>
+							Ja
+						</p>
+						<p>
+							<input
+								type='radio'
+								name='user_isolation_no'
+								value={value}
+								onChange={handleChange}
+							/>
+							Nei
+						</p>
+					</YesNoWrapper>
 
 					<label>Hvor mange husstandsmedlemmer?</label>
 					<input type='number' name='user_members' />
 
-					<label>Har dere badekar?</label>
-					<input type='text' name='user_bathtub' />
+					<YesNoWrapper>
+						<label>Har dere badekar?</label>
+						{/* <input type='text' name='user_bathtub' /> */}
+						<p>
+							<input
+								type='radio'
+								name='user_bathtub_yes'
+								value={value}
+								onChange={handleChange}
+							/>
+							Ja
+						</p>
+						<p>
+							<input
+								type='radio'
+								name='user_bathtub_no'
+								value={value}
+								onChange={handleChange}
+							/>
+							Nei
+						</p>
+					</YesNoWrapper>
 
-					<label>Har boligen et kjølebehov?</label>
-					<input type='text' name='user_cooling' />
+					<YesNoWrapper>
+						<label>Har boligen et kjølebehov?</label>
+						{/* <input type='text' name='user_cooling' /> */}
+						<p>
+							<input
+								type='radio'
+								name='user_cooling_yes'
+								value={value}
+								onChange={handleChange}
+							/>
+							Ja
+						</p>
+						<p>
+							<input
+								type='radio'
+								name='user_cooling_no'
+								value={value}
+								onChange={handleChange}
+							/>
+							Nei
+						</p>
+					</YesNoWrapper>
 
 					<label>
 						Har dere vannbåren varme, eller ønsker dere tilbud på dette?
@@ -105,6 +170,15 @@ const ContactContainer = styled.div`
 	margin: 0 auto;
 	@media (max-width: 768px) {
 		max-width: 100%;
+	}
+`;
+const YesNoWrapper = styled.div`
+	display: flex;
+	align-items: center;
+	margin: 1em auto;
+	width: 100%;
+	input[type='radio'] {
+		color: blue;
 	}
 `;
 
