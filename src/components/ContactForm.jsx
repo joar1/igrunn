@@ -160,14 +160,14 @@ function ContactForm() {
 export default ContactForm;
 
 const ContactContainer = styled.div`
-	background: linear-gradient(
+	/* background: linear-gradient(
 		0deg,
 		rgba(0, 0, 0, 1) 0%,
 		rgba(35, 30, 26, 1) 100%
-	);
+	); */
+	background: #000;
 	color: white;
 	width: 100%;
-	margin: 0 auto;
 	@media (max-width: 768px) {
 		max-width: 100%;
 	}
@@ -187,6 +187,7 @@ const StyledContactForm = styled.div`
 	margin: 0 auto;
 	padding: 2em 0 2em 0;
 	h2 {
+		margin-top: 50px;
 		font-weight: bold;
 		font-size: 5em;
 		font-size: 4vw;
