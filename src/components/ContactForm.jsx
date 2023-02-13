@@ -30,7 +30,7 @@ function ContactForm() {
 	};
 
 	const [value, setValue] = useState(false);
-	const handleChange = () => {
+	const handleClick = () => {
 		setValue(!value);
 	};
 
@@ -72,7 +72,7 @@ function ContactForm() {
 								type='radio'
 								name='user_isolation_yes'
 								value={value}
-								onChange={handleChange}
+								onClick={handleClick}
 							/>
 							Ja
 						</p>
@@ -81,7 +81,7 @@ function ContactForm() {
 								type='radio'
 								name='user_isolation_no'
 								value={value}
-								onChange={handleChange}
+								onClick={handleClick}
 							/>
 							Nei
 						</p>
@@ -98,7 +98,7 @@ function ContactForm() {
 								type='radio'
 								name='user_bathtub_yes'
 								value={value}
-								onChange={handleChange}
+								onClick={handleClick}
 							/>
 							Ja
 						</p>
@@ -107,7 +107,7 @@ function ContactForm() {
 								type='radio'
 								name='user_bathtub_no'
 								value={value}
-								onChange={handleChange}
+								onClick={handleClick}
 							/>
 							Nei
 						</p>
@@ -121,7 +121,7 @@ function ContactForm() {
 								type='radio'
 								name='user_cooling_yes'
 								value={value}
-								onChange={handleChange}
+								onClick={handleClick}
 							/>
 							Ja
 						</p>
@@ -130,7 +130,7 @@ function ContactForm() {
 								type='radio'
 								name='user_cooling_no'
 								value={value}
-								onChange={handleChange}
+								onClick={handleClick}
 							/>
 							Nei
 						</p>
@@ -247,6 +247,7 @@ const StyledContactForm = styled.div`
 			border-radius: 5px;
 			width: 100%;
 			cursor: pointer;
+			margin-bottom: 100px;
 		}
 		fieldset {
 			display: block;

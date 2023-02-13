@@ -191,7 +191,6 @@ const NewsTitle = styled.h2`
 	text-align: center;
 	text-decoration: underline;
 	text-underline-offset: 0.3em;
-	margin: 0;
 	color: orange;
 	background: linear-gradient(
 		0deg,
