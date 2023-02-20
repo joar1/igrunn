@@ -143,7 +143,6 @@ const StyledH2Wrapper = styled.div`
 	margin: 0 auto;
 	padding: 2em;
 	color: white;
-	width: 100;
 	background: linear-gradient(
 		0deg,
 		rgba(35, 30, 26, 1) 0%,
@@ -157,12 +156,11 @@ const StyledH2Wrapper = styled.div`
 
 const StyledH2 = styled.h2`
 	margin: 1em auto;
-	padding: 0 3em;
+	padding: 1.2em 2em;
 	text-align: left;
 	font-weight: bold;
 	font-size: 2em;
 	line-height: 1.3;
-	width: 90%;
 	span {
 		color: orange;
 		text-shadow: red 1px 0 10px;

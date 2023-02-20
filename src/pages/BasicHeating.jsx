@@ -196,6 +196,7 @@ const ImageContainer = styled.div`
 	justify-content: space-evenly;
 	margin: 0 auto 3em auto;
 	width: 100%;
+	padding-bottom: 1em;
 	img {
 		height: 512px;
 		width: 560px;

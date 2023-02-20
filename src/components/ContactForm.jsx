@@ -29,10 +29,16 @@ function ContactForm() {
 		setOpenModal(true);
 	};
 
-	const [value, setValue] = useState(false);
-	const handleClick = () => {
-		setValue(!value);
-	};
+	// const [value, setValue] = useState(false);
+	// const handleClick = () => {
+	// 	setValue(!value);
+	// };
+
+	const [value, setValue] = React.useState('');
+
+	function handleClick(e) {
+		value = e.target.value;
+	}
 
 	return (
 		<ContactContainer>

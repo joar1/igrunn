@@ -83,6 +83,7 @@ const StyledParagraphOrange = styled.p`
 	padding: 0.5em 0;
 	width: 85%;
 	color: orange;
+	padding-bottom: 1em;
 `;
 
 const ImageContainer = styled.div`
